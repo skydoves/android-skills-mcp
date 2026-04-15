@@ -1,7 +1,7 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "files": {
-    "ignore": ["dist", "node_modules", "skills", "**/__snapshots__", "**/scripts/**"]
+    "ignore": ["dist", "node_modules", "skills", "site", "**/__snapshots__", "**/scripts/**"]
   },
   "linter": {
     "enabled": true,

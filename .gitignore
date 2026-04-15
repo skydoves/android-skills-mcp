@@ -5,6 +5,9 @@ dist
 *.log
 .vitest-cache
 
+# mkdocs build output
+site/
+
 # Upstream skills are checked out as a sibling clone (see scripts/sync-skills.mjs).
 # Not tracked by this repo; npm packages bundle a parsed snapshot.
 skills/
