@@ -10,7 +10,7 @@
   "scripts": {
     "build": "pnpm -r --filter './packages/*' build",
     "test": "pnpm -r --filter './packages/*' test",
-    "typecheck": "pnpm -r --filter './packages/*' typecheck",
+    "typecheck": "pnpm -F @android-skills/core build && pnpm -r --filter './packages/*' typecheck",
     "lint": "biome check .",
     "format": "biome format --write .",
     "sync:skills": "node scripts/sync-skills.mjs"
