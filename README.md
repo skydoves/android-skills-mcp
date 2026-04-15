@@ -129,6 +129,12 @@ printf '%s\n' \
 
 Support it by joining **[stargazers](https://github.com/skydoves/android-skills-mcp/stargazers)** on this repository. Also, follow **[skydoves](https://github.com/skydoves)** on GitHub for more open source projects.
 
+## Trademarks
+
+Android is a trademark of Google LLC. This project is not affiliated with, endorsed by, or sponsored by Google LLC. The skill content bundled in this project is redistributed from [`android/skills`](https://github.com/android/skills) under the terms of its Apache 2.0 license. See [NOTICE](NOTICE) for complete attribution.
+
+Claude, Cursor, GitHub Copilot, Gemini Code Assist, JetBrains Junie, Continue, and Aider are trademarks of their respective owners. This project mentions them to describe compatibility with their public extension mechanisms.
+
 ## License
 
 ```

@@ -1,0 +1,42 @@
+Android Skills MCP
+Copyright 2026 Jaewoong Eum (skydoves)
+
+This product includes software developed at Jaewoong Eum
+(https://github.com/skydoves/android-skills-mcp).
+
+------------------------------------------------------------------------------
+Bundled third-party content
+------------------------------------------------------------------------------
+
+The published packages `android-skills-mcp` and `android-skills-pack` bundle
+a snapshot of the agent skills distributed by Google LLC at
+https://github.com/android/skills under the Apache License, Version 2.0.
+
+The skill content (YAML frontmatter, body markdown, and reference files) is
+the work of Google LLC. Redistribution inside this project is permitted under
+the upstream project's Apache 2.0 license.
+
+The upstream repository declares:
+
+    Copyright (c) Google LLC
+    Licensed under the Apache License, Version 2.0
+    See https://github.com/android/skills/blob/main/LICENSE.txt
+
+When upstream changes, this project's maintainer re-bundles the latest
+content via the `Sync android/skills` workflow.
+
+------------------------------------------------------------------------------
+Trademarks
+------------------------------------------------------------------------------
+
+Android is a trademark of Google LLC. This project is not affiliated with,
+endorsed by, or sponsored by Google LLC.
+
+Claude and Claude Code are trademarks of Anthropic, PBC. Cursor is a
+trademark of Anysphere Inc. Visual Studio Code and GitHub Copilot are
+trademarks of Microsoft Corporation. Gemini is a trademark of Google LLC.
+JetBrains and Junie are trademarks of JetBrains s.r.o. All other trademarks
+are the property of their respective owners.
+
+This project mentions these products to describe compatibility with their
+public extension mechanisms (MCP servers, project rules, style guides).

@@ -1,6 +1,6 @@
 {
   "name": "android-skills-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server exposing android/skills to any MCP-capable client",
   "type": "module",
   "main": "./dist/index.js",
@@ -41,7 +41,7 @@
     "email": "skydoves2@gmail.com",
     "url": "https://github.com/skydoves"
   },
-  "homepage": "https://skydoves.github.io/android-skills-mcp/",
+  "homepage": "https://github.com/skydoves/android-skills-mcp#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skydoves/android-skills-mcp.git",

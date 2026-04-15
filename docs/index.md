@@ -66,6 +66,10 @@ Android Skills MCP closes this gap. The MCP server keeps the model itself in the
 
 The list grows as upstream `android/skills` adds more. Both packages bundle the latest snapshot at publish time.
 
+## Trademarks and attribution
+
+Android is a trademark of Google LLC. This project is not affiliated with, endorsed by, or sponsored by Google LLC. The skill content bundled here is redistributed from [`android/skills`](https://github.com/android/skills) under the terms of its Apache 2.0 license. See the [NOTICE file](https://github.com/skydoves/android-skills-mcp/blob/main/NOTICE) for complete attribution.
+
 ## Where to next?
 
 - [MCP Server: Getting Started](mcp-server/getting-started.md) covers install across every MCP client and the three tools the server exposes.
