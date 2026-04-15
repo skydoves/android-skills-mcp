@@ -1,0 +1,571 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`target 'aider' > first 200 chars of every file match snapshot 1`] = `
+{
+  "CONVENTIONS.md": "# Android conventions
+
+Add this file via \`aider --read CONVENTIONS.md\` or \`.aider.conf.yml\`:
+\`\`\`yaml
+read: CONVENTIONS.md
+\`\`\`
+
+---
+
+## agp-9-upgrade
+
+_Upgrades, or migrates, an Android project to use ",
+}
+`;
+
+exports[`target 'aider' > output paths and sizes match snapshot 1`] = `
+[
+  "CONVENTIONS.md	39661B",
+]
+`;
+
+exports[`target 'claude-code' > first 200 chars of every file match snapshot 1`] = `
+{
+  "agp-9-upgrade/SKILL.md": "---
+name: agp-9-upgrade
+description: |-
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
+license: Complete terms in LICENSE.txt
+---
+
+
+## Migration guide
+
+See th",
+  "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md": "
+",
+  "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md": "
+",
+  "agp-9-upgrade/references/buildconfig.md": "
+",
+  "agp-9-upgrade/references/ksp-kapt.md": "
+",
+  "agp-9-upgrade/references/paparazzi-gradle-9.md": "
+",
+  "agp-9-upgrade/references/recipes.md": "
+",
+  "edge-to-edge/SKILL.md": "---
+name: edge-to-edge
+description: |-
+  Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (li",
+  "migrate-xml-views-to-jetpack-compose/SKILL.md": "---
+name: migrate-xml-views-to-jetpack-compose
+description: |-
+  Provides a structured workflow for migrating an Android XML View to Jetpack Compose. This skill details the step-by-step process, from ",
+  "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/compose-in-views.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/views-in-compose.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/setup-compose-dependencies-and-compiler.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/identify-optimal-xml-candidate.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md": "
+",
+  "navigation-3/SKILL.md": "---
+name: navigation-3
+description: |-
+  Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, ",
+  "navigation-3/references/android/guide/navigation/navigation-3/index.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/migration-guide.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/animations.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basic.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicdsl.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicsaveable.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/bottomsheet.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-supportingpane.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-hilt.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-koin.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/multiple-backstacks.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/passingarguments.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-event.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-state.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md": "
+",
+  "navigation-3/references/android/guide/navigation/type-safe-destinations.md": "
+",
+  "play-billing-library-version-upgrade/SKILL.md": "---
+name: play-billing-library-version-upgrade
+description: |-
+  Use this skill when upgrading or migrating an Android project from any legacy Google Play Billing Library (PBL) version to the latest s",
+  "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md": "
+",
+  "play-billing-library-version-upgrade/references/migration-logic.md": "
+",
+  "play-billing-library-version-upgrade/references/version-checklist.md": "
+",
+  "r8-analyzer/SKILL.md": "---
+name: r8-analyzer
+description: |-
+  Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when ",
+  "r8-analyzer/references/CONFIGURATION.md": "
+",
+  "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md": "
+",
+  "r8-analyzer/references/REDUNDANT-RULES.md": "
+",
+  "r8-analyzer/references/REFLECTION-GUIDE.md": "
+",
+  "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md": "
+",
+}
+`;
+
+exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
+[
+  "agp-9-upgrade/SKILL.md	2653B",
+  "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
+  "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
+  "agp-9-upgrade/references/buildconfig.md	1B",
+  "agp-9-upgrade/references/ksp-kapt.md	1B",
+  "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
+  "agp-9-upgrade/references/recipes.md	1B",
+  "edge-to-edge/SKILL.md	14272B",
+  "migrate-xml-views-to-jetpack-compose/SKILL.md	5241B",
+  "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/compose-in-views.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/views-in-compose.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/setup-compose-dependencies-and-compiler.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/identify-optimal-xml-candidate.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md	1B",
+  "navigation-3/SKILL.md	5648B",
+  "navigation-3/references/android/guide/navigation/navigation-3/index.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/migration-guide.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/animations.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basic.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicdsl.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicsaveable.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/bottomsheet.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-supportingpane.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-hilt.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-koin.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/multiple-backstacks.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/passingarguments.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-event.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-state.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md	1B",
+  "navigation-3/references/android/guide/navigation/type-safe-destinations.md	1B",
+  "play-billing-library-version-upgrade/SKILL.md	5465B",
+  "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
+  "play-billing-library-version-upgrade/references/migration-logic.md	1B",
+  "play-billing-library-version-upgrade/references/version-checklist.md	1B",
+  "r8-analyzer/SKILL.md	3513B",
+  "r8-analyzer/references/CONFIGURATION.md	1B",
+  "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md	1B",
+  "r8-analyzer/references/REDUNDANT-RULES.md	1B",
+  "r8-analyzer/references/REFLECTION-GUIDE.md	1B",
+  "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
+]
+`;
+
+exports[`target 'continue' > first 200 chars of every file match snapshot 1`] = `
+{
+  "agp-9-upgrade.md": "---
+name: agp-9-upgrade
+description: |-
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
+alwaysApply: false
+---
+
+
+## Migration guide
+
+See the [AGP 9 migration g",
+  "edge-to-edge.md": "---
+name: edge-to-edge
+description: |-
+  Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (li",
+  "migrate-xml-views-to-jetpack-compose.md": "---
+name: migrate-xml-views-to-jetpack-compose
+description: |-
+  Provides a structured workflow for migrating an Android XML View to Jetpack Compose. This skill details the step-by-step process, from ",
+  "navigation-3.md": "---
+name: navigation-3
+description: |-
+  Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, ",
+  "play-billing-library-version-upgrade.md": "---
+name: play-billing-library-version-upgrade
+description: |-
+  Use this skill when upgrading or migrating an Android project from any legacy Google Play Billing Library (PBL) version to the latest s",
+  "r8-analyzer.md": "---
+name: r8-analyzer
+description: |-
+  Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when ",
+}
+`;
+
+exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
+[
+  "agp-9-upgrade.md	2917B",
+  "edge-to-edge.md	14252B",
+  "migrate-xml-views-to-jetpack-compose.md	5761B",
+  "navigation-3.md	7466B",
+  "play-billing-library-version-upgrade.md	5609B",
+  "r8-analyzer.md	3763B",
+]
+`;
+
+exports[`target 'copilot' > first 200 chars of every file match snapshot 1`] = `
+{
+  "agp-9-upgrade.instructions.md": "---
+applyTo: "**"
+---
+
+# agp-9-upgrade
+
+
+## Migration guide
+
+See the [AGP 9 migration guide](references/android/build/releases/agp-9-0-0-release-notes.md) for the major changes, many
+breaking, in AGP ",
+  "edge-to-edge.instructions.md": "---
+applyTo: "**"
+---
+
+# edge-to-edge
+
+
+## Prerequisites
+
+- Project **MUST** use Android Jetpack Compose.
+- Project **MUST** target SDK 35 or later. If the SDK is lower than 35, increase the SDK to 35",
+  "migrate-xml-views-to-jetpack-compose.instructions.md": "---
+applyTo: "**"
+---
+
+# migrate-xml-views-to-jetpack-compose
+
+
+This skill guides through the process of migrating an existing Android XML View
+to Jetpack Compose. It performs a stable, safe and visua",
+  "navigation-3.instructions.md": "---
+applyTo: "**"
+---
+
+# navigation-3
+
+
+## Migration guide
+
+- *[Navigation 2 to Navigation 3 migration guide](references/android/guide/navigation/navigation-3/migration-guide.md)*: Step-by-step guide ",
+  "play-billing-library-version-upgrade.instructions.md": "---
+applyTo: "**"
+---
+
+# play-billing-library-version-upgrade
+
+
+## Phase 0: Intent Message
+
+**Reporting Action**: Before proceeding, immediately tell the user: "I will
+upgrade Play Billing Library to ",
+  "r8-analyzer.instructions.md": "---
+applyTo: "**"
+---
+
+# r8-analyzer
+
+
+## Core workflow
+
+- \\[ \\] Step 1: Create a file called R8_Configuration_Analysis.md, or reuse if one exists already, to store the output
+- \\[ \\] Step 2: Look at ",
+}
+`;
+
+exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
+[
+  "agp-9-upgrade.instructions.md	2804B",
+  "edge-to-edge.instructions.md	13924B",
+  "migrate-xml-views-to-jetpack-compose.instructions.md	5270B",
+  "navigation-3.instructions.md	7058B",
+  "play-billing-library-version-upgrade.instructions.md	5426B",
+  "r8-analyzer.instructions.md	3445B",
+]
+`;
+
+exports[`target 'cursor' > first 200 chars of every file match snapshot 1`] = `
+{
+  "agp-9-upgrade.mdc": "---
+description: |-
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
+alwaysApply: false
+---
+
+
+## Migration guide
+
+See the [AGP 9 migration guide](references/and",
+  "edge-to-edge.mdc": "---
+description: |-
+  Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (like buttons or lists",
+  "migrate-xml-views-to-jetpack-compose.mdc": "---
+description: |-
+  Provides a structured workflow for migrating an Android XML View to Jetpack Compose. This skill details the step-by-step process, from planning and dependency setup, to theming a",
+  "navigation-3.mdc": "---
+description: |-
+  Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, bottom sheets, list",
+  "play-billing-library-version-upgrade.mdc": "---
+description: |-
+  Use this skill when upgrading or migrating an Android project from any legacy Google Play Billing Library (PBL) version to the latest stable version of PBL.
+alwaysApply: false
+--",
+  "r8-analyzer.mdc": "---
+description: |-
+  Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when developers want to",
+}
+`;
+
+exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
+[
+  "agp-9-upgrade.mdc	2897B",
+  "edge-to-edge.mdc	14233B",
+  "migrate-xml-views-to-jetpack-compose.mdc	5718B",
+  "navigation-3.mdc	7447B",
+  "play-billing-library-version-upgrade.mdc	5566B",
+  "r8-analyzer.mdc	3745B",
+]
+`;
+
+exports[`target 'gemini' > first 200 chars of every file match snapshot 1`] = `
+{
+  "styleguide.md": "# Android skill style guide
+
+This document is generated from android/skills. When reviewing or generating Android code, follow the matching skill below.
+
+---
+
+## agp-9-upgrade
+
+_Upgrades, or migrates,",
+}
+`;
+
+exports[`target 'gemini' > output paths and sizes match snapshot 1`] = `
+[
+  "styleguide.md	39688B",
+]
+`;
+
+exports[`target 'junie' > first 200 chars of every file match snapshot 1`] = `
+{
+  "agp-9-upgrade/SKILL.md": "---
+name: agp-9-upgrade
+description: |-
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
+license: Complete terms in LICENSE.txt
+---
+
+
+## Migration guide
+
+See th",
+  "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md": "
+",
+  "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md": "
+",
+  "agp-9-upgrade/references/buildconfig.md": "
+",
+  "agp-9-upgrade/references/ksp-kapt.md": "
+",
+  "agp-9-upgrade/references/paparazzi-gradle-9.md": "
+",
+  "agp-9-upgrade/references/recipes.md": "
+",
+  "edge-to-edge/SKILL.md": "---
+name: edge-to-edge
+description: |-
+  Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (li",
+  "migrate-xml-views-to-jetpack-compose/SKILL.md": "---
+name: migrate-xml-views-to-jetpack-compose
+description: |-
+  Provides a structured workflow for migrating an Android XML View to Jetpack Compose. This skill details the step-by-step process, from ",
+  "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/compose-in-views.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/views-in-compose.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/setup-compose-dependencies-and-compiler.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/identify-optimal-xml-candidate.md": "
+",
+  "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md": "
+",
+  "navigation-3/SKILL.md": "---
+name: navigation-3
+description: |-
+  Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, ",
+  "navigation-3/references/android/guide/navigation/navigation-3/index.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/migration-guide.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/animations.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basic.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicdsl.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicsaveable.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/bottomsheet.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-supportingpane.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-hilt.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-koin.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/multiple-backstacks.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/passingarguments.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-event.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-state.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md": "
+",
+  "navigation-3/references/android/guide/navigation/type-safe-destinations.md": "
+",
+  "play-billing-library-version-upgrade/SKILL.md": "---
+name: play-billing-library-version-upgrade
+description: |-
+  Use this skill when upgrading or migrating an Android project from any legacy Google Play Billing Library (PBL) version to the latest s",
+  "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md": "
+",
+  "play-billing-library-version-upgrade/references/migration-logic.md": "
+",
+  "play-billing-library-version-upgrade/references/version-checklist.md": "
+",
+  "r8-analyzer/SKILL.md": "---
+name: r8-analyzer
+description: |-
+  Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when ",
+  "r8-analyzer/references/CONFIGURATION.md": "
+",
+  "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md": "
+",
+  "r8-analyzer/references/REDUNDANT-RULES.md": "
+",
+  "r8-analyzer/references/REFLECTION-GUIDE.md": "
+",
+  "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md": "
+",
+}
+`;
+
+exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
+[
+  "agp-9-upgrade/SKILL.md	2653B",
+  "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
+  "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
+  "agp-9-upgrade/references/buildconfig.md	1B",
+  "agp-9-upgrade/references/ksp-kapt.md	1B",
+  "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
+  "agp-9-upgrade/references/recipes.md	1B",
+  "edge-to-edge/SKILL.md	14272B",
+  "migrate-xml-views-to-jetpack-compose/SKILL.md	5241B",
+  "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/compose-in-views.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/views-in-compose.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/setup-compose-dependencies-and-compiler.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/identify-optimal-xml-candidate.md	1B",
+  "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md	1B",
+  "navigation-3/SKILL.md	5648B",
+  "navigation-3/references/android/guide/navigation/navigation-3/index.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/migration-guide.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/animations.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basic.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicdsl.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicsaveable.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/bottomsheet.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-supportingpane.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-hilt.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-koin.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/multiple-backstacks.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/passingarguments.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-event.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/results-state.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md	1B",
+  "navigation-3/references/android/guide/navigation/type-safe-destinations.md	1B",
+  "play-billing-library-version-upgrade/SKILL.md	5465B",
+  "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
+  "play-billing-library-version-upgrade/references/migration-logic.md	1B",
+  "play-billing-library-version-upgrade/references/version-checklist.md	1B",
+  "r8-analyzer/SKILL.md	3513B",
+  "r8-analyzer/references/CONFIGURATION.md	1B",
+  "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md	1B",
+  "r8-analyzer/references/REDUNDANT-RULES.md	1B",
+  "r8-analyzer/references/REFLECTION-GUIDE.md	1B",
+  "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
+]
+`;

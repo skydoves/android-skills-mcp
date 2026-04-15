@@ -1,0 +1,69 @@
+{
+  "name": "android-skills-pack",
+  "version": "0.1.0",
+  "description": "Convert android/skills SKILL.md files into native rules for Claude Code, Cursor, Copilot, Gemini, Junie, Continue, and Aider",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "android-skills-pack": "./dist/bin.js"
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsup && node ../../scripts/build-skills-index.mjs --out ./dist/skills.json && chmod +x dist/bin.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "gray-matter": "^4.0.3",
+    "minisearch": "^7.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@android-skills/core": "workspace:*",
+    "@types/node": "^20.14.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.0"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Jaewoong Eum",
+    "email": "skydoves2@gmail.com",
+    "url": "https://github.com/skydoves"
+  },
+  "homepage": "https://skydoves.github.io/android-skills-mcp/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skydoves/android-skills-mcp.git",
+    "directory": "packages/pack"
+  },
+  "bugs": {
+    "url": "https://github.com/skydoves/android-skills-mcp/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "android",
+    "android-skills",
+    "agent-skills",
+    "claude-code",
+    "cursor",
+    "copilot",
+    "gemini",
+    "junie",
+    "continue",
+    "aider",
+    "ai",
+    "jetpack-compose"
+  ]
+}

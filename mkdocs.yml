@@ -1,0 +1,66 @@
+site_name: Android Skills MCP
+site_description: 'MCP server and packager CLI that make Google android/skills usable from any AI coding assistant.'
+site_author: 'Jaewoong (skydoves)'
+site_url: 'https://github.com/skydoves/android-skills-mcp'
+edit_uri: 'tree/main/docs/'
+remote_branch: gh-pages
+
+docs_dir: docs
+
+# Navigation
+nav:
+  - 'Overview': index.md
+  - 'MCP Server':
+    - 'Getting Started': mcp-server/getting-started.md
+    - 'Tools': mcp-server/tools.md
+    - 'Resources': mcp-server/resources.md
+    - 'Configuration': mcp-server/configuration.md
+  - 'Packager CLI':
+    - 'Getting Started': packager/getting-started.md
+    - 'Targets': packager/targets.md
+    - 'Examples': packager/examples.md
+  - 'Architecture': architecture.md
+  - 'Skill Catalog': skills-catalog.md
+
+# Repository
+repo_name: 'Android Skills MCP'
+repo_url: 'https://github.com/skydoves/android-skills-mcp'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  icon:
+    logo: material/android
+
+  palette:
+    primary: 'green'
+    accent: 'green'
+    scheme: slate
+
+  font:
+    text: 'Roboto'
+    code: 'JetBrains Mono'
+
+  features:
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.betterem
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
