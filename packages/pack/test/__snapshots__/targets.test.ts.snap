@@ -19,7 +19,7 @@ _Upgrades, or migrates, an Android project to use ",
 
 exports[`target 'aider' > output paths and sizes match snapshot 1`] = `
 [
-  "CONVENTIONS.md	39661B",
+  "CONVENTIONS.md	40346B",
 ]
 `;
 
@@ -28,11 +28,7 @@ exports[`target 'claude-code' > first 200 chars of every file match snapshot 1`]
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
 description: |-
-  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
-license: Complete terms in LICENSE.txt
-metadata:
-  author: Google LLC
- ",
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9. Do not use this skill for migrating Kotlin Multiplatform (KMP) project",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md": "
 ",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md": "
@@ -146,7 +142,7 @@ description: |-
 
 exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
 [
-  "agp-9-upgrade/SKILL.md	2827B",
+  "agp-9-upgrade/SKILL.md	3512B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
   "agp-9-upgrade/references/buildconfig.md	1B",
@@ -204,14 +200,7 @@ exports[`target 'continue' > first 200 chars of every file match snapshot 1`] = 
   "agp-9-upgrade.md": "---
 name: agp-9-upgrade
 description: |-
-  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
-alwaysApply: false
----
-
-
-## Migration guide
-
-See the [AGP 9 migration g",
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9. Do not use this skill for migrating Kotlin Multiplatform (KMP) project",
   "edge-to-edge.md": "---
 name: edge-to-edge
 description: |-
@@ -237,7 +226,7 @@ description: |-
 
 exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
 [
-  "agp-9-upgrade.md	2917B",
+  "agp-9-upgrade.md	3602B",
   "edge-to-edge.md	14252B",
   "migrate-xml-views-to-jetpack-compose.md	5761B",
   "navigation-3.md	7466B",
@@ -316,7 +305,7 @@ applyTo: "**"
 
 exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
 [
-  "agp-9-upgrade.instructions.md	2804B",
+  "agp-9-upgrade.instructions.md	3415B",
   "edge-to-edge.instructions.md	13924B",
   "migrate-xml-views-to-jetpack-compose.instructions.md	5270B",
   "navigation-3.instructions.md	7058B",
@@ -329,14 +318,8 @@ exports[`target 'cursor' > first 200 chars of every file match snapshot 1`] = `
 {
   "agp-9-upgrade.mdc": "---
 description: |-
-  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
-alwaysApply: false
----
-
-
-## Migration guide
-
-See the [AGP 9 migration guide](references/and",
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9. Do not use this skill for migrating Kotlin Multiplatform (KMP) projects.
+alwaysApply: fals",
   "edge-to-edge.mdc": "---
 description: |-
   Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (like buttons or lists",
@@ -359,7 +342,7 @@ description: |-
 
 exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
 [
-  "agp-9-upgrade.mdc	2897B",
+  "agp-9-upgrade.mdc	3582B",
   "edge-to-edge.mdc	14233B",
   "migrate-xml-views-to-jetpack-compose.mdc	5718B",
   "navigation-3.mdc	7447B",
@@ -384,7 +367,7 @@ _Upgrades, or migrates,",
 
 exports[`target 'gemini' > output paths and sizes match snapshot 1`] = `
 [
-  "styleguide.md	39688B",
+  "styleguide.md	40373B",
 ]
 `;
 
@@ -393,14 +376,7 @@ exports[`target 'junie' > first 200 chars of every file match snapshot 1`] = `
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
 description: |-
-  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9
-license: Complete terms in LICENSE.txt
----
-
-
-## Migration guide
-
-See th",
+  Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9. Do not use this skill for migrating Kotlin Multiplatform (KMP) project",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md": "
 ",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md": "
@@ -514,7 +490,7 @@ description: |-
 
 exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
 [
-  "agp-9-upgrade/SKILL.md	2653B",
+  "agp-9-upgrade/SKILL.md	3338B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
   "agp-9-upgrade/references/buildconfig.md	1B",

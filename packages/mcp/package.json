@@ -1,6 +1,6 @@
 {
   "name": "android-skills-mcp",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "MCP server exposing android/skills to any MCP-capable client",
   "type": "module",
   "main": "./dist/index.js",
