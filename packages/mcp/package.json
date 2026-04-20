@@ -1,6 +1,6 @@
 {
   "name": "android-skills-mcp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MCP server exposing android/skills to any MCP-capable client",
   "type": "module",
   "main": "./dist/index.js",
@@ -14,7 +14,10 @@
   "bin": {
     "android-skills-mcp": "./dist/bin.js"
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup && node ../../scripts/build-skills-index.mjs --out ./dist/skills.json && chmod +x dist/bin.js",
     "test": "vitest run",
