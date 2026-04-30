@@ -834,6 +834,34 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#xr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        xr
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="xr">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#display-ai-glasses-with-jetpack-compose-glimmer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        display-ai-glasses-with-jetpack-compose-glimmer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-refresh" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -873,7 +901,7 @@
 
 
 <h1 id="skill-catalog">Skill Catalog<a class="headerlink" href="#skill-catalog" title="Permanent link">&para;</a></h1>
-<p>The current snapshot bundled in both packages contains six skills from upstream <code>android/skills</code>. The catalog grows as upstream adds more.</p>
+<p>The current snapshot bundled in both packages contains seven skills from upstream <code>android/skills</code>. The catalog grows as upstream adds more.</p>
 <h2 id="build">build<a class="headerlink" href="#build" title="Permanent link">&para;</a></h2>
 <h3 id="agp-9-upgrade"><code>agp-9-upgrade</code><a class="headerlink" href="#agp-9-upgrade" title="Permanent link">&para;</a></h3>
 <p>Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9.</p>
@@ -900,6 +928,10 @@
 <h3 id="edge-to-edge"><code>edge-to-edge</code><a class="headerlink" href="#edge-to-edge" title="Permanent link">&para;</a></h3>
 <p>Use this skill to migrate your Jetpack Compose app to add adaptive edge to edge support and troubleshoot common issues.</p>
 <p>Covers fixing UI components (like buttons or lists) that are obscured by or overlapping with the navigation bar or status bar, fixing IME insets, and fixing system bar legibility. This is the only skill in the current catalog that is fully self contained (no external references).</p>
+<h2 id="xr">xr<a class="headerlink" href="#xr" title="Permanent link">&para;</a></h2>
+<h3 id="display-ai-glasses-with-jetpack-compose-glimmer"><code>display-ai-glasses-with-jetpack-compose-glimmer</code><a class="headerlink" href="#display-ai-glasses-with-jetpack-compose-glimmer" title="Permanent link">&para;</a></h3>
+<p>Provides guidelines for developing projected applications for Android Display AI Glasses using the Jetpack Compose Glimmer UI toolkit.</p>
+<p>Covers foundational Glimmer design principles, GlimmerTheme styling tokens (GlimmerColors, GlimmerTypography, GlimmerShapes), the Projected Activity model that runs on a host device and projects UI to connected glasses, hardware permission handling, notifications behavior, and the Glimmer component set: buttons, cards, focus, icons, text, title chips, and more. Includes the source for every Glimmer primitive and the projected context API as inlineable references.</p>
 <h2 id="how-to-refresh">How to refresh<a class="headerlink" href="#how-to-refresh" title="Permanent link">&para;</a></h2>
 <p>Both published packages bundle the snapshot at publish time. To use a fresher upstream than what's bundled, point the MCP server at a local clone:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/android/skills.git<span class="w"> </span>/tmp/skills

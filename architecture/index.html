@@ -822,7 +822,7 @@
 </tr>
 </tbody>
 </table>
-<p>BM25 ranks results. Prefix matching and 20% fuzzy matching are enabled, so partial words and minor typos still match. The index is built once at server startup and held in memory. With six skills and a few hundred terms, the build takes around 10 ms.</p>
+<p>BM25 ranks results. Prefix matching and 20% fuzzy matching are enabled, so partial words and minor typos still match. The index is built once at server startup and held in memory. With seven skills and a few hundred terms, the build takes around 10 ms.</p>
 <p>The choice of BM25 over embedding based search is deliberate. The catalog is small, the keywords are curated, and the queries are short. BM25 produces better top hits in this regime than dense embeddings, with no model download, no warm up, and no native deps. If the catalog grows past a few hundred skills or if telemetry shows that BM25 misses real queries, embeddings would be a justified upgrade.</p>
 <h2 id="how-the-mcp-server-bundles-skills">How the MCP server bundles skills<a class="headerlink" href="#how-the-mcp-server-bundles-skills" title="Permanent link">&para;</a></h2>
 <p>When you <code>pnpm build</code> the MCP package, two things happen. First, <code>tsup</code> bundles the TypeScript sources into <code>dist/index.js</code> and <code>dist/bin.js</code>. Second, the build script walks the cloned <code>skills/</code> directory, parses every <code>SKILL.md</code> via <code>@android-skills/core</code>, inlines every reference content, strips absolute paths, and writes the result to <code>dist/skills.json</code>.</p>
@@ -853,8 +853,8 @@
 <tbody>
 <tr>
 <td><code>@android-skills/core</code></td>
-<td>15</td>
-<td>Parser against all 6 real skills, schema invariants, search ranking</td>
+<td>34</td>
+<td>Parser against all 7 real skills, schema invariants, search ranking</td>
 </tr>
 <tr>
 <td><code>android-skills-mcp</code></td>
@@ -863,12 +863,12 @@
 </tr>
 <tr>
 <td><code>android-skills-pack</code></td>
-<td>40</td>
+<td>64</td>
 <td>Per-target snapshot tests (paths, sizes, head 200 chars), install lifecycle</td>
 </tr>
 </tbody>
 </table>
-<p>Total 64 tests, all running in around 1.5 seconds. The tests parse the actual upstream <code>skills/</code> directory rather than fixtures, so any upstream change that breaks the parser surfaces immediately.</p>
+<p>Total 107 tests, all running in around 1.5 seconds. The tests parse the actual upstream <code>skills/</code> directory rather than fixtures, so any upstream change that breaks the parser surfaces immediately.</p>
 <p>The MCP server tests use the <code>InMemoryTransport.createLinkedPair()</code> helper to wire a server and a client in the same process, so the assertions go through the real MCP protocol stack without spawning subprocesses.</p>
 
 
