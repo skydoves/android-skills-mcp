@@ -1,6 +1,6 @@
 {
   "name": "android-skills-pack",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Convert android/skills SKILL.md files into native rules for Claude Code, Cursor, Copilot, Gemini, Junie, Continue, and Aider",
   "type": "module",
   "main": "./dist/index.js",
@@ -14,7 +14,10 @@
   "bin": {
     "android-skills-pack": "./dist/bin.js"
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup && node ../../scripts/build-skills-index.mjs --out ./dist/skills.json && chmod +x dist/bin.js",
     "test": "vitest run",
