@@ -666,6 +666,34 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#android-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        android-cli
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="android-cli">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#android-cli_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        android-cli
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#build" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -682,6 +710,34 @@
     <span class="md-ellipsis">
       
         agp-9-upgrade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camera" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        camera
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="camera">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#camera1-to-camerax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        camera1-to-camerax
       
     </span>
   </a>
@@ -901,12 +957,20 @@
 
 
 <h1 id="skill-catalog">Skill Catalog<a class="headerlink" href="#skill-catalog" title="Permanent link">&para;</a></h1>
-<p>The current snapshot bundled in both packages contains seven skills from upstream <code>android/skills</code>. The catalog grows as upstream adds more.</p>
+<p>The current snapshot bundled in both packages contains nine skills from upstream <code>android/skills</code>. The catalog grows as upstream adds more.</p>
+<h2 id="android-cli">android-cli<a class="headerlink" href="#android-cli" title="Permanent link">&para;</a></h2>
+<h3 id="android-cli_1"><code>android-cli</code><a class="headerlink" href="#android-cli_1" title="Permanent link">&para;</a></h3>
+<p>Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the <code>android</code> command-line tool.</p>
+<p>Covers SDK install/update/remove, project scaffolding from templates, app run/install on devices and emulators, and CLI environment diagnostics. References cover device interaction (<code>screen capture</code>, <code>screen resolve</code>, <code>layout</code>) and journey test execution.</p>
 <h2 id="build">build<a class="headerlink" href="#build" title="Permanent link">&para;</a></h2>
 <h3 id="agp-9-upgrade"><code>agp-9-upgrade</code><a class="headerlink" href="#agp-9-upgrade" title="Permanent link">&para;</a></h3>
 <p>Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9.</p>
 <p>Covers the migration from older AGP versions: built in Kotlin support, BuildConfig changes, KSP/KAPT differences, the Paparazzi adjustments for Gradle 9, and the recipes for fixing common breakages.</p>
 <p>References include AGP 9.0.0 release notes, the migrate-to-built-in-Kotlin guide, BuildConfig docs, KSP/KAPT docs, the Paparazzi notes, and the recipe collection.</p>
+<h2 id="camera">camera<a class="headerlink" href="#camera" title="Permanent link">&para;</a></h2>
+<h3 id="camera1-to-camerax"><code>camera1-to-camerax</code><a class="headerlink" href="#camera1-to-camerax" title="Permanent link">&para;</a></h3>
+<p>Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX.</p>
+<p>CameraX is a lifecycle-aware Jetpack library built on top of Camera2 that resolves camera rotation issues and handles device dependencies. Covers dependency setup (1.3.0+ for interop, 1.5.0+ for Compose extensions), permission handling, lifecycle binding, PreviewView integration, image capture, and the Compose extensions path.</p>
 <h2 id="jetpack-compose">jetpack-compose<a class="headerlink" href="#jetpack-compose" title="Permanent link">&para;</a></h2>
 <h3 id="migrate-xml-views-to-jetpack-compose"><code>migrate-xml-views-to-jetpack-compose</code><a class="headerlink" href="#migrate-xml-views-to-jetpack-compose" title="Permanent link">&para;</a></h3>
 <p>Provides a structured workflow for migrating an Android XML View to Jetpack Compose.</p>
