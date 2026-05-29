@@ -73,7 +73,7 @@ Average cold start (initialize round trip) is around 100 ms on Apple Silicon. Th
 | Step | Time |
 |---|---|
 | Node startup | ~50 ms |
-| Bundle JSON parse (9 skills, ~945 KB) | ~10 ms |
+| Bundle JSON parse (18 skills, ~2.5 MB) | ~25 ms |
 | MiniSearch index build | ~10 ms |
 | MCP transport handshake | ~30 ms |
 

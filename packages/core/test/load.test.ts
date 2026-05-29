@@ -7,20 +7,29 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const SKILLS_ROOT = resolve(__dirname, '../../../skills');
 
 describe('loadSkills against real android/skills', () => {
-  it('finds all 9 known skills', async () => {
+  it('finds all 18 known skills', async () => {
     const skills = await loadSkills(SKILLS_ROOT);
     const names = skills.map((s) => s.name).sort();
     expect(names).toEqual(
       [
+        'adaptive',
         'agp-9-upgrade',
         'android-cli',
+        'appfunctions',
         'camera1-to-camerax',
-        'display-ai-glasses-with-jetpack-compose-glimmer',
+        'display-glasses-with-jetpack-compose-glimmer',
         'edge-to-edge',
+        'engage-sdk-integration',
+        'jetpack-compose-m3',
         'migrate-xml-views-to-jetpack-compose',
         'navigation-3',
+        'perfetto-sql',
+        'perfetto-trace-analysis',
         'play-billing-library-version-upgrade',
         'r8-analyzer',
+        'styles',
+        'testing-setup',
+        'verified-email',
       ].sort(),
     );
   });
@@ -35,7 +44,7 @@ describe('loadSkills against real android/skills', () => {
       }
       expect(Array.isArray(s.keywords)).toBe(true);
       expect(s.category).toMatch(
-        /^(android-cli|build|camera|jetpack-compose|navigation|performance|play|system|xr)$/,
+        /^(build|camera|device-ai|devtools|identity|jetpack-compose|navigation|performance|play|profilers|system|testing|wear|xr)$/,
       );
     }
   });

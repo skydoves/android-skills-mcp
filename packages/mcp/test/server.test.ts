@@ -28,10 +28,10 @@ describe('android-skills-mcp server (in-memory)', () => {
     ({ client } = await makeClient());
   });
 
-  it('list_skills returns all 9 skills', async () => {
+  it('list_skills returns all 18 skills', async () => {
     const result = await client.callTool({ name: 'list_skills', arguments: {} });
     const items = parseTextResult(result as never) as { name: string }[];
-    expect(items).toHaveLength(9);
+    expect(items).toHaveLength(18);
     const names = items.map((s) => s.name).sort();
     expect(names).toContain('edge-to-edge');
     expect(names).toContain('navigation-3');
@@ -96,9 +96,9 @@ describe('android-skills-mcp server (in-memory)', () => {
     expect(result.content[0]?.text).toContain('Unknown skill');
   });
 
-  it('lists 9 skill resources', async () => {
+  it('lists 18 skill resources', async () => {
     const result = await client.listResources();
-    expect(result.resources.length).toBe(9);
+    expect(result.resources.length).toBe(18);
     const uris = result.resources.map((r) => r.uri).sort();
     expect(uris).toContain('skill://edge-to-edge');
   });

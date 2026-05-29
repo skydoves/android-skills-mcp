@@ -1,5 +1,5 @@
-import { readFileSync } from 'node:fs';
-import { basename, dirname, relative, resolve } from 'node:path';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
+import { basename, dirname, join, relative, resolve } from 'node:path';
 import matter from 'gray-matter';
 import { SkillFrontmatterSchema } from './schema.js';
 import type { Skill, SkillFrontmatter, SkillReferenceRef } from './types.js';
@@ -10,6 +10,17 @@ const REF_LINK_RE = /\]\((\.\/)?(references\/[^)\s#]+)/g;
 export interface ParseSkillOptions {
   /** absolute path to the skills root (used to derive `category`) */
   skillsRoot: string;
+}
+
+function* walkRefFiles(dir: string): Generator<string> {
+  for (const name of readdirSync(dir)) {
+    const full = join(dir, name);
+    if (statSync(full).isDirectory()) {
+      yield* walkRefFiles(full);
+    } else {
+      yield full;
+    }
+  }
 }
 
 export function parseSkillFile(skillMdPath: string, opts: ParseSkillOptions): Skill {
@@ -42,7 +53,23 @@ export function parseSkillFile(skillMdPath: string, opts: ParseSkillOptions): Sk
     const refPath = m[2];
     if (refPath) refSet.add(refPath);
   }
-  const references: SkillReferenceRef[] = Array.from(refSet)
+  // A SKILL.md may link to a directory under `references/` (e.g. `references/schemas`)
+  // as a folder of files. Expand any directory ref into its concrete file refs so
+  // downstream consumers can always read each ref as a single file.
+  const expanded = new Set<string>();
+  for (const relPath of refSet) {
+    const absPath = resolve(dir, relPath);
+    if (existsSync(absPath) && statSync(absPath).isDirectory()) {
+      for (const child of walkRefFiles(absPath)) {
+        expanded.add(
+          `${relPath.replace(/\/$/, '')}/${relative(absPath, child).replace(/\\/g, '/')}`,
+        );
+      }
+    } else {
+      expanded.add(relPath);
+    }
+  }
+  const references: SkillReferenceRef[] = Array.from(expanded)
     .sort()
     .map((relPath) => ({ relPath, absPath: resolve(dir, relPath) }));
 

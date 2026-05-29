@@ -14,7 +14,7 @@ beforeAll(async () => {
 });
 
 describe.each(TARGETS)('target $id', (target) => {
-  it('produces non-empty output for all 9 skills', () => {
+  it('produces non-empty output for all 18 skills', () => {
     const files = target.render(skills);
     expect(files.length).toBeGreaterThan(0);
     for (const f of files) {

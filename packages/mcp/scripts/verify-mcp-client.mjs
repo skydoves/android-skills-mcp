@@ -38,7 +38,7 @@ try {
     `got [${toolNames.join(', ')}]`,
   );
 
-  // b) list_skills -> 9 skills
+  // b) list_skills -> 18 skills
   const listResp = await client.callTool({
     name: 'list_skills',
     arguments: {},
@@ -55,7 +55,7 @@ try {
     : Array.isArray(listParsed?.skills)
       ? listParsed.skills.length
       : null;
-  record('b) callTool list_skills returns 9 skills', skillCount === 9, `got ${skillCount}`);
+  record('b) callTool list_skills returns 18 skills', skillCount === 18, `got ${skillCount}`);
 
   // c) search_skills -> top hit migrate-xml-views-to-jetpack-compose
   const searchResp = await client.callTool({

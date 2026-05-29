@@ -48,7 +48,7 @@ The body is scanned for `^#{1,6} ` headings and for relative markdown links poin
 | `description` | 2 | Frontmatter description |
 | `headings` | 1 | All `^#{1,6} ` headings from the body |
 
-BM25 ranks results. Prefix matching and 20% fuzzy matching are enabled, so partial words and minor typos still match. The index is built once at server startup and held in memory. With nine skills and a few hundred terms, the build takes around 10 ms.
+BM25 ranks results. Prefix matching and 20% fuzzy matching are enabled, so partial words and minor typos still match. The index is built once at server startup and held in memory. With eighteen skills and a few hundred terms, the build takes around 15 ms.
 
 The choice of BM25 over embedding based search is deliberate. The catalog is small, the keywords are curated, and the queries are short. BM25 produces better top hits in this regime than dense embeddings, with no model download, no warm up, and no native deps. If the catalog grows past a few hundred skills or if telemetry shows that BM25 misses real queries, embeddings would be a justified upgrade.
 

@@ -11,20 +11,46 @@ read: CONVENTIONS.md
 
 ---
 
-## agp-9-upgrade
+## adaptive
 
-_Upgrades, or migrates, an Android project to use ",
+_Instructions to make or update an app's UI so that it ",
 }
 `;
 
 exports[`target 'aider' > output paths and sizes match snapshot 1`] = `
 [
-  "CONVENTIONS.md	79967B",
+  "CONVENTIONS.md	175592B",
 ]
 `;
 
 exports[`target 'claude-code' > first 200 chars of every file match snapshot 1`] = `
 {
+  "adaptive/SKILL.md": "---
+name: adaptive
+description: |-
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. ",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/item-behavior.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/container-properties.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/get-started.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md": "
+",
+  "adaptive/references/android/develop/ui/compose/tooling/debug.md": "
+",
+  "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
 description: |-
@@ -49,88 +75,156 @@ description: |-
 ",
   "android-cli/references/journeys.md": "
 ",
+  "appfunctions/SKILL.md": "---
+name: appfunctions
+description: |-
+  Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered mes",
+  "appfunctions/references/adb-interaction-testing.md": "
+",
+  "appfunctions/references/feature-discovery-analysis.md": "
+",
+  "appfunctions/references/implementation-configuration.md": "
+",
+  "appfunctions/references/kdoc-refinement-optimization.md": "
+",
   "camera1-to-camerax/SKILL.md": "---
 name: camera1-to-camerax
 description: |-
   Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library bu",
-  "display-ai-glasses-with-jetpack-compose-glimmer/SKILL.md": "---
-name: display-ai-glasses-with-jetpack-compose-glimmer
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md": "---
+name: display-glasses-with-jetpack-compose-glimmer
 description: |-
-  Provides guidelines for developing projected applications for Android Display AI Glasses using the Jetpack Compose Glimmer U",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md": "
+  Provides guidelines for developing projected Android XR apps for display glasses using the Jetpack Compose Glimmer UI toolkit. ",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/check-capabilities.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/first-activity.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/behavior.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/start-activity.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/button-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/card-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/icon-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/list-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/icon-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/listitem-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/liststate-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/list-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/listitem-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/stack-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/liststate-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/surface-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stack-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/surface-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md": "
 ",
   "edge-to-edge/SKILL.md": "---
 name: edge-to-edge
 description: |-
   Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (li",
+  "engage-sdk-integration/SKILL.md": "---
+name: engage-sdk-integration
+description: |-
+  Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code,",
+  "engage-sdk-integration/references/android/guide/playcore/engage/faq.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/food.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/healthandfitness.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/listen.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/otherverticals.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/read.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/shopping.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/social.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/travel.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/continue-watching/index.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/entitlements.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/getting-started.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/recommendations.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/watch.md": "
+",
+  "engage-sdk-integration/references/clusters.md": "
+",
+  "engage-sdk-integration/references/common.md": "
+",
+  "engage-sdk-integration/references/patterns.md": "
+",
+  "engage-sdk-integration/references/requests.md": "
+",
+  "engage-sdk-integration/references/schemas/food.md": "
+",
+  "engage-sdk-integration/references/schemas/listen.md": "
+",
+  "engage-sdk-integration/references/schemas/other.md": "
+",
+  "engage-sdk-integration/references/schemas/read.md": "
+",
+  "engage-sdk-integration/references/schemas/shopping.md": "
+",
+  "engage-sdk-integration/references/schemas/social.md": "
+",
+  "engage-sdk-integration/references/schemas/travel.md": "
+",
+  "engage-sdk-integration/references/schemas/tv.md": "
+",
+  "engage-sdk-integration/references/schemas/watch.md": "
+",
+  "jetpack-compose-m3/SKILL.md": "---
+name: jetpack-compose-m3
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the andro",
+  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
+",
   "migrate-xml-views-to-jetpack-compose/SKILL.md": "---
 name: migrate-xml-views-to-jetpack-compose
 description: |-
@@ -199,6 +293,30 @@ description: |-
 ",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md": "
 ",
+  "perfetto-sql/SKILL.md": "---
+name: perfetto-sql
+description: |-
+  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract ",
+  "perfetto-sql/references/perfetto-stdlib.md": "
+",
+  "perfetto-trace-analysis/SKILL.md": "---
+name: perfetto-trace-analysis
+description: |-
+  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file",
+  "perfetto-trace-analysis/references/hints_cpu.md": "
+",
+  "perfetto-trace-analysis/references/hints_graphics.md": "
+",
+  "perfetto-trace-analysis/references/hints_io.md": "
+",
+  "perfetto-trace-analysis/references/hints_ipc.md": "
+",
+  "perfetto-trace-analysis/references/hints_memory.md": "
+",
+  "perfetto-trace-analysis/references/hints_power.md": "
+",
+  "perfetto-trace-analysis/references/sql.md": "
+",
   "play-billing-library-version-upgrade/SKILL.md": "---
 name: play-billing-library-version-upgrade
 description: |-
@@ -213,6 +331,8 @@ description: |-
 name: r8-analyzer
 description: |-
   Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when ",
+  "r8-analyzer/references/CONFIGURATION-ANALYZER.md": "
+",
   "r8-analyzer/references/CONFIGURATION.md": "
 ",
   "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md": "
@@ -221,64 +341,151 @@ description: |-
 ",
   "r8-analyzer/references/REFLECTION-GUIDE.md": "
 ",
+  "r8-analyzer/references/REPORT_FORMAT.md": "
+",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md": "
 ",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md": "
+",
+  "styles/SKILL.md": "---
+name: styles
+description: |-
+  Use this skill to integrate the Jetpack Compose Styles API into an Android project. This skill guides you through upgrading dependencies, setting up component themes",
+  "styles/references/android/develop/ui/compose/designsystems/custom.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/fundamentals.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/state-animations.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/theming.md": "
+",
+  "testing-setup/SKILL.md": "---
+name: testing-setup
+description: |-
+  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md": "
+",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing.md": "
+",
+  "testing-setup/references/android/training/dependency-injection/hilt-testing.md": "
+",
+  "verified-email/SKILL.md": "---
+name: verified-email
+description: |-
+  Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less emai",
+  "verified-email/references/android/identity/credential-manager/index.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/credential-verifier.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/email-verification.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/index.md": "
+",
+  "verified-email/references/android/identity/passkeys/create-passkeys.md": "
+",
+  "verified-email/references/android/identity/sign-in/credential-manager-webview.md": "
 ",
 }
 `;
 
 exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
 [
-  "agp-9-upgrade/SKILL.md	3514B",
+  "adaptive/SKILL.md	12661B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/item-behavior.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/container-properties.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/get-started.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md	1B",
+  "adaptive/references/android/develop/ui/compose/tooling/debug.md	1B",
+  "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
+  "agp-9-upgrade/SKILL.md	3543B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
   "agp-9-upgrade/references/buildconfig.md	1B",
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	8850B",
+  "android-cli/SKILL.md	10390B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
-  "camera1-to-camerax/SKILL.md	8056B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/SKILL.md	21131B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/check-capabilities.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/first-activity.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/behavior.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/start-activity.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/icon-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/list-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/listitem-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/liststate-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stack-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/surface-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md	1B",
-  "edge-to-edge/SKILL.md	14418B",
-  "migrate-xml-views-to-jetpack-compose/SKILL.md	5415B",
+  "appfunctions/SKILL.md	3748B",
+  "appfunctions/references/adb-interaction-testing.md	1B",
+  "appfunctions/references/feature-discovery-analysis.md	1B",
+  "appfunctions/references/implementation-configuration.md	1B",
+  "appfunctions/references/kdoc-refinement-optimization.md	1B",
+  "camera1-to-camerax/SKILL.md	7774B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22443B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/button-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/card-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/icon-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/list-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/listitem-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/liststate-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/stack-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/surface-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md	1B",
+  "edge-to-edge/SKILL.md	14447B",
+  "engage-sdk-integration/SKILL.md	8497B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/faq.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/food.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/healthandfitness.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/listen.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/otherverticals.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/read.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/shopping.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/social.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/travel.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/continue-watching/index.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/entitlements.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/getting-started.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/recommendations.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/watch.md	1B",
+  "engage-sdk-integration/references/clusters.md	1B",
+  "engage-sdk-integration/references/common.md	1B",
+  "engage-sdk-integration/references/patterns.md	1B",
+  "engage-sdk-integration/references/requests.md	1B",
+  "engage-sdk-integration/references/schemas/food.md	1B",
+  "engage-sdk-integration/references/schemas/listen.md	1B",
+  "engage-sdk-integration/references/schemas/other.md	1B",
+  "engage-sdk-integration/references/schemas/read.md	1B",
+  "engage-sdk-integration/references/schemas/shopping.md	1B",
+  "engage-sdk-integration/references/schemas/social.md	1B",
+  "engage-sdk-integration/references/schemas/travel.md	1B",
+  "engage-sdk-integration/references/schemas/tv.md	1B",
+  "engage-sdk-integration/references/schemas/watch.md	1B",
+  "jetpack-compose-m3/SKILL.md	12684B",
+  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
+  "migrate-xml-views-to-jetpack-compose/SKILL.md	5444B",
   "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/migrate/interoperability-apis/compose-in-views.md	1B",
@@ -286,7 +493,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/setup-compose-dependencies-and-compiler.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/identify-optimal-xml-candidate.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md	1B",
-  "navigation-3/SKILL.md	6033B",
+  "navigation-3/SKILL.md	6062B",
   "navigation-3/references/android/guide/navigation/navigation-3/index.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/migration-guide.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/animations.md	1B",
@@ -310,22 +517,56 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md	1B",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md	1B",
-  "play-billing-library-version-upgrade/SKILL.md	5644B",
+  "perfetto-sql/SKILL.md	10972B",
+  "perfetto-sql/references/perfetto-stdlib.md	1B",
+  "perfetto-trace-analysis/SKILL.md	6917B",
+  "perfetto-trace-analysis/references/hints_cpu.md	1B",
+  "perfetto-trace-analysis/references/hints_graphics.md	1B",
+  "perfetto-trace-analysis/references/hints_io.md	1B",
+  "perfetto-trace-analysis/references/hints_ipc.md	1B",
+  "perfetto-trace-analysis/references/hints_memory.md	1B",
+  "perfetto-trace-analysis/references/hints_power.md	1B",
+  "perfetto-trace-analysis/references/sql.md	1B",
+  "play-billing-library-version-upgrade/SKILL.md	5673B",
   "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
-  "r8-analyzer/SKILL.md	3621B",
+  "r8-analyzer/SKILL.md	3632B",
+  "r8-analyzer/references/CONFIGURATION-ANALYZER.md	1B",
   "r8-analyzer/references/CONFIGURATION.md	1B",
   "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md	1B",
   "r8-analyzer/references/REDUNDANT-RULES.md	1B",
   "r8-analyzer/references/REFLECTION-GUIDE.md	1B",
+  "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
+  "styles/SKILL.md	8662B",
+  "styles/references/android/develop/ui/compose/designsystems/custom.md	1B",
+  "styles/references/android/develop/ui/compose/styles/fundamentals.md	1B",
+  "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
+  "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md	1B",
+  "styles/references/android/develop/ui/compose/styles/theming.md	1B",
+  "testing-setup/SKILL.md	9201B",
+  "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
+  "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
+  "verified-email/SKILL.md	18524B",
+  "verified-email/references/android/identity/credential-manager/index.md	1B",
+  "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
+  "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
+  "verified-email/references/android/identity/digital-credentials/email-verification.md	1B",
+  "verified-email/references/android/identity/digital-credentials/index.md	1B",
+  "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
+  "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
 ]
 `;
 
 exports[`target 'continue' > first 200 chars of every file match snapshot 1`] = `
 {
+  "adaptive.md": "---
+name: adaptive
+description: |-
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. ",
   "agp-9-upgrade.md": "---
 name: agp-9-upgrade
 description: |-
@@ -334,18 +575,30 @@ description: |-
 name: android-cli
 description: |-
   Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool",
+  "appfunctions.md": "---
+name: appfunctions
+description: |-
+  Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered mes",
   "camera1-to-camerax.md": "---
 name: camera1-to-camerax
 description: |-
   Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library bu",
-  "display-ai-glasses-with-jetpack-compose-glimmer.md": "---
-name: display-ai-glasses-with-jetpack-compose-glimmer
+  "display-glasses-with-jetpack-compose-glimmer.md": "---
+name: display-glasses-with-jetpack-compose-glimmer
 description: |-
-  Provides guidelines for developing projected applications for Android Display AI Glasses using the Jetpack Compose Glimmer U",
+  Provides guidelines for developing projected Android XR apps for display glasses using the Jetpack Compose Glimmer UI toolkit. ",
   "edge-to-edge.md": "---
 name: edge-to-edge
 description: |-
   Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (li",
+  "engage-sdk-integration.md": "---
+name: engage-sdk-integration
+description: |-
+  Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code,",
+  "jetpack-compose-m3.md": "---
+name: jetpack-compose-m3
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the andro",
   "migrate-xml-views-to-jetpack-compose.md": "---
 name: migrate-xml-views-to-jetpack-compose
 description: |-
@@ -354,6 +607,14 @@ description: |-
 name: navigation-3
 description: |-
   Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, ",
+  "perfetto-sql.md": "---
+name: perfetto-sql
+description: |-
+  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract ",
+  "perfetto-trace-analysis.md": "---
+name: perfetto-trace-analysis
+description: |-
+  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file",
   "play-billing-library-version-upgrade.md": "---
 name: play-billing-library-version-upgrade
 description: |-
@@ -362,25 +623,58 @@ description: |-
 name: r8-analyzer
 description: |-
   Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when ",
+  "styles.md": "---
+name: styles
+description: |-
+  Use this skill to integrate the Jetpack Compose Styles API into an Android project. This skill guides you through upgrading dependencies, setting up component themes",
+  "testing-setup.md": "---
+name: testing-setup
+description: |-
+  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  "verified-email.md": "---
+name: verified-email
+description: |-
+  Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less emai",
 }
 `;
 
 exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
 [
+  "adaptive.md	13398B",
   "agp-9-upgrade.md	3604B",
-  "android-cli.md	8955B",
-  "camera1-to-camerax.md	7846B",
-  "display-ai-glasses-with-jetpack-compose-glimmer.md	22870B",
+  "android-cli.md	10302B",
+  "appfunctions.md	3792B",
+  "camera1-to-camerax.md	7535B",
+  "display-glasses-with-jetpack-compose-glimmer.md	23807B",
   "edge-to-edge.md	14252B",
+  "engage-sdk-integration.md	9629B",
+  "jetpack-compose-m3.md	12567B",
   "migrate-xml-views-to-jetpack-compose.md	5761B",
   "navigation-3.md	7466B",
+  "perfetto-sql.md	10780B",
+  "perfetto-trace-analysis.md	6934B",
   "play-billing-library-version-upgrade.md	5609B",
-  "r8-analyzer.md	3828B",
+  "r8-analyzer.md	3887B",
+  "styles.md	8830B",
+  "testing-setup.md	9268B",
+  "verified-email.md	18746B",
 ]
 `;
 
 exports[`target 'copilot' > first 200 chars of every file match snapshot 1`] = `
 {
+  "adaptive.instructions.md": "---
+applyTo: "**"
+---
+
+# adaptive
+
+
+## Prerequisites
+
+The app must:
+
+- Use Compose for all screens. If it's still using Fragments or Views, suggest using the XML to Compose skill to migrate those scre",
   "agp-9-upgrade.instructions.md": "---
 applyTo: "**"
 ---
@@ -401,6 +695,16 @@ applyTo: "**"
 # Android CLI Specialist
 
 This skill provides instructions for using the \`android\` CLI tool. The tool includes various commands for creating projects, running app",
+  "appfunctions.instructions.md": "---
+applyTo: "**"
+---
+
+# appfunctions
+
+
+Analyzes Android apps to identify key user workflows for AppFunctions such as
+creating a note, playing media, or sending an automated or AI agent triggered
+mess",
   "camera1-to-camerax.instructions.md": "---
 applyTo: "**"
 ---
@@ -412,18 +716,18 @@ applyTo: "**"
 
 Check for and add the required CameraX dependencies. Use version 1.3.0 or higher
 for interoperability, or version 1.5.0 or hi",
-  "display-ai-glasses-with-jetpack-compose-glimmer.instructions.md": "---
+  "display-glasses-with-jetpack-compose-glimmer.instructions.md": "---
 applyTo: "**"
 ---
 
-# display-ai-glasses-with-jetpack-compose-glimmer
+# display-glasses-with-jetpack-compose-glimmer
 
 
 ## Glossary
 
 | Term | Definition |
 |---|---|
-| **AI Glasses** | All-day wear, hands-free devices that provide access to infor",
+| **Intelligent Eyewear** | All-day wear, hands-free devices that provide access to",
   "edge-to-edge.instructions.md": "---
 applyTo: "**"
 ---
@@ -435,6 +739,25 @@ applyTo: "**"
 
 - Project **MUST** use Android Jetpack Compose.
 - Project **MUST** target SDK 35 or later. If the SDK is lower than 35, increase the SDK to 35",
+  "engage-sdk-integration.instructions.md": "---
+applyTo: "**"
+---
+
+# engage-sdk-integration
+
+
+This skill guides you through integrating the Play Engage SDK into an Android
+app. It ensures that the code follows the mandatory structure and uses t",
+  "jetpack-compose-m3.instructions.md": "---
+applyTo: "**"
+---
+
+# jetpack-compose-m3
+
+
+## Prerequisites \\& Compatibility
+
+1. **Wear OS Compose Material3 version:** If an internal tool is available to establish the **latest stable version** \`",
   "migrate-xml-views-to-jetpack-compose.instructions.md": "---
 applyTo: "**"
 ---
@@ -454,6 +777,27 @@ applyTo: "**"
 ## Migration guide
 
 - *[Navigation 2 to Navigation 3 migration guide](references/android/guide/navigation/navigation-3/migration-guide.md)*: Step-by-step guide ",
+  "perfetto-sql.instructions.md": "---
+applyTo: "**"
+---
+
+# perfetto-sql
+
+
+## Guidelines and Hints
+
+- **Idempotency:** Ensure queries are idempotent to prevent "already exists" errors during multiple executions.
+  - For Perfetto object",
+  "perfetto-trace-analysis.instructions.md": "---
+applyTo: "**"
+---
+
+# perfetto-trace-analysis
+
+
+## Resources
+
+- **Domain Hints:** Reference files for specific performance areas: [\`CPU\`](references/hints_cpu.md), [\`Graphics\`](references/hints_gra",
   "play-billing-library-version-upgrade.instructions.md": "---
 applyTo: "**"
 ---
@@ -472,29 +816,73 @@ applyTo: "**"
 # r8-analyzer
 
 
-## Core workflow
+## Step 1. Setup and configuration check
 
-- \\[ \\] Step 1: Create a file called R8_Configuration_Analysis.md, or reuse if one exists already, to store the output
-- \\[ \\] Step 2: Look at ",
+- Inspect \`build.gradle\`, \`build.gradle.kts\`, and \`gradle.properties\`.
+- Use [references/CONFIGURATION.md](references/C",
+  "styles.instructions.md": "---
+applyTo: "**"
+---
+
+# styles
+
+
+## Limitations
+
+- Warn the user that this skill is EXPERIMENTAL and requires updating to alpha version of Compose and opting in to the Experimental APIs.
+- This skill",
+  "testing-setup.instructions.md": "---
+applyTo: "**"
+---
+
+# testing-setup
+
+
+## Step 1: analyze the current testing setup
+
+To understand the testing setup of an existing project, look for these
+dependencies in the libs.versions.toml fil",
+  "verified-email.instructions.md": "---
+applyTo: "**"
+---
+
+# verified-email
+
+
+## Fundamentals
+
+- *[Overview of Digital Credentials](references/android/identity/digital-credentials/email-verification.md)*: Learn about cryptographically v",
 }
 `;
 
 exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
 [
+  "adaptive.instructions.md	12806B",
   "agp-9-upgrade.instructions.md	3417B",
-  "android-cli.instructions.md	8767B",
-  "camera1-to-camerax.instructions.md	7575B",
-  "display-ai-glasses-with-jetpack-compose-glimmer.instructions.md	22374B",
+  "android-cli.instructions.md	10114B",
+  "appfunctions.instructions.md	3292B",
+  "camera1-to-camerax.instructions.md	7264B",
+  "display-glasses-with-jetpack-compose-glimmer.instructions.md	23327B",
   "edge-to-edge.instructions.md	13924B",
+  "engage-sdk-integration.instructions.md	9389B",
+  "jetpack-compose-m3.instructions.md	12111B",
   "migrate-xml-views-to-jetpack-compose.instructions.md	5270B",
   "navigation-3.instructions.md	7058B",
+  "perfetto-sql.instructions.md	10513B",
+  "perfetto-trace-analysis.instructions.md	6666B",
   "play-billing-library-version-upgrade.instructions.md	5426B",
-  "r8-analyzer.instructions.md	3510B",
+  "r8-analyzer.instructions.md	3569B",
+  "styles.instructions.md	8392B",
+  "testing-setup.instructions.md	9040B",
+  "verified-email.instructions.md	18368B",
 ]
 `;
 
 exports[`target 'cursor' > first 200 chars of every file match snapshot 1`] = `
 {
+  "adaptive.mdc": "---
+description: |-
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. It includes how",
   "agp-9-upgrade.mdc": "---
 description: |-
   Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9. Do not use this skill for migrating Kotlin Multiplatform (KMP) projects.
@@ -503,21 +891,36 @@ alwaysApply: fals",
 description: |-
   Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool.
 alwaysApply: fal",
+  "appfunctions.mdc": "---
+description: |-
+  Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered message, voice command",
   "camera1-to-camerax.mdc": "---
 description: |-
   Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library built on top of Camera2 tha",
-  "display-ai-glasses-with-jetpack-compose-glimmer.mdc": "---
+  "display-glasses-with-jetpack-compose-glimmer.mdc": "---
 description: |-
-  Provides guidelines for developing projected applications for Android Display AI Glasses using the Jetpack Compose Glimmer UI toolkit. This skill covers foundational Glimmer desi",
+  Provides guidelines for developing projected Android XR apps for display glasses using the Jetpack Compose Glimmer UI toolkit. This skill covers foundational Glimmer design princ",
   "edge-to-edge.mdc": "---
 description: |-
   Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (like buttons or lists",
+  "engage-sdk-integration.mdc": "---
+description: |-
+  Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code, mapping data classes to enti",
+  "jetpack-compose-m3.mdc": "---
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the androidx.wear.compose.material",
   "migrate-xml-views-to-jetpack-compose.mdc": "---
 description: |-
   Provides a structured workflow for migrating an Android XML View to Jetpack Compose. This skill details the step-by-step process, from planning and dependency setup, to theming a",
   "navigation-3.mdc": "---
 description: |-
   Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, bottom sheets, list",
+  "perfetto-sql.mdc": "---
+description: |-
+  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract slice, thread, or m",
+  "perfetto-trace-analysis.mdc": "---
+description: |-
+  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file and asks any question, ongoin",
   "play-billing-library-version-upgrade.mdc": "---
 description: |-
   Use this skill when upgrading or migrating an Android project from any legacy Google Play Billing Library (PBL) version to the latest stable version of PBL.
@@ -526,20 +929,38 @@ alwaysApply: false
   "r8-analyzer.mdc": "---
 description: |-
   Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when developers want to",
+  "styles.mdc": "---
+description: |-
+  Use this skill to integrate the Jetpack Compose Styles API into an Android project. This skill guides you through upgrading dependencies, setting up component themes, making cust",
+  "testing-setup.mdc": "---
+description: |-
+  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, screenshot tests",
+  "verified-email.mdc": "---
+description: |-
+  Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less email verification flow i",
 }
 `;
 
 exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
 [
+  "adaptive.mdc	13383B",
   "agp-9-upgrade.mdc	3584B",
-  "android-cli.mdc	8937B",
-  "camera1-to-camerax.mdc	7821B",
-  "display-ai-glasses-with-jetpack-compose-glimmer.mdc	22816B",
+  "android-cli.mdc	10284B",
+  "appfunctions.mdc	3773B",
+  "camera1-to-camerax.mdc	7510B",
+  "display-glasses-with-jetpack-compose-glimmer.mdc	23756B",
   "edge-to-edge.mdc	14233B",
+  "engage-sdk-integration.mdc	9600B",
+  "jetpack-compose-m3.mdc	12542B",
   "migrate-xml-views-to-jetpack-compose.mdc	5718B",
   "navigation-3.mdc	7447B",
+  "perfetto-sql.mdc	10761B",
+  "perfetto-trace-analysis.mdc	6904B",
   "play-billing-library-version-upgrade.mdc	5566B",
-  "r8-analyzer.mdc	3810B",
+  "r8-analyzer.mdc	3869B",
+  "styles.mdc	8817B",
+  "testing-setup.mdc	9248B",
+  "verified-email.mdc	18725B",
 ]
 `;
 
@@ -551,20 +972,46 @@ This document is generated from android/skills. When reviewing or generating And
 
 ---
 
-## agp-9-upgrade
+## adaptive
 
-_Upgrades, or migrates,",
+_Instructions to make or upd",
 }
 `;
 
 exports[`target 'gemini' > output paths and sizes match snapshot 1`] = `
 [
-  "styleguide.md	79994B",
+  "styleguide.md	175619B",
 ]
 `;
 
 exports[`target 'junie' > first 200 chars of every file match snapshot 1`] = `
 {
+  "adaptive/SKILL.md": "---
+name: adaptive
+description: |-
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. ",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/item-behavior.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/container-properties.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/get-started.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md": "
+",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md": "
+",
+  "adaptive/references/android/develop/ui/compose/tooling/debug.md": "
+",
+  "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
 description: |-
@@ -589,88 +1036,156 @@ description: |-
 ",
   "android-cli/references/journeys.md": "
 ",
+  "appfunctions/SKILL.md": "---
+name: appfunctions
+description: |-
+  Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered mes",
+  "appfunctions/references/adb-interaction-testing.md": "
+",
+  "appfunctions/references/feature-discovery-analysis.md": "
+",
+  "appfunctions/references/implementation-configuration.md": "
+",
+  "appfunctions/references/kdoc-refinement-optimization.md": "
+",
   "camera1-to-camerax/SKILL.md": "---
 name: camera1-to-camerax
 description: |-
   Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library bu",
-  "display-ai-glasses-with-jetpack-compose-glimmer/SKILL.md": "---
-name: display-ai-glasses-with-jetpack-compose-glimmer
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md": "---
+name: display-glasses-with-jetpack-compose-glimmer
 description: |-
-  Provides guidelines for developing projected applications for Android Display AI Glasses using the Jetpack Compose Glimmer U",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md": "
+  Provides guidelines for developing projected Android XR apps for display glasses using the Jetpack Compose Glimmer UI toolkit. ",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/check-capabilities.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/first-activity.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/behavior.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/start-activity.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/button-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/card-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/icon-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/list-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/icon-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/listitem-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/liststate-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/list-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/listitem-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/stack-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/liststate-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/surface-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stack-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md": "
 ",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/surface-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md": "
-",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md": "
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md": "
 ",
   "edge-to-edge/SKILL.md": "---
 name: edge-to-edge
 description: |-
   Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (li",
+  "engage-sdk-integration/SKILL.md": "---
+name: engage-sdk-integration
+description: |-
+  Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code,",
+  "engage-sdk-integration/references/android/guide/playcore/engage/faq.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/food.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/healthandfitness.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/listen.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/otherverticals.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/read.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/shopping.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/social.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/travel.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/continue-watching/index.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/entitlements.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/getting-started.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/recommendations.md": "
+",
+  "engage-sdk-integration/references/android/guide/playcore/engage/watch.md": "
+",
+  "engage-sdk-integration/references/clusters.md": "
+",
+  "engage-sdk-integration/references/common.md": "
+",
+  "engage-sdk-integration/references/patterns.md": "
+",
+  "engage-sdk-integration/references/requests.md": "
+",
+  "engage-sdk-integration/references/schemas/food.md": "
+",
+  "engage-sdk-integration/references/schemas/listen.md": "
+",
+  "engage-sdk-integration/references/schemas/other.md": "
+",
+  "engage-sdk-integration/references/schemas/read.md": "
+",
+  "engage-sdk-integration/references/schemas/shopping.md": "
+",
+  "engage-sdk-integration/references/schemas/social.md": "
+",
+  "engage-sdk-integration/references/schemas/travel.md": "
+",
+  "engage-sdk-integration/references/schemas/tv.md": "
+",
+  "engage-sdk-integration/references/schemas/watch.md": "
+",
+  "jetpack-compose-m3/SKILL.md": "---
+name: jetpack-compose-m3
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the andro",
+  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
+",
   "migrate-xml-views-to-jetpack-compose/SKILL.md": "---
 name: migrate-xml-views-to-jetpack-compose
 description: |-
@@ -739,6 +1254,30 @@ description: |-
 ",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md": "
 ",
+  "perfetto-sql/SKILL.md": "---
+name: perfetto-sql
+description: |-
+  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract ",
+  "perfetto-sql/references/perfetto-stdlib.md": "
+",
+  "perfetto-trace-analysis/SKILL.md": "---
+name: perfetto-trace-analysis
+description: |-
+  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file",
+  "perfetto-trace-analysis/references/hints_cpu.md": "
+",
+  "perfetto-trace-analysis/references/hints_graphics.md": "
+",
+  "perfetto-trace-analysis/references/hints_io.md": "
+",
+  "perfetto-trace-analysis/references/hints_ipc.md": "
+",
+  "perfetto-trace-analysis/references/hints_memory.md": "
+",
+  "perfetto-trace-analysis/references/hints_power.md": "
+",
+  "perfetto-trace-analysis/references/sql.md": "
+",
   "play-billing-library-version-upgrade/SKILL.md": "---
 name: play-billing-library-version-upgrade
 description: |-
@@ -753,6 +1292,8 @@ description: |-
 name: r8-analyzer
 description: |-
   Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when ",
+  "r8-analyzer/references/CONFIGURATION-ANALYZER.md": "
+",
   "r8-analyzer/references/CONFIGURATION.md": "
 ",
   "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md": "
@@ -761,15 +1302,71 @@ description: |-
 ",
   "r8-analyzer/references/REFLECTION-GUIDE.md": "
 ",
+  "r8-analyzer/references/REPORT_FORMAT.md": "
+",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md": "
 ",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md": "
+",
+  "styles/SKILL.md": "---
+name: styles
+description: |-
+  Use this skill to integrate the Jetpack Compose Styles API into an Android project. This skill guides you through upgrading dependencies, setting up component themes",
+  "styles/references/android/develop/ui/compose/designsystems/custom.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/fundamentals.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/state-animations.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md": "
+",
+  "styles/references/android/develop/ui/compose/styles/theming.md": "
+",
+  "testing-setup/SKILL.md": "---
+name: testing-setup
+description: |-
+  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md": "
+",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing.md": "
+",
+  "testing-setup/references/android/training/dependency-injection/hilt-testing.md": "
+",
+  "verified-email/SKILL.md": "---
+name: verified-email
+description: |-
+  Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less emai",
+  "verified-email/references/android/identity/credential-manager/index.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/credential-verifier.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/email-verification.md": "
+",
+  "verified-email/references/android/identity/digital-credentials/index.md": "
+",
+  "verified-email/references/android/identity/passkeys/create-passkeys.md": "
+",
+  "verified-email/references/android/identity/sign-in/credential-manager-webview.md": "
 ",
 }
 `;
 
 exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
 [
+  "adaptive/SKILL.md	12492B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/item-behavior.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/container-properties.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/get-started.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md	1B",
+  "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md	1B",
+  "adaptive/references/android/develop/ui/compose/tooling/debug.md	1B",
+  "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
   "agp-9-upgrade/SKILL.md	3340B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
@@ -777,47 +1374,78 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	8850B",
+  "android-cli/SKILL.md	10236B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
-  "camera1-to-camerax/SKILL.md	7866B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/SKILL.md	20908B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/check-capabilities.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/first-activity.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/behavior.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/ai-glasses/notifications/start-activity.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/button-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/card-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/icon-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/list-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/listitem-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/liststate-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stack-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/surface-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md	1B",
-  "display-ai-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md	1B",
+  "appfunctions/SKILL.md	3595B",
+  "appfunctions/references/adb-interaction-testing.md	1B",
+  "appfunctions/references/feature-discovery-analysis.md	1B",
+  "appfunctions/references/implementation-configuration.md	1B",
+  "appfunctions/references/kdoc-refinement-optimization.md	1B",
+  "camera1-to-camerax/SKILL.md	7555B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22191B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/cards.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/focus.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/icons.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/text.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/title-chips.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/button-samples-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/button-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/card-samples-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/card-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/icon-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/list-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/listitem-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/liststate-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/stack-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/surface-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md	1B",
   "edge-to-edge/SKILL.md	14272B",
+  "engage-sdk-integration/SKILL.md	8337B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/faq.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/food.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/healthandfitness.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/listen.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/otherverticals.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/read.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/shopping.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/social.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/travel.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/continue-watching/index.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/entitlements.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/getting-started.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/tv/recommendations.md	1B",
+  "engage-sdk-integration/references/android/guide/playcore/engage/watch.md	1B",
+  "engage-sdk-integration/references/clusters.md	1B",
+  "engage-sdk-integration/references/common.md	1B",
+  "engage-sdk-integration/references/patterns.md	1B",
+  "engage-sdk-integration/references/requests.md	1B",
+  "engage-sdk-integration/references/schemas/food.md	1B",
+  "engage-sdk-integration/references/schemas/listen.md	1B",
+  "engage-sdk-integration/references/schemas/other.md	1B",
+  "engage-sdk-integration/references/schemas/read.md	1B",
+  "engage-sdk-integration/references/schemas/shopping.md	1B",
+  "engage-sdk-integration/references/schemas/social.md	1B",
+  "engage-sdk-integration/references/schemas/travel.md	1B",
+  "engage-sdk-integration/references/schemas/tv.md	1B",
+  "engage-sdk-integration/references/schemas/watch.md	1B",
+  "jetpack-compose-m3/SKILL.md	12483B",
+  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
   "migrate-xml-views-to-jetpack-compose/SKILL.md	5241B",
   "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md	1B",
@@ -850,16 +1478,46 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md	1B",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md	1B",
+  "perfetto-sql/SKILL.md	10736B",
+  "perfetto-sql/references/perfetto-stdlib.md	1B",
+  "perfetto-trace-analysis/SKILL.md	6713B",
+  "perfetto-trace-analysis/references/hints_cpu.md	1B",
+  "perfetto-trace-analysis/references/hints_graphics.md	1B",
+  "perfetto-trace-analysis/references/hints_io.md	1B",
+  "perfetto-trace-analysis/references/hints_ipc.md	1B",
+  "perfetto-trace-analysis/references/hints_memory.md	1B",
+  "perfetto-trace-analysis/references/hints_power.md	1B",
+  "perfetto-trace-analysis/references/sql.md	1B",
   "play-billing-library-version-upgrade/SKILL.md	5465B",
   "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
-  "r8-analyzer/SKILL.md	3503B",
+  "r8-analyzer/SKILL.md	3485B",
+  "r8-analyzer/references/CONFIGURATION-ANALYZER.md	1B",
   "r8-analyzer/references/CONFIGURATION.md	1B",
   "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md	1B",
   "r8-analyzer/references/REDUNDANT-RULES.md	1B",
   "r8-analyzer/references/REFLECTION-GUIDE.md	1B",
+  "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
+  "styles/SKILL.md	8480B",
+  "styles/references/android/develop/ui/compose/designsystems/custom.md	1B",
+  "styles/references/android/develop/ui/compose/styles/fundamentals.md	1B",
+  "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
+  "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md	1B",
+  "styles/references/android/develop/ui/compose/styles/theming.md	1B",
+  "testing-setup/SKILL.md	9048B",
+  "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
+  "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
+  "verified-email/SKILL.md	18235B",
+  "verified-email/references/android/identity/credential-manager/index.md	1B",
+  "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
+  "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
+  "verified-email/references/android/identity/digital-credentials/email-verification.md	1B",
+  "verified-email/references/android/identity/digital-credentials/index.md	1B",
+  "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
+  "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
 ]
 `;

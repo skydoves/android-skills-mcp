@@ -49,7 +49,7 @@ npx android-skills-pack install --target all
 
 Google's [`android/skills`](https://github.com/android/skills) is the canonical source of step by step guidance for Android tasks (XML to Compose migration, AGP 9 upgrade, R8 keep rule analysis, edge to edge, Navigation 3, Play Billing, and more). It follows the open [agentskills.io](https://agentskills.io) standard and is the closest thing Android has to authoritative AI guidance.
 
-The challenge is delivery. The repository ships markdown files, not configuration for any specific tool. To use a skill in Claude Code you copy it into `.claude/skills/`. For Cursor, you reformat it as a `.mdc` file. For Copilot, you wrap it in `.github/instructions/`. Each tool has a slightly different layout, frontmatter shape, and scoping model. Multiply that by seven tools and nine skills and you have sixty three manual transformations to keep in sync.
+The challenge is delivery. The repository ships markdown files, not configuration for any specific tool. To use a skill in Claude Code you copy it into `.claude/skills/`. For Cursor, you reformat it as a `.mdc` file. For Copilot, you wrap it in `.github/instructions/`. Each tool has a slightly different layout, frontmatter shape, and scoping model. Multiply that by seven tools and eighteen skills and you have a hundred and twenty six manual transformations to keep in sync.
 
 Android Skills MCP closes this gap. The MCP server keeps the model itself in the loop: when you ask an Android question, the model searches the catalog and pulls the right skill. The packager CLI handles the static file path: one command per tool generates the right layout, the right frontmatter, and the right scoping rules.
 
