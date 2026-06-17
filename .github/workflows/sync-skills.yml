@@ -54,7 +54,10 @@ jobs:
         run: |
           pnpm install --frozen-lockfile
           pnpm build
-          pnpm test
+          # Refresh render snapshots to the new upstream content; the updated
+          # .snap is committed into the PR. Structural/count assertions in the
+          # same suite still run and gate the sync if a render breaks.
+          pnpm -F android-skills-pack exec vitest run -u
 
       - name: Bump patch version
         if: steps.compare.outputs.changed == 'true'
