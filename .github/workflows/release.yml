@@ -17,8 +17,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Clone android/skills
-        run: git clone --depth=1 https://github.com/android/skills.git skills
+      - name: Clone android/skills (pinned to .skills-commit)
+        # Build and publish against the exact upstream revision this release was
+        # cut from, so the packaged skills and snapshot tests are reproducible.
+        run: |
+          SHA=$(cat .skills-commit)
+          git init -q skills
+          git -C skills remote add origin https://github.com/android/skills.git
+          git -C skills fetch -q --depth=1 origin "$SHA"
+          git -C skills checkout -q --detach FETCH_HEAD
 
       - uses: pnpm/action-setup@v4
 

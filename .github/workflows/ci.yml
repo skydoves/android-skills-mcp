@@ -13,8 +13,18 @@ jobs:
         node: ['20', '22']
     steps:
       - uses: actions/checkout@v4
-      - name: Clone android/skills
-        run: git clone --depth=1 https://github.com/android/skills.git skills
+      - name: Clone android/skills (pinned to .skills-commit)
+        # Pin to the exact upstream revision this repo was last synced to, so
+        # CI tests against the same content the committed snapshots were
+        # generated from. Cloning latest HEAD would break snapshots whenever
+        # upstream drifts between syncs. The sync workflow advances
+        # .skills-commit and regenerates snapshots together.
+        run: |
+          SHA=$(cat .skills-commit)
+          git init -q skills
+          git -C skills remote add origin https://github.com/android/skills.git
+          git -C skills fetch -q --depth=1 origin "$SHA"
+          git -C skills checkout -q --detach FETCH_HEAD
       # Reads the pnpm version from package.json `packageManager`, no `version` needed.
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
