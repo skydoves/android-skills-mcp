@@ -19,7 +19,7 @@ _Instructions to make or update an app's UI so that it ",
 
 exports[`target 'aider' > output paths and sizes match snapshot 1`] = `
 [
-  "CONVENTIONS.md	175592B",
+  "CONVENTIONS.md	175921B",
 ]
 `;
 
@@ -70,7 +70,7 @@ description: |-
   "android-cli/SKILL.md": "---
 name: android-cli
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
   "android-cli/references/interact.md": "
 ",
   "android-cli/references/journeys.md": "
@@ -413,7 +413,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	10390B",
+  "android-cli/SKILL.md	10654B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
   "appfunctions/SKILL.md	3748B",
@@ -483,7 +483,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "engage-sdk-integration/references/schemas/travel.md	1B",
   "engage-sdk-integration/references/schemas/tv.md	1B",
   "engage-sdk-integration/references/schemas/watch.md	1B",
-  "jetpack-compose-m3/SKILL.md	12684B",
+  "jetpack-compose-m3/SKILL.md	12749B",
   "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
   "migrate-xml-views-to-jetpack-compose/SKILL.md	5444B",
   "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
@@ -527,7 +527,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "perfetto-trace-analysis/references/hints_memory.md	1B",
   "perfetto-trace-analysis/references/hints_power.md	1B",
   "perfetto-trace-analysis/references/sql.md	1B",
-  "play-billing-library-version-upgrade/SKILL.md	5673B",
+  "play-billing-library-version-upgrade/SKILL.md	5674B",
   "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
@@ -550,7 +550,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	18524B",
+  "verified-email/SKILL.md	18523B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
@@ -574,7 +574,7 @@ description: |-
   "android-cli.md": "---
 name: android-cli
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
   "appfunctions.md": "---
 name: appfunctions
 description: |-
@@ -642,22 +642,22 @@ exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
 [
   "adaptive.md	13398B",
   "agp-9-upgrade.md	3604B",
-  "android-cli.md	10302B",
+  "android-cli.md	10566B",
   "appfunctions.md	3792B",
   "camera1-to-camerax.md	7535B",
   "display-glasses-with-jetpack-compose-glimmer.md	23807B",
   "edge-to-edge.md	14252B",
   "engage-sdk-integration.md	9629B",
-  "jetpack-compose-m3.md	12567B",
+  "jetpack-compose-m3.md	12632B",
   "migrate-xml-views-to-jetpack-compose.md	5761B",
   "navigation-3.md	7466B",
   "perfetto-sql.md	10780B",
   "perfetto-trace-analysis.md	6934B",
-  "play-billing-library-version-upgrade.md	5609B",
+  "play-billing-library-version-upgrade.md	5610B",
   "r8-analyzer.md	3887B",
   "styles.md	8830B",
   "testing-setup.md	9268B",
-  "verified-email.md	18746B",
+  "verified-email.md	18745B",
 ]
 `;
 
@@ -755,9 +755,9 @@ applyTo: "**"
 # jetpack-compose-m3
 
 
-## Prerequisites \\& Compatibility
+## Prerequisites and compatibility
 
-1. **Wear OS Compose Material3 version:** If an internal tool is available to establish the **latest stable version** \`",
+1. **Wear OS Compose Material3 version:** If an internal tool is available to establish the **latest stable version** ",
   "migrate-xml-views-to-jetpack-compose.instructions.md": "---
 applyTo: "**"
 ---
@@ -865,16 +865,16 @@ exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
   "display-glasses-with-jetpack-compose-glimmer.instructions.md	23327B",
   "edge-to-edge.instructions.md	13924B",
   "engage-sdk-integration.instructions.md	9389B",
-  "jetpack-compose-m3.instructions.md	12111B",
+  "jetpack-compose-m3.instructions.md	12176B",
   "migrate-xml-views-to-jetpack-compose.instructions.md	5270B",
   "navigation-3.instructions.md	7058B",
   "perfetto-sql.instructions.md	10513B",
   "perfetto-trace-analysis.instructions.md	6666B",
-  "play-billing-library-version-upgrade.instructions.md	5426B",
+  "play-billing-library-version-upgrade.instructions.md	5427B",
   "r8-analyzer.instructions.md	3569B",
   "styles.instructions.md	8392B",
   "testing-setup.instructions.md	9040B",
-  "verified-email.instructions.md	18368B",
+  "verified-email.instructions.md	18367B",
 ]
 `;
 
@@ -889,8 +889,7 @@ description: |-
 alwaysApply: fals",
   "android-cli.mdc": "---
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool.
-alwaysApply: fal",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you create new Android proj",
   "appfunctions.mdc": "---
 description: |-
   Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered message, voice command",
@@ -945,22 +944,22 @@ exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
 [
   "adaptive.mdc	13383B",
   "agp-9-upgrade.mdc	3584B",
-  "android-cli.mdc	10284B",
+  "android-cli.mdc	10548B",
   "appfunctions.mdc	3773B",
   "camera1-to-camerax.mdc	7510B",
   "display-glasses-with-jetpack-compose-glimmer.mdc	23756B",
   "edge-to-edge.mdc	14233B",
   "engage-sdk-integration.mdc	9600B",
-  "jetpack-compose-m3.mdc	12542B",
+  "jetpack-compose-m3.mdc	12607B",
   "migrate-xml-views-to-jetpack-compose.mdc	5718B",
   "navigation-3.mdc	7447B",
   "perfetto-sql.mdc	10761B",
   "perfetto-trace-analysis.mdc	6904B",
-  "play-billing-library-version-upgrade.mdc	5566B",
+  "play-billing-library-version-upgrade.mdc	5567B",
   "r8-analyzer.mdc	3869B",
   "styles.mdc	8817B",
   "testing-setup.mdc	9248B",
-  "verified-email.mdc	18725B",
+  "verified-email.mdc	18724B",
 ]
 `;
 
@@ -980,7 +979,7 @@ _Instructions to make or upd",
 
 exports[`target 'gemini' > output paths and sizes match snapshot 1`] = `
 [
-  "styleguide.md	175619B",
+  "styleguide.md	175948B",
 ]
 `;
 
@@ -1031,7 +1030,7 @@ description: |-
   "android-cli/SKILL.md": "---
 name: android-cli
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
   "android-cli/references/interact.md": "
 ",
   "android-cli/references/journeys.md": "
@@ -1374,7 +1373,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	10236B",
+  "android-cli/SKILL.md	10500B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
   "appfunctions/SKILL.md	3595B",
@@ -1444,7 +1443,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "engage-sdk-integration/references/schemas/travel.md	1B",
   "engage-sdk-integration/references/schemas/tv.md	1B",
   "engage-sdk-integration/references/schemas/watch.md	1B",
-  "jetpack-compose-m3/SKILL.md	12483B",
+  "jetpack-compose-m3/SKILL.md	12548B",
   "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
   "migrate-xml-views-to-jetpack-compose/SKILL.md	5241B",
   "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
@@ -1488,7 +1487,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "perfetto-trace-analysis/references/hints_memory.md	1B",
   "perfetto-trace-analysis/references/hints_power.md	1B",
   "perfetto-trace-analysis/references/sql.md	1B",
-  "play-billing-library-version-upgrade/SKILL.md	5465B",
+  "play-billing-library-version-upgrade/SKILL.md	5466B",
   "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
@@ -1511,7 +1510,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	18235B",
+  "verified-email/SKILL.md	18234B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
