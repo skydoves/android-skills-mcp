@@ -32,6 +32,9 @@ function asJsonContent(value: unknown) {
 }
 
 function registerListSkills(server: McpServer, skills: Skill[]): void {
+  // Enumerated from the loaded snapshot rather than hardcoded: upstream renames and
+  // adds category folders between syncs, and a stale example list misleads the client.
+  const categories = [...new Set(skills.map((s) => s.category))].sort();
   server.registerTool(
     'list_skills',
     {
@@ -42,9 +45,7 @@ function registerListSkills(server: McpServer, skills: Skill[]): void {
         category: z
           .string()
           .optional()
-          .describe(
-            'Filter by category folder (e.g. "build", "jetpack-compose", "navigation", "performance", "play", "system").',
-          ),
+          .describe(`Filter by category folder. One of: ${categories.join(', ')}.`),
         limit: z
           .number()
           .int()

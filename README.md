@@ -94,7 +94,7 @@ android-mcp/
 │   ├── core/   @android-skills/core   parser, schema, search index
 │   ├── mcp/    android-skills-mcp     MCP server (stdio)
 │   └── pack/   android-skills-pack    packager CLI
-├── scripts/    sync-skills.mjs, build-skills-index.mjs
+├── scripts/    sync-skills.mjs, build-skills-index.mjs, build-skills-catalog.mjs
 └── skills/     upstream android/skills clone (gitignored)
 ```
 

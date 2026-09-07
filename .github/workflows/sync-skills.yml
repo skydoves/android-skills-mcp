@@ -54,10 +54,18 @@ jobs:
         run: |
           pnpm install --frozen-lockfile
           pnpm build
-          # Refresh render snapshots to the new upstream content; the updated
-          # .snap is committed into the PR. Structural/count assertions in the
-          # same suite still run and gate the sync if a render breaks.
-          pnpm -F android-skills-pack exec vitest run -u
+          # Refresh committed render snapshots across every package to the new
+          # upstream content; the updated .snap files ride along in the PR. The
+          # rest of each suite still gates the sync — those assertions derive
+          # their expectations from the checkout, so only a real regression
+          # fails here, never a skill upstream added or renamed.
+          pnpm -r --filter './packages/*' exec vitest run -u
+          pnpm typecheck
+          pnpm lint
+
+      - name: Regenerate skill catalog docs
+        if: steps.compare.outputs.changed == 'true'
+        run: pnpm docs:catalog
 
       - name: Bump patch version
         if: steps.compare.outputs.changed == 'true'
@@ -66,6 +74,9 @@ jobs:
           cd packages/mcp && npm version patch --no-git-tag-version
           cd ../pack && npm version patch --no-git-tag-version
           cd ../..
+          # npm version re-prints package.json with expanded arrays, which biome
+          # reformats back. Normalize here or `pnpm lint` fails on the opened PR.
+          pnpm exec biome format --write packages/mcp/package.json packages/pack/package.json
           VERSION=$(node -p "require('./packages/mcp/package.json').version")
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
@@ -88,6 +99,7 @@ jobs:
 
             This PR:
             - Updates `.skills-commit` to the new upstream SHA
+            - Refreshes the render snapshots and `docs/skills-catalog.md`
             - Bumps both packages to `${{ steps.version.outputs.version }}`
 
             Tests pass on this branch. Merge then tag `v${{ steps.version.outputs.version }}` to publish.

@@ -1,5 +1,6 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { type Skill, loadSkills } from '@android-skills/core';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js';
 import { beforeAll, describe, expect, it } from 'vitest';
@@ -24,28 +25,35 @@ function parseTextResult(result: { content: { type: string; text?: string }[] })
 
 describe('android-skills-mcp server (in-memory)', () => {
   let client: Client;
+  // The expected roster comes from the same upstream checkout the server reads,
+  // so a sync that adds or drops skills upstream cannot fail this suite.
+  let skills: Skill[];
   beforeAll(async () => {
     ({ client } = await makeClient());
+    skills = await loadSkills(SKILLS_DIR);
   });
 
-  it('list_skills returns all 18 skills', async () => {
+  it('list_skills returns every skill in the checkout', async () => {
     const result = await client.callTool({ name: 'list_skills', arguments: {} });
     const items = parseTextResult(result as never) as { name: string }[];
-    expect(items).toHaveLength(18);
-    const names = items.map((s) => s.name).sort();
-    expect(names).toContain('edge-to-edge');
-    expect(names).toContain('navigation-3');
+    expect(items.map((s) => s.name).sort()).toEqual(skills.map((s) => s.name).sort());
+    expect(items.length).toBeGreaterThan(0);
   });
 
   it('list_skills filters by category', async () => {
+    const [category] = [...new Set(skills.map((s) => s.category))].sort();
+    const expected = skills
+      .filter((s) => s.category === category)
+      .map((s) => s.name)
+      .sort();
     const result = await client.callTool({
       name: 'list_skills',
-      arguments: { category: 'system' },
+      arguments: { category },
     });
     const items = parseTextResult(result as never) as { name: string; category: string }[];
-    expect(items).toHaveLength(1);
-    expect(items[0]?.name).toBe('edge-to-edge');
-    expect(items[0]?.category).toBe('system');
+    expect(expected.length).toBeGreaterThan(0);
+    expect(items.map((s) => s.name).sort()).toEqual(expected);
+    for (const item of items) expect(item.category).toBe(category);
   });
 
   it('search_skills ranks "xml to compose" with the migration skill first', async () => {
@@ -96,9 +104,9 @@ describe('android-skills-mcp server (in-memory)', () => {
     expect(result.content[0]?.text).toContain('Unknown skill');
   });
 
-  it('lists 18 skill resources', async () => {
+  it('lists one resource per skill', async () => {
     const result = await client.listResources();
-    expect(result.resources.length).toBe(18);
+    expect(result.resources.length).toBe(skills.length);
     const uris = result.resources.map((r) => r.uri).sort();
     expect(uris).toContain('skill://edge-to-edge');
   });

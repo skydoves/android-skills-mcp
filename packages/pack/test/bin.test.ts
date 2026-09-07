@@ -3,11 +3,19 @@ import { existsSync, mkdtempSync, readdirSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { describe, expect, it } from 'vitest';
+import { loadSkills } from '@android-skills/core';
+import { beforeAll, describe, expect, it } from 'vitest';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const BIN = resolve(__dirname, '../dist/bin.js');
 const SKILLS_DIR = resolve(__dirname, '../../../skills');
+
+// Counted from the upstream checkout instead of hardcoded: the roster changes on
+// every sync, and a literal here blocks the sync job before it opens its PR.
+let skillCount: number;
+beforeAll(async () => {
+  skillCount = (await loadSkills(SKILLS_DIR)).length;
+});
 
 function run(...args: string[]): string {
   return execFileSync('node', [BIN, ...args, '--skills-dir', SKILLS_DIR], {
@@ -16,20 +24,20 @@ function run(...args: string[]): string {
 }
 
 describe.skipIf(!existsSync(BIN))('bin (built)', () => {
-  it('list shows all 18 skills and 7 targets', () => {
+  it('list shows every skill and all 7 targets', () => {
     const out = run('list');
-    expect(out).toContain('Skills (18):');
+    expect(out).toContain(`Skills (${skillCount}):`);
     expect(out).toContain('Targets (7):');
     expect(out).toContain('agp-9-upgrade');
     expect(out).toContain('cursor');
   });
 
-  it('install --target cursor writes 18 .mdc files', () => {
+  it('install --target cursor writes one .mdc per skill', () => {
     const tmp = mkdtempSync(join(tmpdir(), 'pack-bin-'));
     try {
       run('install', '--target', 'cursor', '--cwd', tmp);
       const files = readdirSync(join(tmp, '.cursor', 'rules'));
-      expect(files.filter((f) => f.endsWith('.mdc'))).toHaveLength(18);
+      expect(files.filter((f) => f.endsWith('.mdc'))).toHaveLength(skillCount);
     } finally {
       rmSync(tmp, { recursive: true, force: true });
     }
