@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -31,7 +31,7 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
@@ -823,10 +823,10 @@
 </code></pre></div>
 <p>For Cursor, add an entry to <code>.cursor/mcp.json</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;android-skills&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;android-skills-mcp&quot;</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"android-skills"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"android-skills-mcp"</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -838,7 +838,7 @@ npx<span class="w"> </span>android-skills-pack<span class="w"> </span>install<sp
 </code></pre></div>
 <h2 id="why-use-this">Why Use This?<a class="headerlink" href="#why-use-this" title="Permanent link">&para;</a></h2>
 <p>Google's <a href="https://github.com/android/skills"><code>android/skills</code></a> is the canonical source of step by step guidance for Android tasks (XML to Compose migration, AGP 9 upgrade, R8 keep rule analysis, edge to edge, Navigation 3, Play Billing, and more). It follows the open <a href="https://agentskills.io">agentskills.io</a> standard and is the closest thing Android has to authoritative AI guidance.</p>
-<p>The challenge is delivery. The repository ships markdown files, not configuration for any specific tool. To use a skill in Claude Code you copy it into <code>.claude/skills/</code>. For Cursor, you reformat it as a <code>.mdc</code> file. For Copilot, you wrap it in <code>.github/instructions/</code>. Each tool has a slightly different layout, frontmatter shape, and scoping model. Multiply that by seven tools and eighteen skills and you have a hundred and twenty six manual transformations to keep in sync.</p>
+<p>The challenge is delivery. The repository ships markdown files, not configuration for any specific tool. To use a skill in Claude Code you copy it into <code>.claude/skills/</code>. For Cursor, you reformat it as a <code>.mdc</code> file. For Copilot, you wrap it in <code>.github/instructions/</code>. Each tool has a slightly different layout, frontmatter shape, and scoping model. Multiply that by seven tools and every skill upstream ships and you have hundreds of manual transformations to keep in sync.</p>
 <p>Android Skills MCP closes this gap. The MCP server keeps the model itself in the loop: when you ask an Android question, the model searches the catalog and pulls the right skill. The packager CLI handles the static file path: one command per tool generates the right layout, the right frontmatter, and the right scoping rules.</p>
 <h2 id="whats-inside">What's Inside<a class="headerlink" href="#whats-inside" title="Permanent link">&para;</a></h2>
 <table>
@@ -945,7 +945,7 @@ npx<span class="w"> </span>android-skills-pack<span class="w"> </span>install<sp
       <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.tabs.link", "content.code.copy", "content.code.annotate", "navigation.sections", "navigation.expand", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

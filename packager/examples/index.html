@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -33,7 +33,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -769,7 +769,7 @@
 git<span class="w"> </span>init
 npx<span class="w"> </span>android-skills-pack<span class="w"> </span>install<span class="w"> </span>--target<span class="w"> </span>all
 git<span class="w"> </span>add<span class="w"> </span>.claude<span class="w"> </span>.cursor<span class="w"> </span>.github<span class="w"> </span>.gemini<span class="w"> </span>.junie<span class="w"> </span>.continue<span class="w"> </span>CONVENTIONS.md
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;chore: install android-skills rules for every supported AI tool&quot;</span>
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"chore: install android-skills rules for every supported AI tool"</span>
 </code></pre></div>
 <p>After this, anyone on the team using any of the seven supported tools gets the same Google curated guidance.</p>
 <h2 id="pin-a-single-tool">Pin a single tool<a class="headerlink" href="#pin-a-single-tool" title="Permanent link">&para;</a></h2>
@@ -789,7 +789,7 @@ npx<span class="w"> </span>android-skills-pack<span class="w"> </span>install<sp
 
 <span class="nt">on</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">schedule</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;0</span><span class="nv"> </span><span class="s">9</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1&#39;</span><span class="w">  </span><span class="c1"># Mondays at 09:00 UTC</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s">'0</span><span class="nv"> </span><span class="s">9</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1'</span><span class="w">  </span><span class="c1"># Mondays at 09:00 UTC</span>
 <span class="w">  </span><span class="nt">workflow_dispatch</span><span class="p">:</span>
 
 <span class="nt">jobs</span><span class="p">:</span>
@@ -798,13 +798,13 @@ npx<span class="w"> </span>android-skills-pack<span class="w"> </span>install<sp
 <span class="w">    </span><span class="nt">steps</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v4</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/setup-node@v4</span>
-<span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> node-version</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;20&#39;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> node-version</span><span class="p">:</span><span class="w"> </span><span class="s">'20'</span><span class="w"> </span><span class="p p-Indicator">}</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npx -y android-skills-pack@latest install --target cursor --force</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">peter-evans/create-pull-request@v6</span>
 <span class="w">        </span><span class="nt">with</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">commit-message</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;chore:</span><span class="nv"> </span><span class="s">sync</span><span class="nv"> </span><span class="s">android-skills&#39;</span>
+<span class="w">          </span><span class="nt">commit-message</span><span class="p">:</span><span class="w"> </span><span class="s">'chore:</span><span class="nv"> </span><span class="s">sync</span><span class="nv"> </span><span class="s">android-skills'</span>
 <span class="w">          </span><span class="nt">branch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">chore/sync-android-skills</span>
-<span class="w">          </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;Sync</span><span class="nv"> </span><span class="s">android-skills&#39;</span>
+<span class="w">          </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">'Sync</span><span class="nv"> </span><span class="s">android-skills'</span>
 </code></pre></div>
 <h2 id="use-a-fork-or-internal-catalog">Use a fork or internal catalog<a class="headerlink" href="#use-a-fork-or-internal-catalog" title="Permanent link">&para;</a></h2>
 <p>Fork <code>android/skills</code> to add company specific skills, then point the packager at your fork:</p>
@@ -875,7 +875,7 @@ npx<span class="w"> </span>android-skills-pack<span class="w"> </span>install<sp
       <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tabs.link", "content.code.copy", "content.code.annotate", "navigation.sections", "navigation.expand", "toc.integrate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

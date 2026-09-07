@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -33,7 +33,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -780,7 +780,7 @@
 <span class="w">  </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="kt">z.string</span><span class="p">().</span><span class="nx">min</span><span class="p">(</span><span class="mf">1</span><span class="p">).</span><span class="nx">max</span><span class="p">(</span><span class="mf">1024</span><span class="p">),</span>
 <span class="w">  </span><span class="nx">license</span><span class="o">:</span><span class="w"> </span><span class="kt">z.string</span><span class="p">().</span><span class="nx">optional</span><span class="p">(),</span>
 <span class="w">  </span><span class="nx">compatibility</span><span class="o">:</span><span class="w"> </span><span class="kt">z.string</span><span class="p">().</span><span class="nx">max</span><span class="p">(</span><span class="mf">500</span><span class="p">).</span><span class="nx">optional</span><span class="p">(),</span>
-<span class="w">  </span><span class="s1">&#39;allowed-tools&#39;</span><span class="o">:</span><span class="w"> </span><span class="nx">z</span><span class="p">.</span><span class="kt">string</span><span class="p">().</span><span class="nx">optional</span><span class="p">(),</span>
+<span class="w">  </span><span class="s1">'allowed-tools'</span><span class="o">:</span><span class="w"> </span><span class="nx">z</span><span class="p">.</span><span class="kt">string</span><span class="p">().</span><span class="nx">optional</span><span class="p">(),</span>
 <span class="w">  </span><span class="nx">metadata</span><span class="o">:</span><span class="w"> </span><span class="kt">z.object</span><span class="p">({</span>
 <span class="w">    </span><span class="nx">author</span><span class="o">:</span><span class="w"> </span><span class="kt">z.string</span><span class="p">().</span><span class="nx">optional</span><span class="p">(),</span>
 <span class="w">    </span><span class="nx">version</span><span class="o">:</span><span class="w"> </span><span class="kt">z.string</span><span class="p">().</span><span class="nx">optional</span><span class="p">(),</span>
@@ -822,7 +822,7 @@
 </tr>
 </tbody>
 </table>
-<p>BM25 ranks results. Prefix matching and 20% fuzzy matching are enabled, so partial words and minor typos still match. The index is built once at server startup and held in memory. With eighteen skills and a few hundred terms, the build takes around 15 ms.</p>
+<p>BM25 ranks results. Prefix matching and 20% fuzzy matching are enabled, so partial words and minor typos still match. The index is built once at server startup and held in memory. With the bundled skill set and a few hundred terms, the build takes around 15 ms.</p>
 <p>The choice of BM25 over embedding based search is deliberate. The catalog is small, the keywords are curated, and the queries are short. BM25 produces better top hits in this regime than dense embeddings, with no model download, no warm up, and no native deps. If the catalog grows past a few hundred skills or if telemetry shows that BM25 misses real queries, embeddings would be a justified upgrade.</p>
 <h2 id="how-the-mcp-server-bundles-skills">How the MCP server bundles skills<a class="headerlink" href="#how-the-mcp-server-bundles-skills" title="Permanent link">&para;</a></h2>
 <p>When you <code>pnpm build</code> the MCP package, two things happen. First, <code>tsup</code> bundles the TypeScript sources into <code>dist/index.js</code> and <code>dist/bin.js</code>. Second, the build script walks the cloned <code>skills/</code> directory, parses every <code>SKILL.md</code> via <code>@android-skills/core</code>, inlines every reference content, strips absolute paths, and writes the result to <code>dist/skills.json</code>.</p>
@@ -924,7 +924,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.tabs.link", "content.code.copy", "content.code.annotate", "navigation.sections", "navigation.expand", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
