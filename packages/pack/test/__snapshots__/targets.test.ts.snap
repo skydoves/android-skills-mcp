@@ -19,7 +19,7 @@ _Instructions to make or update an app's UI so that it ",
 
 exports[`target 'aider' > output paths and sizes match snapshot 1`] = `
 [
-  "CONVENTIONS.md	175592B",
+  "CONVENTIONS.md	316910B",
 ]
 `;
 
@@ -70,10 +70,20 @@ description: |-
   "android-cli/SKILL.md": "---
 name: android-cli
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
   "android-cli/references/interact.md": "
 ",
   "android-cli/references/journeys.md": "
+",
+  "android-intent-security/SKILL.md": "---
+name: android-intent-security
+description: |-
+  Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-profiler/SKILL.md": "---
+name: android-profiler
+description: |-
+  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap",
+  "android-profiler/references/env_setup.md": "
 ",
   "appfunctions/SKILL.md": "---
 name: appfunctions
@@ -81,16 +91,44 @@ description: |-
   Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered mes",
   "appfunctions/references/adb-interaction-testing.md": "
 ",
+  "appfunctions/references/context.md": "
+",
   "appfunctions/references/feature-discovery-analysis.md": "
 ",
   "appfunctions/references/implementation-configuration.md": "
 ",
   "appfunctions/references/kdoc-refinement-optimization.md": "
 ",
-  "camera1-to-camerax/SKILL.md": "---
-name: camera1-to-camerax
+  "appfunctions/references/migrate-to-service-entry-point.md": "
+",
+  "camerax/SKILL.md": "---
+name: camerax
 description: |-
-  Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library bu",
+  Provide technical guidance for Android camera development with CameraX. Use when implementing camera features, handling asynchronous recording lifecycles, wiring lo",
+  "camerax/references/camera1-to-camerax.md": "
+",
+  "camerax/references/camera2-to-camerax.md": "
+",
+  "camerax/references/expert-blueprints.md": "
+",
+  "camerax/references/foldables.md": "
+",
+  "camerax/references/immutability.md": "
+",
+  "camerax/references/low-light.md": "
+",
+  "camerax/references/mlkit-spatial.md": "
+",
+  "camerax/references/modern-apis.md": "
+",
+  "camerax/references/testing.md": "
+",
+  "camerax/references/thermals.md": "
+",
+  "camerax/references/wear-os.md": "
+",
+  "camerax/references/xr.md": "
+",
   "display-glasses-with-jetpack-compose-glimmer/SKILL.md": "---
 name: display-glasses-with-jetpack-compose-glimmer
 description: |-
@@ -219,11 +257,27 @@ description: |-
 ",
   "engage-sdk-integration/references/schemas/watch.md": "
 ",
-  "jetpack-compose-m3/SKILL.md": "---
-name: jetpack-compose-m3
+  "engage-sdk-integration/references/troubleshooting.md": "
+",
+  "leanback-to-compose-tv-migration/SKILL.md": "---
+name: leanback-to-compose-tv-migration
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the andro",
-  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
+  Provides instructions and architectural patterns for migrating Android TV applications from legacy Leanback UI Toolkit, Android Views, or S",
+  "leanback-to-compose-tv-migration/references/android/training/tv/get-started/navigation.md": "
+",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md": "
+",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md": "
+",
+  "media3-cast-integration/SKILL.md": "---
+name: media3-cast-integration
+description: |-
+  Implements Google Cast support in Android apps using Jetpack Media3. Handles adding build dependencies, updating manifest, configuring OptionsProvid",
+  "media3-cast-integration/references/android/media/media3/cast/create-castplayer.md": "
+",
+  "media3-cast-integration/references/android/media/media3/cast/customize-castoptions.md": "
+",
+  "media3-cast-integration/references/android/media/media3/cast/index.md": "
 ",
   "migrate-xml-views-to-jetpack-compose/SKILL.md": "---
 name: migrate-xml-views-to-jetpack-compose
@@ -243,6 +297,10 @@ description: |-
 ",
   "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md": "
 ",
+  "ml-kit-genai-prompt-api/SKILL.md": "---
+name: ml-kit-genai-prompt-api
+description: |-
+  Analyzes Android codebases to implement ML Kit GenAI Prompt API. Use this skill to send natural language requests on-device to Gemini Nano, use stru",
   "navigation-3/SKILL.md": "---
 name: navigation-3
 description: |-
@@ -263,13 +321,21 @@ description: |-
 ",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md": "
 ",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional-transitions.md": "
+",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md": "
 ",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md": "
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-custommatcher.md": "
 ",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md": "
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-staticuri.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-syntheticbackstack.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-uriarguments.md": "
 ",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/lifecycle-owner.md": "
 ",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
 ",
@@ -293,29 +359,17 @@ description: |-
 ",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md": "
 ",
-  "perfetto-sql/SKILL.md": "---
-name: perfetto-sql
+  "navigation-event/SKILL.md": "---
+name: navigation-event
 description: |-
-  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract ",
-  "perfetto-sql/references/perfetto-stdlib.md": "
+  Intercept back gestures and run Predictive Back animations using the NavigationEvent (androidx.navigationevent) library in Compose Android. Handles Activit",
+  "navigation-event/references/android/guide/navigation/navigation-event/dispatcher.md": "
 ",
-  "perfetto-trace-analysis/SKILL.md": "---
-name: perfetto-trace-analysis
-description: |-
-  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file",
-  "perfetto-trace-analysis/references/hints_cpu.md": "
+  "navigation-event/references/android/guide/navigation/navigation-event/handle-back.md": "
 ",
-  "perfetto-trace-analysis/references/hints_graphics.md": "
+  "navigation-event/references/android/guide/navigation/navigation-event/index.md": "
 ",
-  "perfetto-trace-analysis/references/hints_io.md": "
-",
-  "perfetto-trace-analysis/references/hints_ipc.md": "
-",
-  "perfetto-trace-analysis/references/hints_memory.md": "
-",
-  "perfetto-trace-analysis/references/hints_power.md": "
-",
-  "perfetto-trace-analysis/references/sql.md": "
+  "navigation-event/references/android/guide/navigation/navigation-event/setup.md": "
 ",
   "play-billing-library-version-upgrade/SKILL.md": "---
 name: play-billing-library-version-upgrade
@@ -327,6 +381,10 @@ description: |-
 ",
   "play-billing-library-version-upgrade/references/version-checklist.md": "
 ",
+  "play-policy-insights/SKILL.md": "---
+name: play-policy-insights
+description: |-
+  Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store ",
   "r8-analyzer/SKILL.md": "---
 name: r8-analyzer
 description: |-
@@ -346,6 +404,16 @@ description: |-
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md": "
 ",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md": "
+",
+  "restore-credentials/SKILL.md": "---
+name: restore-credentials
+description: |-
+  Provides knowledge and workflows to implement Android's Restore Credentials feature using the androidx.credentials library. Use this skill to create, si",
+  "restore-credentials/references/android/guide/topics/manifest/application-element.md": "
+",
+  "restore-credentials/references/android/identity/passkeys/create-passkeys.md": "
+",
+  "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md": "
 ",
   "styles/SKILL.md": "---
 name: styles
@@ -389,12 +457,122 @@ description: |-
 ",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md": "
 ",
+  "wear-compose-m3/SKILL.md": "---
+name: wear-compose-m3
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
+",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/CardSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PickerSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SliderSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/StepperSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt": "
+",
 }
 `;
 
 exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive/SKILL.md	12661B",
+  "adaptive/SKILL.md	12591B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
@@ -413,16 +591,33 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	10390B",
+  "android-cli/SKILL.md	14731B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
-  "appfunctions/SKILL.md	3748B",
+  "android-intent-security/SKILL.md	23241B",
+  "android-profiler/SKILL.md	1968B",
+  "android-profiler/references/env_setup.md	1B",
+  "appfunctions/SKILL.md	4629B",
   "appfunctions/references/adb-interaction-testing.md	1B",
+  "appfunctions/references/context.md	1B",
   "appfunctions/references/feature-discovery-analysis.md	1B",
   "appfunctions/references/implementation-configuration.md	1B",
   "appfunctions/references/kdoc-refinement-optimization.md	1B",
-  "camera1-to-camerax/SKILL.md	7774B",
-  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22443B",
+  "appfunctions/references/migrate-to-service-entry-point.md	1B",
+  "camerax/SKILL.md	6432B",
+  "camerax/references/camera1-to-camerax.md	1B",
+  "camerax/references/camera2-to-camerax.md	1B",
+  "camerax/references/expert-blueprints.md	1B",
+  "camerax/references/foldables.md	1B",
+  "camerax/references/immutability.md	1B",
+  "camerax/references/low-light.md	1B",
+  "camerax/references/mlkit-spatial.md	1B",
+  "camerax/references/modern-apis.md	1B",
+  "camerax/references/testing.md	1B",
+  "camerax/references/thermals.md	1B",
+  "camerax/references/wear-os.md	1B",
+  "camerax/references/xr.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22454B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
@@ -454,8 +649,8 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "display-glasses-with-jetpack-compose-glimmer/references/surface-source.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md	1B",
-  "edge-to-edge/SKILL.md	14447B",
-  "engage-sdk-integration/SKILL.md	8497B",
+  "edge-to-edge/SKILL.md	14445B",
+  "engage-sdk-integration/SKILL.md	9505B",
   "engage-sdk-integration/references/android/guide/playcore/engage/faq.md	1B",
   "engage-sdk-integration/references/android/guide/playcore/engage/food.md	1B",
   "engage-sdk-integration/references/android/guide/playcore/engage/healthandfitness.md	1B",
@@ -483,8 +678,15 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "engage-sdk-integration/references/schemas/travel.md	1B",
   "engage-sdk-integration/references/schemas/tv.md	1B",
   "engage-sdk-integration/references/schemas/watch.md	1B",
-  "jetpack-compose-m3/SKILL.md	12684B",
-  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
+  "engage-sdk-integration/references/troubleshooting.md	1B",
+  "leanback-to-compose-tv-migration/SKILL.md	34791B",
+  "leanback-to-compose-tv-migration/references/android/training/tv/get-started/navigation.md	1B",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md	1B",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md	1B",
+  "media3-cast-integration/SKILL.md	10737B",
+  "media3-cast-integration/references/android/media/media3/cast/create-castplayer.md	1B",
+  "media3-cast-integration/references/android/media/media3/cast/customize-castoptions.md	1B",
+  "media3-cast-integration/references/android/media/media3/cast/index.md	1B",
   "migrate-xml-views-to-jetpack-compose/SKILL.md	5444B",
   "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md	1B",
@@ -493,7 +695,8 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/setup-compose-dependencies-and-compiler.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/identify-optimal-xml-candidate.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md	1B",
-  "navigation-3/SKILL.md	6062B",
+  "ml-kit-genai-prompt-api/SKILL.md	4189B",
+  "navigation-3/SKILL.md	6726B",
   "navigation-3/references/android/guide/navigation/navigation-3/index.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/migration-guide.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/animations.md	1B",
@@ -502,10 +705,14 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicsaveable.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/bottomsheet.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional-transitions.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md	1B",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md	1B",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-custommatcher.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-staticuri.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-syntheticbackstack.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-uriarguments.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/lifecycle-owner.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-supportingpane.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-hilt.md	1B",
@@ -517,21 +724,17 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md	1B",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md	1B",
-  "perfetto-sql/SKILL.md	10972B",
-  "perfetto-sql/references/perfetto-stdlib.md	1B",
-  "perfetto-trace-analysis/SKILL.md	6917B",
-  "perfetto-trace-analysis/references/hints_cpu.md	1B",
-  "perfetto-trace-analysis/references/hints_graphics.md	1B",
-  "perfetto-trace-analysis/references/hints_io.md	1B",
-  "perfetto-trace-analysis/references/hints_ipc.md	1B",
-  "perfetto-trace-analysis/references/hints_memory.md	1B",
-  "perfetto-trace-analysis/references/hints_power.md	1B",
-  "perfetto-trace-analysis/references/sql.md	1B",
-  "play-billing-library-version-upgrade/SKILL.md	5673B",
+  "navigation-event/SKILL.md	13123B",
+  "navigation-event/references/android/guide/navigation/navigation-event/dispatcher.md	1B",
+  "navigation-event/references/android/guide/navigation/navigation-event/handle-back.md	1B",
+  "navigation-event/references/android/guide/navigation/navigation-event/index.md	1B",
+  "navigation-event/references/android/guide/navigation/navigation-event/setup.md	1B",
+  "play-billing-library-version-upgrade/SKILL.md	5674B",
   "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
-  "r8-analyzer/SKILL.md	3632B",
+  "play-policy-insights/SKILL.md	8589B",
+  "r8-analyzer/SKILL.md	4557B",
   "r8-analyzer/references/CONFIGURATION-ANALYZER.md	1B",
   "r8-analyzer/references/CONFIGURATION.md	1B",
   "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md	1B",
@@ -540,7 +743,11 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
-  "styles/SKILL.md	8662B",
+  "restore-credentials/SKILL.md	24573B",
+  "restore-credentials/references/android/guide/topics/manifest/application-element.md	1B",
+  "restore-credentials/references/android/identity/passkeys/create-passkeys.md	1B",
+  "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md	1B",
+  "styles/SKILL.md	9006B",
   "styles/references/android/develop/ui/compose/designsystems/custom.md	1B",
   "styles/references/android/develop/ui/compose/styles/fundamentals.md	1B",
   "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
@@ -550,7 +757,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	18524B",
+  "verified-email/SKILL.md	20292B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
@@ -558,6 +765,60 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "verified-email/references/android/identity/digital-credentials/index.md	1B",
   "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
+  "wear-compose-m3/SKILL.md	40053B",
+  "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/CardSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PickerSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SliderSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/StepperSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt	1B",
 ]
 `;
 
@@ -574,15 +835,23 @@ description: |-
   "android-cli.md": "---
 name: android-cli
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
+  "android-intent-security.md": "---
+name: android-intent-security
+description: |-
+  Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-profiler.md": "---
+name: android-profiler
+description: |-
+  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap",
   "appfunctions.md": "---
 name: appfunctions
 description: |-
   Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered mes",
-  "camera1-to-camerax.md": "---
-name: camera1-to-camerax
+  "camerax.md": "---
+name: camerax
 description: |-
-  Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library bu",
+  Provide technical guidance for Android camera development with CameraX. Use when implementing camera features, handling asynchronous recording lifecycles, wiring lo",
   "display-glasses-with-jetpack-compose-glimmer.md": "---
 name: display-glasses-with-jetpack-compose-glimmer
 description: |-
@@ -595,34 +864,46 @@ description: |-
 name: engage-sdk-integration
 description: |-
   Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code,",
-  "jetpack-compose-m3.md": "---
-name: jetpack-compose-m3
+  "leanback-to-compose-tv-migration.md": "---
+name: leanback-to-compose-tv-migration
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the andro",
+  Provides instructions and architectural patterns for migrating Android TV applications from legacy Leanback UI Toolkit, Android Views, or S",
+  "media3-cast-integration.md": "---
+name: media3-cast-integration
+description: |-
+  Implements Google Cast support in Android apps using Jetpack Media3. Handles adding build dependencies, updating manifest, configuring OptionsProvid",
   "migrate-xml-views-to-jetpack-compose.md": "---
 name: migrate-xml-views-to-jetpack-compose
 description: |-
   Provides a structured workflow for migrating an Android XML View to Jetpack Compose. This skill details the step-by-step process, from ",
+  "ml-kit-genai-prompt-api.md": "---
+name: ml-kit-genai-prompt-api
+description: |-
+  Analyzes Android codebases to implement ML Kit GenAI Prompt API. Use this skill to send natural language requests on-device to Gemini Nano, use stru",
   "navigation-3.md": "---
 name: navigation-3
 description: |-
   Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, ",
-  "perfetto-sql.md": "---
-name: perfetto-sql
+  "navigation-event.md": "---
+name: navigation-event
 description: |-
-  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract ",
-  "perfetto-trace-analysis.md": "---
-name: perfetto-trace-analysis
-description: |-
-  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file",
+  Intercept back gestures and run Predictive Back animations using the NavigationEvent (androidx.navigationevent) library in Compose Android. Handles Activit",
   "play-billing-library-version-upgrade.md": "---
 name: play-billing-library-version-upgrade
 description: |-
   Use this skill when upgrading or migrating an Android project from any legacy Google Play Billing Library (PBL) version to the latest s",
+  "play-policy-insights.md": "---
+name: play-policy-insights
+description: |-
+  Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store ",
   "r8-analyzer.md": "---
 name: r8-analyzer
 description: |-
   Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when ",
+  "restore-credentials.md": "---
+name: restore-credentials
+description: |-
+  Provides knowledge and workflows to implement Android's Restore Credentials feature using the androidx.credentials library. Use this skill to create, si",
   "styles.md": "---
 name: styles
 description: |-
@@ -635,29 +916,39 @@ description: |-
 name: verified-email
 description: |-
   Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less emai",
+  "wear-compose-m3.md": "---
+name: wear-compose-m3
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
 }
 `;
 
 exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.md	13398B",
+  "adaptive.md	13328B",
   "agp-9-upgrade.md	3604B",
-  "android-cli.md	10302B",
-  "appfunctions.md	3792B",
-  "camera1-to-camerax.md	7535B",
-  "display-glasses-with-jetpack-compose-glimmer.md	23807B",
-  "edge-to-edge.md	14252B",
-  "engage-sdk-integration.md	9629B",
-  "jetpack-compose-m3.md	12567B",
+  "android-cli.md	14643B",
+  "android-intent-security.md	22928B",
+  "android-profiler.md	1779B",
+  "appfunctions.md	4752B",
+  "camerax.md	6507B",
+  "display-glasses-with-jetpack-compose-glimmer.md	23818B",
+  "edge-to-edge.md	14250B",
+  "engage-sdk-integration.md	10673B",
+  "leanback-to-compose-tv-migration.md	34596B",
+  "media3-cast-integration.md	10729B",
   "migrate-xml-views-to-jetpack-compose.md	5761B",
-  "navigation-3.md	7466B",
-  "perfetto-sql.md	10780B",
-  "perfetto-trace-analysis.md	6934B",
-  "play-billing-library-version-upgrade.md	5609B",
-  "r8-analyzer.md	3887B",
-  "styles.md	8830B",
+  "ml-kit-genai-prompt-api.md	4004B",
+  "navigation-3.md	8495B",
+  "navigation-event.md	13152B",
+  "play-billing-library-version-upgrade.md	5610B",
+  "play-policy-insights.md	7808B",
+  "r8-analyzer.md	4812B",
+  "restore-credentials.md	24587B",
+  "styles.md	9174B",
   "testing-setup.md	9268B",
-  "verified-email.md	18746B",
+  "verified-email.md	20514B",
+  "wear-compose-m3.md	42927B",
 ]
 `;
 
@@ -695,6 +986,27 @@ applyTo: "**"
 # Android CLI Specialist
 
 This skill provides instructions for using the \`android\` CLI tool. The tool includes various commands for creating projects, running app",
+  "android-intent-security.instructions.md": "---
+applyTo: "**"
+---
+
+# android-intent-security
+
+
+This skill provides guidelines and patterns to secure Android components
+(Activities, Services, Broadcast Receivers, Content Providers) and handle
+In",
+  "android-profiler.instructions.md": "---
+applyTo: "**"
+---
+
+# android-profiler
+
+
+# Android Profiler Orchestrator
+
+Your primary role is **Intent Disambiguation and Routing**; route the user to
+the correct workflow or prepare an execution ",
   "appfunctions.instructions.md": "---
 applyTo: "**"
 ---
@@ -705,17 +1017,16 @@ applyTo: "**"
 Analyzes Android apps to identify key user workflows for AppFunctions such as
 creating a note, playing media, or sending an automated or AI agent triggered
 mess",
-  "camera1-to-camerax.instructions.md": "---
+  "camerax.instructions.md": "---
 applyTo: "**"
 ---
 
-# camera1-to-camerax
+# camerax
 
 
-## Step 0: Add Dependencies
-
-Check for and add the required CameraX dependencies. Use version 1.3.0 or higher
-for interoperability, or version 1.5.0 or hi",
+This skill provides procedural guidance and standard patterns for building
+camera applications on Android, with a focus on CameraX, including its
+\`Camera2Interop\` ut",
   "display-glasses-with-jetpack-compose-glimmer.instructions.md": "---
 applyTo: "**"
 ---
@@ -748,16 +1059,31 @@ applyTo: "**"
 
 This skill guides you through integrating the Play Engage SDK into an Android
 app. It ensures that the code follows the mandatory structure and uses t",
-  "jetpack-compose-m3.instructions.md": "---
+  "leanback-to-compose-tv-migration.instructions.md": "---
 applyTo: "**"
 ---
 
-# jetpack-compose-m3
+# leanback-to-compose-tv-migration
 
 
-## Prerequisites \\& Compatibility
+## The 10-foot UI
 
-1. **Wear OS Compose Material3 version:** If an internal tool is available to establish the **latest stable version** \`",
+A "10-foot UI" is a design paradigm for televisions that tailors an interface
+for viewing from approximately 3 meters (10",
+  "media3-cast-integration.instructions.md": "---
+applyTo: "**"
+---
+
+# media3-cast-integration
+
+
+## Prerequisites
+
+- Jetpack Media3 version must be \`>= 1.9.0\`. Cast isn't available in lower versions.
+
+## Glossary
+
+- **\`CastPlayer\`** : Media3 \`Pla",
   "migrate-xml-views-to-jetpack-compose.instructions.md": "---
 applyTo: "**"
 ---
@@ -767,6 +1093,19 @@ applyTo: "**"
 
 This skill guides through the process of migrating an existing Android XML View
 to Jetpack Compose. It performs a stable, safe and visua",
+  "ml-kit-genai-prompt-api.instructions.md": "---
+applyTo: "**"
+---
+
+# ml-kit-genai-prompt-api
+
+
+This skill provides step-by-step guidance for integrating and optimizing the ML
+Kit GenAI Prompt API in Android apps.
+
+## Prerequisites
+
+- Android AP",
   "navigation-3.instructions.md": "---
 applyTo: "**"
 ---
@@ -774,30 +1113,21 @@ applyTo: "**"
 # navigation-3
 
 
+*** ** * ** ***
+
 ## Migration guide
 
-- *[Navigation 2 to Navigation 3 migration guide](references/android/guide/navigation/navigation-3/migration-guide.md)*: Step-by-step guide ",
-  "perfetto-sql.instructions.md": "---
+- *[Navigation 2 to Navigation 3 migration guide](references/android/guide/navigation/navigation-3/migration-guide.md)*: St",
+  "navigation-event.instructions.md": "---
 applyTo: "**"
 ---
 
-# perfetto-sql
+# navigation-event
 
 
-## Guidelines and Hints
+## Common guidelines
 
-- **Idempotency:** Ensure queries are idempotent to prevent "already exists" errors during multiple executions.
-  - For Perfetto object",
-  "perfetto-trace-analysis.instructions.md": "---
-applyTo: "**"
----
-
-# perfetto-trace-analysis
-
-
-## Resources
-
-- **Domain Hints:** Reference files for specific performance areas: [\`CPU\`](references/hints_cpu.md), [\`Graphics\`](references/hints_gra",
+- **For architecture concepts** : To understand the foundational architecture, continuous gesture event lifecycles, or class definitio",
   "play-billing-library-version-upgrade.instructions.md": "---
 applyTo: "**"
 ---
@@ -809,6 +1139,16 @@ applyTo: "**"
 
 **Reporting Action**: Before proceeding, immediately tell the user: "I will
 upgrade Play Billing Library to ",
+  "play-policy-insights.instructions.md": "---
+applyTo: "**"
+---
+
+# play-policy-insights
+
+
+# Play Policy Insights: data safety, login credentials, and restricted permissions
+
+You must audit Android apps for three specific policy domains. You m",
   "r8-analyzer.instructions.md": "---
 applyTo: "**"
 ---
@@ -820,6 +1160,17 @@ applyTo: "**"
 
 - Inspect \`build.gradle\`, \`build.gradle.kts\`, and \`gradle.properties\`.
 - Use [references/CONFIGURATION.md](references/C",
+  "restore-credentials.instructions.md": "---
+applyTo: "**"
+---
+
+# restore-credentials
+
+
+## Fundamentals
+
+The objective is to implement the **Restore Credentials** feature through the
+Android Credential Manager API (\`androidx.credentials\`). T",
   "styles.instructions.md": "---
 applyTo: "**"
 ---
@@ -852,29 +1203,45 @@ applyTo: "**"
 ## Fundamentals
 
 - *[Overview of Digital Credentials](references/android/identity/digital-credentials/email-verification.md)*: Learn about cryptographically v",
+  "wear-compose-m3.instructions.md": "---
+applyTo: "**"
+---
+
+# wear-compose-m3
+
+
+## Prerequisites and compatibility
+
+1. **Current Wear OS Compose version in-use:** To find the installed library version, read \`gradle/libs.versions.toml\` or",
 }
 `;
 
 exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.instructions.md	12806B",
+  "adaptive.instructions.md	12736B",
   "agp-9-upgrade.instructions.md	3417B",
-  "android-cli.instructions.md	10114B",
-  "appfunctions.instructions.md	3292B",
-  "camera1-to-camerax.instructions.md	7264B",
-  "display-glasses-with-jetpack-compose-glimmer.instructions.md	23327B",
-  "edge-to-edge.instructions.md	13924B",
-  "engage-sdk-integration.instructions.md	9389B",
-  "jetpack-compose-m3.instructions.md	12111B",
+  "android-cli.instructions.md	14191B",
+  "android-intent-security.instructions.md	22620B",
+  "android-profiler.instructions.md	1329B",
+  "appfunctions.instructions.md	4252B",
+  "camerax.instructions.md	6236B",
+  "display-glasses-with-jetpack-compose-glimmer.instructions.md	23338B",
+  "edge-to-edge.instructions.md	13922B",
+  "engage-sdk-integration.instructions.md	10433B",
+  "leanback-to-compose-tv-migration.instructions.md	33774B",
+  "media3-cast-integration.instructions.md	10373B",
   "migrate-xml-views-to-jetpack-compose.instructions.md	5270B",
-  "navigation-3.instructions.md	7058B",
-  "perfetto-sql.instructions.md	10513B",
-  "perfetto-trace-analysis.instructions.md	6666B",
-  "play-billing-library-version-upgrade.instructions.md	5426B",
-  "r8-analyzer.instructions.md	3569B",
-  "styles.instructions.md	8392B",
+  "ml-kit-genai-prompt-api.instructions.md	3718B",
+  "navigation-3.instructions.md	8083B",
+  "navigation-event.instructions.md	12820B",
+  "play-billing-library-version-upgrade.instructions.md	5427B",
+  "play-policy-insights.instructions.md	7386B",
+  "r8-analyzer.instructions.md	4494B",
+  "restore-credentials.instructions.md	24140B",
+  "styles.instructions.md	8736B",
   "testing-setup.instructions.md	9040B",
-  "verified-email.instructions.md	18368B",
+  "verified-email.instructions.md	20136B",
+  "wear-compose-m3.instructions.md	42422B",
 ]
 `;
 
@@ -889,14 +1256,19 @@ description: |-
 alwaysApply: fals",
   "android-cli.mdc": "---
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool.
-alwaysApply: fal",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you create new Android proj",
+  "android-intent-security.mdc": "---
+description: |-
+  Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, receivers) or source code handling ",
+  "android-profiler.mdc": "---
+description: |-
+  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap dumps, method recordin",
   "appfunctions.mdc": "---
 description: |-
   Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered message, voice command",
-  "camera1-to-camerax.mdc": "---
+  "camerax.mdc": "---
 description: |-
-  Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library built on top of Camera2 tha",
+  Provide technical guidance for Android camera development with CameraX. Use when implementing camera features, handling asynchronous recording lifecycles, wiring low-level hardwa",
   "display-glasses-with-jetpack-compose-glimmer.mdc": "---
 description: |-
   Provides guidelines for developing projected Android XR apps for display glasses using the Jetpack Compose Glimmer UI toolkit. This skill covers foundational Glimmer design princ",
@@ -906,29 +1278,38 @@ description: |-
   "engage-sdk-integration.mdc": "---
 description: |-
   Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code, mapping data classes to enti",
-  "jetpack-compose-m3.mdc": "---
+  "leanback-to-compose-tv-migration.mdc": "---
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the androidx.wear.compose.material",
+  Provides instructions and architectural patterns for migrating Android TV applications from legacy Leanback UI Toolkit, Android Views, or Support Fragments to Jetpack Compose for",
+  "media3-cast-integration.mdc": "---
+description: |-
+  Implements Google Cast support in Android apps using Jetpack Media3. Handles adding build dependencies, updating manifest, configuring OptionsProvider, and managing CastPlayer or",
   "migrate-xml-views-to-jetpack-compose.mdc": "---
 description: |-
   Provides a structured workflow for migrating an Android XML View to Jetpack Compose. This skill details the step-by-step process, from planning and dependency setup, to theming a",
+  "ml-kit-genai-prompt-api.mdc": "---
+description: |-
+  Analyzes Android codebases to implement ML Kit GenAI Prompt API. Use this skill to send natural language requests on-device to Gemini Nano, use structured output with Prompt API,",
   "navigation-3.mdc": "---
 description: |-
   Learn how to install and migrate to Jetpack Navigation 3, and how to implement features and patterns such as deep links, multiple backstacks, scenes (dialogs, bottom sheets, list",
-  "perfetto-sql.mdc": "---
+  "navigation-event.mdc": "---
 description: |-
-  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract slice, thread, or m",
-  "perfetto-trace-analysis.mdc": "---
-description: |-
-  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file and asks any question, ongoin",
+  Intercept back gestures and run Predictive Back animations using the NavigationEvent (androidx.navigationevent) library in Compose Android. Handles Activity setup, parent-child d",
   "play-billing-library-version-upgrade.mdc": "---
 description: |-
   Use this skill when upgrading or migrating an Android project from any legacy Google Play Billing Library (PBL) version to the latest stable version of PBL.
 alwaysApply: false
 --",
+  "play-policy-insights.mdc": "---
+description: |-
+  Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store declarations to generate de",
   "r8-analyzer.mdc": "---
 description: |-
   Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when developers want to",
+  "restore-credentials.mdc": "---
+description: |-
+  Provides knowledge and workflows to implement Android's Restore Credentials feature using the androidx.credentials library. Use this skill to create, sign in with, and delete res",
   "styles.mdc": "---
 description: |-
   Use this skill to integrate the Jetpack Compose Styles API into an Android project. This skill guides you through upgrading dependencies, setting up component themes, making cust",
@@ -938,29 +1319,38 @@ description: |-
   "verified-email.mdc": "---
 description: |-
   Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less email verification flow i",
+  "wear-compose-m3.mdc": "---
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the androidx.wear.compose.materia",
 }
 `;
 
 exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.mdc	13383B",
+  "adaptive.mdc	13313B",
   "agp-9-upgrade.mdc	3584B",
-  "android-cli.mdc	10284B",
-  "appfunctions.mdc	3773B",
-  "camera1-to-camerax.mdc	7510B",
-  "display-glasses-with-jetpack-compose-glimmer.mdc	23756B",
-  "edge-to-edge.mdc	14233B",
-  "engage-sdk-integration.mdc	9600B",
-  "jetpack-compose-m3.mdc	12542B",
+  "android-cli.mdc	14625B",
+  "android-intent-security.mdc	22898B",
+  "android-profiler.mdc	1756B",
+  "appfunctions.mdc	4733B",
+  "camerax.mdc	6493B",
+  "display-glasses-with-jetpack-compose-glimmer.mdc	23767B",
+  "edge-to-edge.mdc	14231B",
+  "engage-sdk-integration.mdc	10644B",
+  "leanback-to-compose-tv-migration.mdc	34557B",
+  "media3-cast-integration.mdc	10699B",
   "migrate-xml-views-to-jetpack-compose.mdc	5718B",
-  "navigation-3.mdc	7447B",
-  "perfetto-sql.mdc	10761B",
-  "perfetto-trace-analysis.mdc	6904B",
-  "play-billing-library-version-upgrade.mdc	5566B",
-  "r8-analyzer.mdc	3869B",
-  "styles.mdc	8817B",
+  "ml-kit-genai-prompt-api.mdc	3974B",
+  "navigation-3.mdc	8476B",
+  "navigation-event.mdc	13129B",
+  "play-billing-library-version-upgrade.mdc	5567B",
+  "play-policy-insights.mdc	7781B",
+  "r8-analyzer.mdc	4794B",
+  "restore-credentials.mdc	24561B",
+  "styles.mdc	9161B",
   "testing-setup.mdc	9248B",
-  "verified-email.mdc	18725B",
+  "verified-email.mdc	20493B",
+  "wear-compose-m3.mdc	42905B",
 ]
 `;
 
@@ -980,7 +1370,7 @@ _Instructions to make or upd",
 
 exports[`target 'gemini' > output paths and sizes match snapshot 1`] = `
 [
-  "styleguide.md	175619B",
+  "styleguide.md	316937B",
 ]
 `;
 
@@ -1031,10 +1421,20 @@ description: |-
   "android-cli/SKILL.md": "---
 name: android-cli
 description: |-
-  Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the \`android\` command-line tool",
+  Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
   "android-cli/references/interact.md": "
 ",
   "android-cli/references/journeys.md": "
+",
+  "android-intent-security/SKILL.md": "---
+name: android-intent-security
+description: |-
+  Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-profiler/SKILL.md": "---
+name: android-profiler
+description: |-
+  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap",
+  "android-profiler/references/env_setup.md": "
 ",
   "appfunctions/SKILL.md": "---
 name: appfunctions
@@ -1042,16 +1442,44 @@ description: |-
   Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered mes",
   "appfunctions/references/adb-interaction-testing.md": "
 ",
+  "appfunctions/references/context.md": "
+",
   "appfunctions/references/feature-discovery-analysis.md": "
 ",
   "appfunctions/references/implementation-configuration.md": "
 ",
   "appfunctions/references/kdoc-refinement-optimization.md": "
 ",
-  "camera1-to-camerax/SKILL.md": "---
-name: camera1-to-camerax
+  "appfunctions/references/migrate-to-service-entry-point.md": "
+",
+  "camerax/SKILL.md": "---
+name: camerax
 description: |-
-  Use this skill to migrate legacy Android camera implementations (Camera1 or raw Camera2 APIs) to CameraX. CameraX is a lifecycle-aware Jetpack library bu",
+  Provide technical guidance for Android camera development with CameraX. Use when implementing camera features, handling asynchronous recording lifecycles, wiring lo",
+  "camerax/references/camera1-to-camerax.md": "
+",
+  "camerax/references/camera2-to-camerax.md": "
+",
+  "camerax/references/expert-blueprints.md": "
+",
+  "camerax/references/foldables.md": "
+",
+  "camerax/references/immutability.md": "
+",
+  "camerax/references/low-light.md": "
+",
+  "camerax/references/mlkit-spatial.md": "
+",
+  "camerax/references/modern-apis.md": "
+",
+  "camerax/references/testing.md": "
+",
+  "camerax/references/thermals.md": "
+",
+  "camerax/references/wear-os.md": "
+",
+  "camerax/references/xr.md": "
+",
   "display-glasses-with-jetpack-compose-glimmer/SKILL.md": "---
 name: display-glasses-with-jetpack-compose-glimmer
 description: |-
@@ -1180,11 +1608,27 @@ description: |-
 ",
   "engage-sdk-integration/references/schemas/watch.md": "
 ",
-  "jetpack-compose-m3/SKILL.md": "---
-name: jetpack-compose-m3
+  "engage-sdk-integration/references/troubleshooting.md": "
+",
+  "leanback-to-compose-tv-migration/SKILL.md": "---
+name: leanback-to-compose-tv-migration
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating or migrating Wear OS projects. This includes the andro",
-  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
+  Provides instructions and architectural patterns for migrating Android TV applications from legacy Leanback UI Toolkit, Android Views, or S",
+  "leanback-to-compose-tv-migration/references/android/training/tv/get-started/navigation.md": "
+",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md": "
+",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md": "
+",
+  "media3-cast-integration/SKILL.md": "---
+name: media3-cast-integration
+description: |-
+  Implements Google Cast support in Android apps using Jetpack Media3. Handles adding build dependencies, updating manifest, configuring OptionsProvid",
+  "media3-cast-integration/references/android/media/media3/cast/create-castplayer.md": "
+",
+  "media3-cast-integration/references/android/media/media3/cast/customize-castoptions.md": "
+",
+  "media3-cast-integration/references/android/media/media3/cast/index.md": "
 ",
   "migrate-xml-views-to-jetpack-compose/SKILL.md": "---
 name: migrate-xml-views-to-jetpack-compose
@@ -1204,6 +1648,10 @@ description: |-
 ",
   "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md": "
 ",
+  "ml-kit-genai-prompt-api/SKILL.md": "---
+name: ml-kit-genai-prompt-api
+description: |-
+  Analyzes Android codebases to implement ML Kit GenAI Prompt API. Use this skill to send natural language requests on-device to Gemini Nano, use stru",
   "navigation-3/SKILL.md": "---
 name: navigation-3
 description: |-
@@ -1224,13 +1672,21 @@ description: |-
 ",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md": "
 ",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional-transitions.md": "
+",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md": "
 ",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md": "
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-custommatcher.md": "
 ",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md": "
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-staticuri.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-syntheticbackstack.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-uriarguments.md": "
 ",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md": "
+",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/lifecycle-owner.md": "
 ",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
 ",
@@ -1254,29 +1710,17 @@ description: |-
 ",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md": "
 ",
-  "perfetto-sql/SKILL.md": "---
-name: perfetto-sql
+  "navigation-event/SKILL.md": "---
+name: navigation-event
 description: |-
-  Translates natural language data intents into syntactically valid Perfetto SQL queries and executes them against a local trace file. Use this skill to extract ",
-  "perfetto-sql/references/perfetto-stdlib.md": "
+  Intercept back gestures and run Predictive Back animations using the NavigationEvent (androidx.navigationevent) library in Compose Android. Handles Activit",
+  "navigation-event/references/android/guide/navigation/navigation-event/dispatcher.md": "
 ",
-  "perfetto-trace-analysis/SKILL.md": "---
-name: perfetto-trace-analysis
-description: |-
-  Analyzes Perfetto traces to find the root cause of latency, memory, or jank issues in Android apps. Use when the user provides a Perfetto trace file",
-  "perfetto-trace-analysis/references/hints_cpu.md": "
+  "navigation-event/references/android/guide/navigation/navigation-event/handle-back.md": "
 ",
-  "perfetto-trace-analysis/references/hints_graphics.md": "
+  "navigation-event/references/android/guide/navigation/navigation-event/index.md": "
 ",
-  "perfetto-trace-analysis/references/hints_io.md": "
-",
-  "perfetto-trace-analysis/references/hints_ipc.md": "
-",
-  "perfetto-trace-analysis/references/hints_memory.md": "
-",
-  "perfetto-trace-analysis/references/hints_power.md": "
-",
-  "perfetto-trace-analysis/references/sql.md": "
+  "navigation-event/references/android/guide/navigation/navigation-event/setup.md": "
 ",
   "play-billing-library-version-upgrade/SKILL.md": "---
 name: play-billing-library-version-upgrade
@@ -1288,6 +1732,10 @@ description: |-
 ",
   "play-billing-library-version-upgrade/references/version-checklist.md": "
 ",
+  "play-policy-insights/SKILL.md": "---
+name: play-policy-insights
+description: |-
+  Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store ",
   "r8-analyzer/SKILL.md": "---
 name: r8-analyzer
 description: |-
@@ -1307,6 +1755,16 @@ description: |-
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md": "
 ",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md": "
+",
+  "restore-credentials/SKILL.md": "---
+name: restore-credentials
+description: |-
+  Provides knowledge and workflows to implement Android's Restore Credentials feature using the androidx.credentials library. Use this skill to create, si",
+  "restore-credentials/references/android/guide/topics/manifest/application-element.md": "
+",
+  "restore-credentials/references/android/identity/passkeys/create-passkeys.md": "
+",
+  "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md": "
 ",
   "styles/SKILL.md": "---
 name: styles
@@ -1350,12 +1808,122 @@ description: |-
 ",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md": "
 ",
+  "wear-compose-m3/SKILL.md": "---
+name: wear-compose-m3
+description: |-
+  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
+",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/CardSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PickerSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SliderSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/StepperSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt": "
+",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt": "
+",
 }
 `;
 
 exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive/SKILL.md	12492B",
+  "adaptive/SKILL.md	12422B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
@@ -1374,16 +1942,33 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	10236B",
+  "android-cli/SKILL.md	14577B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
-  "appfunctions/SKILL.md	3595B",
+  "android-intent-security/SKILL.md	22948B",
+  "android-profiler/SKILL.md	1744B",
+  "android-profiler/references/env_setup.md	1B",
+  "appfunctions/SKILL.md	4476B",
   "appfunctions/references/adb-interaction-testing.md	1B",
+  "appfunctions/references/context.md	1B",
   "appfunctions/references/feature-discovery-analysis.md	1B",
   "appfunctions/references/implementation-configuration.md	1B",
   "appfunctions/references/kdoc-refinement-optimization.md	1B",
-  "camera1-to-camerax/SKILL.md	7555B",
-  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22191B",
+  "appfunctions/references/migrate-to-service-entry-point.md	1B",
+  "camerax/SKILL.md	6116B",
+  "camerax/references/camera1-to-camerax.md	1B",
+  "camerax/references/camera2-to-camerax.md	1B",
+  "camerax/references/expert-blueprints.md	1B",
+  "camerax/references/foldables.md	1B",
+  "camerax/references/immutability.md	1B",
+  "camerax/references/low-light.md	1B",
+  "camerax/references/mlkit-spatial.md	1B",
+  "camerax/references/modern-apis.md	1B",
+  "camerax/references/testing.md	1B",
+  "camerax/references/thermals.md	1B",
+  "camerax/references/wear-os.md	1B",
+  "camerax/references/xr.md	1B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22202B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
@@ -1415,8 +2000,8 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "display-glasses-with-jetpack-compose-glimmer/references/surface-source.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md	1B",
-  "edge-to-edge/SKILL.md	14272B",
-  "engage-sdk-integration/SKILL.md	8337B",
+  "edge-to-edge/SKILL.md	14270B",
+  "engage-sdk-integration/SKILL.md	9345B",
   "engage-sdk-integration/references/android/guide/playcore/engage/faq.md	1B",
   "engage-sdk-integration/references/android/guide/playcore/engage/food.md	1B",
   "engage-sdk-integration/references/android/guide/playcore/engage/healthandfitness.md	1B",
@@ -1444,8 +2029,15 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "engage-sdk-integration/references/schemas/travel.md	1B",
   "engage-sdk-integration/references/schemas/tv.md	1B",
   "engage-sdk-integration/references/schemas/watch.md	1B",
-  "jetpack-compose-m3/SKILL.md	12483B",
-  "jetpack-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
+  "engage-sdk-integration/references/troubleshooting.md	1B",
+  "leanback-to-compose-tv-migration/SKILL.md	34398B",
+  "leanback-to-compose-tv-migration/references/android/training/tv/get-started/navigation.md	1B",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md	1B",
+  "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md	1B",
+  "media3-cast-integration/SKILL.md	10537B",
+  "media3-cast-integration/references/android/media/media3/cast/create-castplayer.md	1B",
+  "media3-cast-integration/references/android/media/media3/cast/customize-castoptions.md	1B",
+  "media3-cast-integration/references/android/media/media3/cast/index.md	1B",
   "migrate-xml-views-to-jetpack-compose/SKILL.md	5241B",
   "migrate-xml-views-to-jetpack-compose/references/analysis-of-the-project-and-layout.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/designsystems/migrate-xml-theme-to-compose.md	1B",
@@ -1454,7 +2046,8 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "migrate-xml-views-to-jetpack-compose/references/android/develop/ui/compose/setup-compose-dependencies-and-compiler.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/identify-optimal-xml-candidate.md	1B",
   "migrate-xml-views-to-jetpack-compose/references/xml-layout-migration.md	1B",
-  "navigation-3/SKILL.md	5648B",
+  "ml-kit-genai-prompt-api/SKILL.md	4024B",
+  "navigation-3/SKILL.md	6312B",
   "navigation-3/references/android/guide/navigation/navigation-3/index.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/migration-guide.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/animations.md	1B",
@@ -1463,10 +2056,14 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/basicsaveable.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/bottomsheet.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/common-ui.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional-transitions.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/conditional.md	1B",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-advanced.md	1B",
-  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-basic.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-custommatcher.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-staticuri.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-syntheticbackstack.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/deeplinks-uriarguments.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/dialog.md	1B",
+  "navigation-3/references/android/guide/navigation/navigation-3/recipes/lifecycle-owner.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/material-supportingpane.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/modular-hilt.md	1B",
@@ -1478,21 +2075,17 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-listdetail.md	1B",
   "navigation-3/references/android/guide/navigation/navigation-3/recipes/scenes-twopane.md	1B",
   "navigation-3/references/android/guide/navigation/type-safe-destinations.md	1B",
-  "perfetto-sql/SKILL.md	10736B",
-  "perfetto-sql/references/perfetto-stdlib.md	1B",
-  "perfetto-trace-analysis/SKILL.md	6713B",
-  "perfetto-trace-analysis/references/hints_cpu.md	1B",
-  "perfetto-trace-analysis/references/hints_graphics.md	1B",
-  "perfetto-trace-analysis/references/hints_io.md	1B",
-  "perfetto-trace-analysis/references/hints_ipc.md	1B",
-  "perfetto-trace-analysis/references/hints_memory.md	1B",
-  "perfetto-trace-analysis/references/hints_power.md	1B",
-  "perfetto-trace-analysis/references/sql.md	1B",
-  "play-billing-library-version-upgrade/SKILL.md	5465B",
+  "navigation-event/SKILL.md	12861B",
+  "navigation-event/references/android/guide/navigation/navigation-event/dispatcher.md	1B",
+  "navigation-event/references/android/guide/navigation/navigation-event/handle-back.md	1B",
+  "navigation-event/references/android/guide/navigation/navigation-event/index.md	1B",
+  "navigation-event/references/android/guide/navigation/navigation-event/setup.md	1B",
+  "play-billing-library-version-upgrade/SKILL.md	5466B",
   "play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md	1B",
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
-  "r8-analyzer/SKILL.md	3485B",
+  "play-policy-insights/SKILL.md	7828B",
+  "r8-analyzer/SKILL.md	4410B",
   "r8-analyzer/references/CONFIGURATION-ANALYZER.md	1B",
   "r8-analyzer/references/CONFIGURATION.md	1B",
   "r8-analyzer/references/KEEP-RULES-IMPACT-HIERARCHY.md	1B",
@@ -1501,7 +2094,11 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
-  "styles/SKILL.md	8480B",
+  "restore-credentials/SKILL.md	24379B",
+  "restore-credentials/references/android/guide/topics/manifest/application-element.md	1B",
+  "restore-credentials/references/android/identity/passkeys/create-passkeys.md	1B",
+  "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md	1B",
+  "styles/SKILL.md	8824B",
   "styles/references/android/develop/ui/compose/designsystems/custom.md	1B",
   "styles/references/android/develop/ui/compose/styles/fundamentals.md	1B",
   "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
@@ -1511,7 +2108,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	18235B",
+  "verified-email/SKILL.md	20003B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
@@ -1519,5 +2116,59 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "verified-email/references/android/identity/digital-credentials/index.md	1B",
   "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
+  "wear-compose-m3/SKILL.md	39852B",
+  "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/CardSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PickerSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SliderSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/StepperSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt	1B",
 ]
 `;
