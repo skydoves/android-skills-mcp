@@ -19,7 +19,7 @@ _Instructions to make or update an app's UI so that it ",
 
 exports[`target 'aider' > output paths and sizes match snapshot 1`] = `
 [
-  "CONVENTIONS.md	316910B",
+  "CONVENTIONS.md	354464B",
 ]
 `;
 
@@ -47,9 +47,9 @@ description: |-
 ",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md": "
 ",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md": "
-",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
 ",
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
@@ -79,6 +79,16 @@ description: |-
 name: android-intent-security
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-permissions-security/SKILL.md": "---
+name: android-permissions-security
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, de",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md": "
+",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md": "
+",
+  "android-permissions-security/references/android/training/permissions/requesting.md": "
+",
   "android-profiler/SKILL.md": "---
 name: android-profiler
 description: |-
@@ -432,8 +442,10 @@ description: |-
   "testing-setup/SKILL.md": "---
 name: testing-setup
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, scr",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md": "
+",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
 ",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md": "
 ",
@@ -460,119 +472,117 @@ description: |-
   "wear-compose-m3/SKILL.md": "---
 name: wear-compose-m3
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating ",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
 ",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CardSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SliderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/StepperSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt": "
-",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md": "
 ",
 }
 `;
 
 exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive/SKILL.md	12591B",
+  "adaptive/SKILL.md	12616B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
@@ -582,8 +592,8 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md	1B",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md	1B",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
   "agp-9-upgrade/SKILL.md	3543B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
@@ -591,10 +601,14 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	14731B",
+  "android-cli/SKILL.md	23206B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
-  "android-intent-security/SKILL.md	23241B",
+  "android-intent-security/SKILL.md	23965B",
+  "android-permissions-security/SKILL.md	27993B",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md	1B",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md	1B",
+  "android-permissions-security/references/android/training/permissions/requesting.md	1B",
   "android-profiler/SKILL.md	1968B",
   "android-profiler/references/env_setup.md	1B",
   "appfunctions/SKILL.md	4629B",
@@ -617,7 +631,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "camerax/references/thermals.md	1B",
   "camerax/references/wear-os.md	1B",
   "camerax/references/xr.md	1B",
-  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22454B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22411B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
@@ -743,7 +757,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
-  "restore-credentials/SKILL.md	24573B",
+  "restore-credentials/SKILL.md	25338B",
   "restore-credentials/references/android/guide/topics/manifest/application-element.md	1B",
   "restore-credentials/references/android/identity/passkeys/create-passkeys.md	1B",
   "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md	1B",
@@ -753,11 +767,12 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
   "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md	1B",
   "styles/references/android/develop/ui/compose/styles/theming.md	1B",
-  "testing-setup/SKILL.md	9201B",
+  "testing-setup/SKILL.md	10246B",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	20292B",
+  "verified-email/SKILL.md	20387B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
@@ -765,60 +780,59 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "verified-email/references/android/identity/digital-credentials/index.md	1B",
   "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
-  "wear-compose-m3/SKILL.md	40053B",
+  "wear-compose-m3/SKILL.md	39067B",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CardSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md	1B",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SliderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/StepperSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md	1B",
 ]
 `;
 
@@ -840,6 +854,10 @@ description: |-
 name: android-intent-security
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-permissions-security.md": "---
+name: android-permissions-security
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, de",
   "android-profiler.md": "---
 name: android-profiler
 description: |-
@@ -911,7 +929,7 @@ description: |-
   "testing-setup.md": "---
 name: testing-setup
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, scr",
   "verified-email.md": "---
 name: verified-email
 description: |-
@@ -919,20 +937,21 @@ description: |-
   "wear-compose-m3.md": "---
 name: wear-compose-m3
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating ",
 }
 `;
 
 exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.md	13328B",
+  "adaptive.md	13378B",
   "agp-9-upgrade.md	3604B",
-  "android-cli.md	14643B",
-  "android-intent-security.md	22928B",
+  "android-cli.md	23071B",
+  "android-intent-security.md	23652B",
+  "android-permissions-security.md	27773B",
   "android-profiler.md	1779B",
   "appfunctions.md	4752B",
   "camerax.md	6507B",
-  "display-glasses-with-jetpack-compose-glimmer.md	23818B",
+  "display-glasses-with-jetpack-compose-glimmer.md	23795B",
   "edge-to-edge.md	14250B",
   "engage-sdk-integration.md	10673B",
   "leanback-to-compose-tv-migration.md	34596B",
@@ -944,11 +963,11 @@ exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
   "play-billing-library-version-upgrade.md	5610B",
   "play-policy-insights.md	7808B",
   "r8-analyzer.md	4812B",
-  "restore-credentials.md	24587B",
+  "restore-credentials.md	25352B",
   "styles.md	9174B",
-  "testing-setup.md	9268B",
-  "verified-email.md	20514B",
-  "wear-compose-m3.md	42927B",
+  "testing-setup.md	10399B",
+  "verified-email.md	20609B",
+  "wear-compose-m3.md	41577B",
 ]
 `;
 
@@ -983,9 +1002,10 @@ applyTo: "**"
 
 # android-cli
 
-# Android CLI Specialist
 
-This skill provides instructions for using the \`android\` CLI tool. The tool includes various commands for creating projects, running app",
+This skill provides instructions for using the \`android\` CLI tool. The tool
+includes various commands for creating projects, running applications,
+interacting wi",
   "android-intent-security.instructions.md": "---
 applyTo: "**"
 ---
@@ -996,6 +1016,15 @@ applyTo: "**"
 This skill provides guidelines and patterns to secure Android components
 (Activities, Services, Broadcast Receivers, Content Providers) and handle
 In",
+  "android-permissions-security.instructions.md": "---
+applyTo: "**"
+---
+
+# android-permissions-security
+
+
+Guidelines for auditing permission vulnerabilities, enforcing least privilege,
+securing IPC boundaries, and handling runtime permissions across ",
   "android-profiler.instructions.md": "---
 applyTo: "**"
 ---
@@ -1218,14 +1247,15 @@ applyTo: "**"
 
 exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.instructions.md	12736B",
+  "adaptive.instructions.md	12786B",
   "agp-9-upgrade.instructions.md	3417B",
-  "android-cli.instructions.md	14191B",
-  "android-intent-security.instructions.md	22620B",
+  "android-cli.instructions.md	22619B",
+  "android-intent-security.instructions.md	23344B",
+  "android-permissions-security.instructions.md	27440B",
   "android-profiler.instructions.md	1329B",
   "appfunctions.instructions.md	4252B",
   "camerax.instructions.md	6236B",
-  "display-glasses-with-jetpack-compose-glimmer.instructions.md	23338B",
+  "display-glasses-with-jetpack-compose-glimmer.instructions.md	23315B",
   "edge-to-edge.instructions.md	13922B",
   "engage-sdk-integration.instructions.md	10433B",
   "leanback-to-compose-tv-migration.instructions.md	33774B",
@@ -1237,11 +1267,11 @@ exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
   "play-billing-library-version-upgrade.instructions.md	5427B",
   "play-policy-insights.instructions.md	7386B",
   "r8-analyzer.instructions.md	4494B",
-  "restore-credentials.instructions.md	24140B",
+  "restore-credentials.instructions.md	24905B",
   "styles.instructions.md	8736B",
-  "testing-setup.instructions.md	9040B",
-  "verified-email.instructions.md	20136B",
-  "wear-compose-m3.instructions.md	42422B",
+  "testing-setup.instructions.md	10178B",
+  "verified-email.instructions.md	20231B",
+  "wear-compose-m3.instructions.md	41143B",
 ]
 `;
 
@@ -1260,6 +1290,9 @@ description: |-
   "android-intent-security.mdc": "---
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, receivers) or source code handling ",
+  "android-permissions-security.mdc": "---
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, defining custom permissions, securing",
   "android-profiler.mdc": "---
 description: |-
   Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap dumps, method recordin",
@@ -1315,26 +1348,27 @@ description: |-
   Use this skill to integrate the Jetpack Compose Styles API into an Android project. This skill guides you through upgrading dependencies, setting up component themes, making cust",
   "testing-setup.mdc": "---
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, screenshot tests",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, screenshot tests, and e",
   "verified-email.mdc": "---
 description: |-
   Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less email verification flow i",
   "wear-compose-m3.mdc": "---
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the androidx.wear.compose.materia",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating projects (Material 2.5",
 }
 `;
 
 exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.mdc	13313B",
+  "adaptive.mdc	13363B",
   "agp-9-upgrade.mdc	3584B",
-  "android-cli.mdc	14625B",
-  "android-intent-security.mdc	22898B",
+  "android-cli.mdc	23053B",
+  "android-intent-security.mdc	23622B",
+  "android-permissions-security.mdc	27738B",
   "android-profiler.mdc	1756B",
   "appfunctions.mdc	4733B",
   "camerax.mdc	6493B",
-  "display-glasses-with-jetpack-compose-glimmer.mdc	23767B",
+  "display-glasses-with-jetpack-compose-glimmer.mdc	23744B",
   "edge-to-edge.mdc	14231B",
   "engage-sdk-integration.mdc	10644B",
   "leanback-to-compose-tv-migration.mdc	34557B",
@@ -1346,11 +1380,11 @@ exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
   "play-billing-library-version-upgrade.mdc	5567B",
   "play-policy-insights.mdc	7781B",
   "r8-analyzer.mdc	4794B",
-  "restore-credentials.mdc	24561B",
+  "restore-credentials.mdc	25326B",
   "styles.mdc	9161B",
-  "testing-setup.mdc	9248B",
-  "verified-email.mdc	20493B",
-  "wear-compose-m3.mdc	42905B",
+  "testing-setup.mdc	10379B",
+  "verified-email.mdc	20588B",
+  "wear-compose-m3.mdc	41555B",
 ]
 `;
 
@@ -1370,7 +1404,7 @@ _Instructions to make or upd",
 
 exports[`target 'gemini' > output paths and sizes match snapshot 1`] = `
 [
-  "styleguide.md	316937B",
+  "styleguide.md	354491B",
 ]
 `;
 
@@ -1398,9 +1432,9 @@ description: |-
 ",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md": "
 ",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md": "
-",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
 ",
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
@@ -1430,6 +1464,16 @@ description: |-
 name: android-intent-security
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-permissions-security/SKILL.md": "---
+name: android-permissions-security
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, de",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md": "
+",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md": "
+",
+  "android-permissions-security/references/android/training/permissions/requesting.md": "
+",
   "android-profiler/SKILL.md": "---
 name: android-profiler
 description: |-
@@ -1783,8 +1827,10 @@ description: |-
   "testing-setup/SKILL.md": "---
 name: testing-setup
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, scr",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md": "
+",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
 ",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md": "
 ",
@@ -1811,119 +1857,117 @@ description: |-
   "wear-compose-m3/SKILL.md": "---
 name: wear-compose-m3
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating ",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
 ",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CardSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SliderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/StepperSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt": "
-",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md": "
 ",
 }
 `;
 
 exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive/SKILL.md	12422B",
+  "adaptive/SKILL.md	12447B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
@@ -1933,8 +1977,8 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md	1B",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md	1B",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
   "agp-9-upgrade/SKILL.md	3340B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
@@ -1942,10 +1986,14 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	14577B",
+  "android-cli/SKILL.md	23005B",
   "android-cli/references/interact.md	1B",
   "android-cli/references/journeys.md	1B",
-  "android-intent-security/SKILL.md	22948B",
+  "android-intent-security/SKILL.md	23672B",
+  "android-permissions-security/SKILL.md	27574B",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md	1B",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md	1B",
+  "android-permissions-security/references/android/training/permissions/requesting.md	1B",
   "android-profiler/SKILL.md	1744B",
   "android-profiler/references/env_setup.md	1B",
   "appfunctions/SKILL.md	4476B",
@@ -1968,7 +2016,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "camerax/references/thermals.md	1B",
   "camerax/references/wear-os.md	1B",
   "camerax/references/xr.md	1B",
-  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22202B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22179B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
@@ -2094,7 +2142,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
-  "restore-credentials/SKILL.md	24379B",
+  "restore-credentials/SKILL.md	25144B",
   "restore-credentials/references/android/guide/topics/manifest/application-element.md	1B",
   "restore-credentials/references/android/identity/passkeys/create-passkeys.md	1B",
   "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md	1B",
@@ -2104,11 +2152,12 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
   "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md	1B",
   "styles/references/android/develop/ui/compose/styles/theming.md	1B",
-  "testing-setup/SKILL.md	9048B",
+  "testing-setup/SKILL.md	10093B",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	20003B",
+  "verified-email/SKILL.md	20098B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
@@ -2116,59 +2165,58 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "verified-email/references/android/identity/digital-credentials/index.md	1B",
   "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
-  "wear-compose-m3/SKILL.md	39852B",
+  "wear-compose-m3/SKILL.md	38751B",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CardSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md	1B",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SliderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/StepperSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md	1B",
 ]
 `;
