@@ -19,7 +19,7 @@ _Instructions to make or update an app's UI so that it ",
 
 exports[`target 'aider' > output paths and sizes match snapshot 1`] = `
 [
-  "CONVENTIONS.md	316910B",
+  "CONVENTIONS.md	505550B",
 ]
 `;
 
@@ -28,7 +28,7 @@ exports[`target 'claude-code' > first 200 chars of every file match snapshot 1`]
   "adaptive/SKILL.md": "---
 name: adaptive
 description: |-
-  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. ",
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto, and XR.",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md": "
 ",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md": "
@@ -47,9 +47,17 @@ description: |-
 ",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md": "
 ",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md": "
-",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
+  "adaptive/references/android/guide/navigation/navigation-3/save-state.md": "
+",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
+",
+  "adaptive/references/custom_cursors.md": "
+",
+  "adaptive/references/keyboard_shortcuts.md": "
+",
+  "adaptive/references/tooltips.md": "
 ",
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
@@ -71,19 +79,43 @@ description: |-
 name: android-cli
 description: |-
   Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
-  "android-cli/references/interact.md": "
-",
-  "android-cli/references/journeys.md": "
+  "android-for-cars-parked-apps/SKILL.md": "---
+name: android-for-cars-parked-apps
+description: |-
+  Adapt existing Android video streaming apps, games, and web browsers to run as parked apps on Android Auto and Android Automotive OS. Covers ma",
+  "android-for-cars-parked-apps/references/android/docs/quality-guidelines/car-app-quality/index.md": "
 ",
   "android-intent-security/SKILL.md": "---
 name: android-intent-security
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-permissions-security/SKILL.md": "---
+name: android-permissions-security
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, de",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md": "
+",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md": "
+",
+  "android-permissions-security/references/android/privacy-and-security/risks/sender-of-pending-intents.md": "
+",
+  "android-permissions-security/references/android/training/permissions/requesting.md": "
+",
   "android-profiler/SKILL.md": "---
 name: android-profiler
 description: |-
-  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap",
+  Records and analyzes Android performance data and diagnoses performance bottlenecks across user apps, system apps, and system services, even if the user do",
   "android-profiler/references/env_setup.md": "
+",
+  "anr-audit-and-fix/SKILL.md": "---
+name: anr-audit-and-fix
+description: |-
+  Audits Android codebases for ANR risks and diagnoses ANR stack dumps. Use this skill when scanning Android code for ANR risks or triaging ANR stack dumps.",
+  "anr-audit-and-fix/references/anr_trace_report_template.md": "
+",
+  "anr-audit-and-fix/references/risk_analysis_guide.md": "
+",
+  "anr-audit-and-fix/references/trace_analysis_guide.md": "
 ",
   "appfunctions/SKILL.md": "---
 name: appfunctions
@@ -259,6 +291,206 @@ description: |-
 ",
   "engage-sdk-integration/references/troubleshooting.md": "
 ",
+  "glance-canonical-layouts/SKILL.md": "---
+name: glance-canonical-layouts
+description: |-
+  Use this skill to create home screen widgets using Jetpack Glance Canonical Layouts from the Android Platform Samples project, or when asked to imp",
+  "glance-canonical-layouts/references/ActionDemonstrationActivity.kt": "
+",
+  "glance-canonical-layouts/references/CanonicalLayoutActivity.kt": "
+",
+  "glance-canonical-layouts/references/CollectionsKtx.kt": "
+",
+  "glance-canonical-layouts/references/collections/ActionListAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/CheckListAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/ImageGridAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/ImageTextListAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeActionListDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeCheckListDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeImageGridDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeImageTextListDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ActionListLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/CheckListLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/EmptyListContent.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ImageGridLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ImageTextListLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ListItem.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/NoDataContent.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyColumn.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyVerticalGrid.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/VerticalListItem.kt": "
+",
+  "glance-canonical-layouts/references/res/drawable/four_side_cookie_background.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_ac_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_add_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_app_logo.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_arrow_right_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_bulb_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_camera_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_checked_circle_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_circle_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_delete_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_door_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_edit_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_file_upload_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_grid_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_heart_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_home_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_image_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_info_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_mic_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_no_data_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_pin_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_power_settings_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_refresh_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_scrim_gradient.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_search_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_share_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_snooze_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_text_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_thermostat_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_videocam_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/values/dimens.xml": "
+",
+  "glance-canonical-layouts/references/res/values/strings.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_action_list_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_check_list_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_expressive_toolbar_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_full_bleed_image_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_image_grid_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_image_text_list_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_long_text_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_search_toolbar_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_text_with_image_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_toolbar_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/text/FullBleedImageAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/text/LongTextAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/text/TextWithImageAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/text/data/FakeLongTextRespository.kt": "
+",
+  "glance-canonical-layouts/references/text/data/FakeTextWithImageRepository.kt": "
+",
+  "glance-canonical-layouts/references/text/layout/FullBleedImageLayout.kt": "
+",
+  "glance-canonical-layouts/references/text/layout/LongTextLayout.kt": "
+",
+  "glance-canonical-layouts/references/text/layout/TextWithImageLayout.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/ExpressiveToolbarAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/SearchToolBarAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/ToolBarAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/Buttons.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/ExpressiveToolbarLayout.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/LayoutComponents.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/SearchToolBarLayout.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/ToolBarLayout.kt": "
+",
+  "glance-canonical-layouts/references/ui/theme/Color.kt": "
+",
+  "glance-canonical-layouts/references/ui/theme/Theme.kt": "
+",
+  "glance-canonical-layouts/references/ui/theme/Type.kt": "
+",
+  "glance-canonical-layouts/references/utils/ActionUtils.kt": "
+",
+  "glance-canonical-layouts/references/utils/FontUtils.kt": "
+",
+  "glance-canonical-layouts/references/utils/ImageAspectRatio.kt": "
+",
+  "glance-canonical-layouts/references/utils/ImageUtils.kt": "
+",
+  "glance-canonical-layouts/references/utils/PreviewAnnotations.kt": "
+",
+  "jetpack-compose-performance/SKILL.md": "---
+name: jetpack-compose-performance
+description: |-
+  Diagnose and optimize Android Jetpack Compose UI code. Use this skill when analyzing performance bottlenecks of existing code to minimize recomp",
+  "jetpack-compose-performance/references/android/develop/ui/compose/custom-modifiers.md": "
+",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/backwards-write.md": "
+",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/stability/strongskipping.md": "
+",
+  "jetpack-compose-performance/references/animation.md": "
+",
+  "jetpack-compose-performance/references/effects-and-threading.md": "
+",
+  "jetpack-compose-performance/references/graphics-performance.md": "
+",
+  "jetpack-compose-performance/references/layouts.md": "
+",
+  "jetpack-compose-performance/references/lazy-layouts.md": "
+",
+  "jetpack-compose-performance/references/state-and-stability.md": "
+",
   "leanback-to-compose-tv-migration/SKILL.md": "---
 name: leanback-to-compose-tv-migration
 description: |-
@@ -268,6 +500,24 @@ description: |-
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md": "
 ",
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md": "
+",
+  "litert-lm/SKILL.md": "---
+name: litert-lm
+description: |-
+  Builds an Android app that runs an open text LLM on the device, on the CPU or the GPU, with the LiteRT-LM Kotlin API (com.google.ai.edge.litertlm:litertlm-android",
+  "litert-lm/references/android/google/play/on-device-ai.md": "
+",
+  "litert-lm/references/get-a-model.md": "
+",
+  "litert-runtime/SKILL.md": "---
+name: litert-runtime
+description: |-
+  Configures and implements LiteRT (.tflite) on-device inference on Android in Kotlin using the CompiledModel API on CPU and GPU. Use this skill for any Androi",
+  "litert-runtime/references/android/google/play/on-device-ai.md": "
+",
+  "litert-runtime/references/migration.md": "
+",
+  "litert-runtime/references/verify.md": "
 ",
   "media3-cast-integration/SKILL.md": "---
 name: media3-cast-integration
@@ -385,6 +635,18 @@ description: |-
 name: play-policy-insights
 description: |-
   Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store ",
+  "projected-hardware/SKILL.md": "---
+name: projected-hardware
+description: |-
+  Provides instructions and workflows for accessing and managing hardware on Android XR projected devices, such as audio glasses and display glasses. Use t",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md": "
+",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/check-availability.md": "
+",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/support-different-types.md": "
+",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md": "
+",
   "r8-analyzer/SKILL.md": "---
 name: r8-analyzer
 description: |-
@@ -432,8 +694,10 @@ description: |-
   "testing-setup/SKILL.md": "---
 name: testing-setup
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, scr",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md": "
+",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
 ",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md": "
 ",
@@ -460,119 +724,129 @@ description: |-
   "wear-compose-m3/SKILL.md": "---
 name: wear-compose-m3
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating ",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
 ",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CardSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SliderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/StepperSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt": "
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-widgets/SKILL.md": "---
+name: wear-widgets
+description: |-
+  Create, migrate, update, and verify Wear OS widgets using Glance Wear and Remote Compose in an Android project. Use this skill when implementing GlanceWearWidg",
+  "wear-widgets/references/previews-and-testing.md": "
+",
+  "wear-widgets/references/remote-compose-layouts.md": "
+",
+  "wear-widgets/references/state-and-actions.md": "
+",
+  "wear-widgets/references/widget-service-and-manifest.md": "
 ",
 }
 `;
 
 exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive/SKILL.md	12591B",
+  "adaptive/SKILL.md	20468B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
@@ -582,8 +856,12 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md	1B",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md	1B",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
+  "adaptive/references/android/guide/navigation/navigation-3/save-state.md	1B",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
+  "adaptive/references/custom_cursors.md	1B",
+  "adaptive/references/keyboard_shortcuts.md	1B",
+  "adaptive/references/tooltips.md	1B",
   "agp-9-upgrade/SKILL.md	3543B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
@@ -591,12 +869,21 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	14731B",
-  "android-cli/references/interact.md	1B",
-  "android-cli/references/journeys.md	1B",
-  "android-intent-security/SKILL.md	23241B",
-  "android-profiler/SKILL.md	1968B",
+  "android-cli/SKILL.md	37337B",
+  "android-for-cars-parked-apps/SKILL.md	17864B",
+  "android-for-cars-parked-apps/references/android/docs/quality-guidelines/car-app-quality/index.md	1B",
+  "android-intent-security/SKILL.md	24444B",
+  "android-permissions-security/SKILL.md	28977B",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md	1B",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md	1B",
+  "android-permissions-security/references/android/privacy-and-security/risks/sender-of-pending-intents.md	1B",
+  "android-permissions-security/references/android/training/permissions/requesting.md	1B",
+  "android-profiler/SKILL.md	2273B",
   "android-profiler/references/env_setup.md	1B",
+  "anr-audit-and-fix/SKILL.md	1771B",
+  "anr-audit-and-fix/references/anr_trace_report_template.md	1B",
+  "anr-audit-and-fix/references/risk_analysis_guide.md	1B",
+  "anr-audit-and-fix/references/trace_analysis_guide.md	1B",
   "appfunctions/SKILL.md	4629B",
   "appfunctions/references/adb-interaction-testing.md	1B",
   "appfunctions/references/context.md	1B",
@@ -617,7 +904,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "camerax/references/thermals.md	1B",
   "camerax/references/wear-os.md	1B",
   "camerax/references/xr.md	1B",
-  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22454B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	26271B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
@@ -679,10 +966,115 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "engage-sdk-integration/references/schemas/tv.md	1B",
   "engage-sdk-integration/references/schemas/watch.md	1B",
   "engage-sdk-integration/references/troubleshooting.md	1B",
+  "glance-canonical-layouts/SKILL.md	24551B",
+  "glance-canonical-layouts/references/ActionDemonstrationActivity.kt	1B",
+  "glance-canonical-layouts/references/CanonicalLayoutActivity.kt	1B",
+  "glance-canonical-layouts/references/CollectionsKtx.kt	1B",
+  "glance-canonical-layouts/references/collections/ActionListAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/CheckListAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/ImageGridAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/ImageTextListAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeActionListDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeCheckListDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeImageGridDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeImageTextListDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ActionListLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/CheckListLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/EmptyListContent.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ImageGridLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ImageTextListLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ListItem.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/NoDataContent.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyColumn.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyVerticalGrid.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/VerticalListItem.kt	1B",
+  "glance-canonical-layouts/references/res/drawable/four_side_cookie_background.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_ac_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_add_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_app_logo.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_arrow_right_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_bulb_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_camera_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_checked_circle_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_circle_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_delete_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_door_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_edit_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_file_upload_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_grid_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_heart_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_home_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_image_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_info_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_mic_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_no_data_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_pin_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_power_settings_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_refresh_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_scrim_gradient.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_search_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_share_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_snooze_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_text_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_thermostat_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_videocam_icon.xml	1B",
+  "glance-canonical-layouts/references/res/values/dimens.xml	1B",
+  "glance-canonical-layouts/references/res/values/strings.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_action_list_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_check_list_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_expressive_toolbar_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_full_bleed_image_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_image_grid_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_image_text_list_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_long_text_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_search_toolbar_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_text_with_image_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_toolbar_widget_info.xml	1B",
+  "glance-canonical-layouts/references/text/FullBleedImageAppWidget.kt	1B",
+  "glance-canonical-layouts/references/text/LongTextAppWidget.kt	1B",
+  "glance-canonical-layouts/references/text/TextWithImageAppWidget.kt	1B",
+  "glance-canonical-layouts/references/text/data/FakeLongTextRespository.kt	1B",
+  "glance-canonical-layouts/references/text/data/FakeTextWithImageRepository.kt	1B",
+  "glance-canonical-layouts/references/text/layout/FullBleedImageLayout.kt	1B",
+  "glance-canonical-layouts/references/text/layout/LongTextLayout.kt	1B",
+  "glance-canonical-layouts/references/text/layout/TextWithImageLayout.kt	1B",
+  "glance-canonical-layouts/references/toolbars/ExpressiveToolbarAppWidget.kt	1B",
+  "glance-canonical-layouts/references/toolbars/SearchToolBarAppWidget.kt	1B",
+  "glance-canonical-layouts/references/toolbars/ToolBarAppWidget.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/Buttons.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/ExpressiveToolbarLayout.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/LayoutComponents.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/SearchToolBarLayout.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/ToolBarLayout.kt	1B",
+  "glance-canonical-layouts/references/ui/theme/Color.kt	1B",
+  "glance-canonical-layouts/references/ui/theme/Theme.kt	1B",
+  "glance-canonical-layouts/references/ui/theme/Type.kt	1B",
+  "glance-canonical-layouts/references/utils/ActionUtils.kt	1B",
+  "glance-canonical-layouts/references/utils/FontUtils.kt	1B",
+  "glance-canonical-layouts/references/utils/ImageAspectRatio.kt	1B",
+  "glance-canonical-layouts/references/utils/ImageUtils.kt	1B",
+  "glance-canonical-layouts/references/utils/PreviewAnnotations.kt	1B",
+  "jetpack-compose-performance/SKILL.md	21001B",
+  "jetpack-compose-performance/references/android/develop/ui/compose/custom-modifiers.md	1B",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/backwards-write.md	1B",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/stability/strongskipping.md	1B",
+  "jetpack-compose-performance/references/animation.md	1B",
+  "jetpack-compose-performance/references/effects-and-threading.md	1B",
+  "jetpack-compose-performance/references/graphics-performance.md	1B",
+  "jetpack-compose-performance/references/layouts.md	1B",
+  "jetpack-compose-performance/references/lazy-layouts.md	1B",
+  "jetpack-compose-performance/references/state-and-stability.md	1B",
   "leanback-to-compose-tv-migration/SKILL.md	34791B",
   "leanback-to-compose-tv-migration/references/android/training/tv/get-started/navigation.md	1B",
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md	1B",
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md	1B",
+  "litert-lm/SKILL.md	18292B",
+  "litert-lm/references/android/google/play/on-device-ai.md	1B",
+  "litert-lm/references/get-a-model.md	1B",
+  "litert-runtime/SKILL.md	21152B",
+  "litert-runtime/references/android/google/play/on-device-ai.md	1B",
+  "litert-runtime/references/migration.md	1B",
+  "litert-runtime/references/verify.md	1B",
   "media3-cast-integration/SKILL.md	10737B",
   "media3-cast-integration/references/android/media/media3/cast/create-castplayer.md	1B",
   "media3-cast-integration/references/android/media/media3/cast/customize-castoptions.md	1B",
@@ -734,6 +1126,11 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
   "play-policy-insights/SKILL.md	8589B",
+  "projected-hardware/SKILL.md	2108B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/check-availability.md	1B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/support-different-types.md	1B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md	1B",
   "r8-analyzer/SKILL.md	4557B",
   "r8-analyzer/references/CONFIGURATION-ANALYZER.md	1B",
   "r8-analyzer/references/CONFIGURATION.md	1B",
@@ -743,7 +1140,7 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
-  "restore-credentials/SKILL.md	24573B",
+  "restore-credentials/SKILL.md	25338B",
   "restore-credentials/references/android/guide/topics/manifest/application-element.md	1B",
   "restore-credentials/references/android/identity/passkeys/create-passkeys.md	1B",
   "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md	1B",
@@ -753,11 +1150,12 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
   "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md	1B",
   "styles/references/android/develop/ui/compose/styles/theming.md	1B",
-  "testing-setup/SKILL.md	9201B",
+  "testing-setup/SKILL.md	10246B",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	20292B",
+  "verified-email/SKILL.md	20387B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
@@ -765,60 +1163,64 @@ exports[`target 'claude-code' > output paths and sizes match snapshot 1`] = `
   "verified-email/references/android/identity/digital-credentials/index.md	1B",
   "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
-  "wear-compose-m3/SKILL.md	40053B",
+  "wear-compose-m3/SKILL.md	39187B",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CardSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md	1B",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SliderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/StepperSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md	1B",
+  "wear-widgets/SKILL.md	12839B",
+  "wear-widgets/references/previews-and-testing.md	1B",
+  "wear-widgets/references/remote-compose-layouts.md	1B",
+  "wear-widgets/references/state-and-actions.md	1B",
+  "wear-widgets/references/widget-service-and-manifest.md	1B",
 ]
 `;
 
@@ -827,7 +1229,7 @@ exports[`target 'continue' > first 200 chars of every file match snapshot 1`] = 
   "adaptive.md": "---
 name: adaptive
 description: |-
-  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. ",
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto, and XR.",
   "agp-9-upgrade.md": "---
 name: agp-9-upgrade
 description: |-
@@ -836,14 +1238,26 @@ description: |-
 name: android-cli
 description: |-
   Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
+  "android-for-cars-parked-apps.md": "---
+name: android-for-cars-parked-apps
+description: |-
+  Adapt existing Android video streaming apps, games, and web browsers to run as parked apps on Android Auto and Android Automotive OS. Covers ma",
   "android-intent-security.md": "---
 name: android-intent-security
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-permissions-security.md": "---
+name: android-permissions-security
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, de",
   "android-profiler.md": "---
 name: android-profiler
 description: |-
-  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap",
+  Records and analyzes Android performance data and diagnoses performance bottlenecks across user apps, system apps, and system services, even if the user do",
+  "anr-audit-and-fix.md": "---
+name: anr-audit-and-fix
+description: |-
+  Audits Android codebases for ANR risks and diagnoses ANR stack dumps. Use this skill when scanning Android code for ANR risks or triaging ANR stack dumps.",
   "appfunctions.md": "---
 name: appfunctions
 description: |-
@@ -864,10 +1278,26 @@ description: |-
 name: engage-sdk-integration
 description: |-
   Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code,",
+  "glance-canonical-layouts.md": "---
+name: glance-canonical-layouts
+description: |-
+  Use this skill to create home screen widgets using Jetpack Glance Canonical Layouts from the Android Platform Samples project, or when asked to imp",
+  "jetpack-compose-performance.md": "---
+name: jetpack-compose-performance
+description: |-
+  Diagnose and optimize Android Jetpack Compose UI code. Use this skill when analyzing performance bottlenecks of existing code to minimize recomp",
   "leanback-to-compose-tv-migration.md": "---
 name: leanback-to-compose-tv-migration
 description: |-
   Provides instructions and architectural patterns for migrating Android TV applications from legacy Leanback UI Toolkit, Android Views, or S",
+  "litert-lm.md": "---
+name: litert-lm
+description: |-
+  Builds an Android app that runs an open text LLM on the device, on the CPU or the GPU, with the LiteRT-LM Kotlin API (com.google.ai.edge.litertlm:litertlm-android",
+  "litert-runtime.md": "---
+name: litert-runtime
+description: |-
+  Configures and implements LiteRT (.tflite) on-device inference on Android in Kotlin using the CompiledModel API on CPU and GPU. Use this skill for any Androi",
   "media3-cast-integration.md": "---
 name: media3-cast-integration
 description: |-
@@ -896,6 +1326,10 @@ description: |-
 name: play-policy-insights
 description: |-
   Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store ",
+  "projected-hardware.md": "---
+name: projected-hardware
+description: |-
+  Provides instructions and workflows for accessing and managing hardware on Android XR projected devices, such as audio glasses and display glasses. Use t",
   "r8-analyzer.md": "---
 name: r8-analyzer
 description: |-
@@ -911,7 +1345,7 @@ description: |-
   "testing-setup.md": "---
 name: testing-setup
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, scr",
   "verified-email.md": "---
 name: verified-email
 description: |-
@@ -919,23 +1353,34 @@ description: |-
   "wear-compose-m3.md": "---
 name: wear-compose-m3
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating ",
+  "wear-widgets.md": "---
+name: wear-widgets
+description: |-
+  Create, migrate, update, and verify Wear OS widgets using Glance Wear and Remote Compose in an Android project. Use this skill when implementing GlanceWearWidg",
 }
 `;
 
 exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.md	13328B",
+  "adaptive.md	21327B",
   "agp-9-upgrade.md	3604B",
-  "android-cli.md	14643B",
-  "android-intent-security.md	22928B",
-  "android-profiler.md	1779B",
+  "android-cli.md	37116B",
+  "android-for-cars-parked-apps.md	17755B",
+  "android-intent-security.md	24131B",
+  "android-permissions-security.md	28838B",
+  "android-profiler.md	2087B",
+  "anr-audit-and-fix.md	1693B",
   "appfunctions.md	4752B",
   "camerax.md	6507B",
-  "display-glasses-with-jetpack-compose-glimmer.md	23818B",
+  "display-glasses-with-jetpack-compose-glimmer.md	27655B",
   "edge-to-edge.md	14250B",
   "engage-sdk-integration.md	10673B",
+  "glance-canonical-layouts.md	28800B",
+  "jetpack-compose-performance.md	20977B",
   "leanback-to-compose-tv-migration.md	34596B",
+  "litert-lm.md	18222B",
+  "litert-runtime.md	21105B",
   "media3-cast-integration.md	10729B",
   "migrate-xml-views-to-jetpack-compose.md	5761B",
   "ml-kit-genai-prompt-api.md	4004B",
@@ -943,12 +1388,14 @@ exports[`target 'continue' > output paths and sizes match snapshot 1`] = `
   "navigation-event.md	13152B",
   "play-billing-library-version-upgrade.md	5610B",
   "play-policy-insights.md	7808B",
+  "projected-hardware.md	2165B",
   "r8-analyzer.md	4812B",
-  "restore-credentials.md	24587B",
+  "restore-credentials.md	25352B",
   "styles.md	9174B",
-  "testing-setup.md	9268B",
-  "verified-email.md	20514B",
-  "wear-compose-m3.md	42927B",
+  "testing-setup.md	10399B",
+  "verified-email.md	20609B",
+  "wear-compose-m3.md	41697B",
+  "wear-widgets.md	12855B",
 ]
 `;
 
@@ -983,9 +1430,19 @@ applyTo: "**"
 
 # android-cli
 
-# Android CLI Specialist
 
-This skill provides instructions for using the \`android\` CLI tool. The tool includes various commands for creating projects, running app",
+This skill provides instructions for using the \`android\` CLI tool. The tool
+includes various commands for creating projects, running applications,
+interacting wi",
+  "android-for-cars-parked-apps.instructions.md": "---
+applyTo: "**"
+---
+
+# android-for-cars-parked-apps
+
+
+Adapt existing Android video apps, games, and web browsers to run as parked
+apps on Android Auto and Android Automotive OS. Follow these steps t",
   "android-intent-security.instructions.md": "---
 applyTo: "**"
 ---
@@ -996,6 +1453,15 @@ applyTo: "**"
 This skill provides guidelines and patterns to secure Android components
 (Activities, Services, Broadcast Receivers, Content Providers) and handle
 In",
+  "android-permissions-security.instructions.md": "---
+applyTo: "**"
+---
+
+# android-permissions-security
+
+
+Guidelines for auditing permission vulnerabilities, enforcing least privilege,
+securing IPC boundaries, and handling runtime permissions across ",
   "android-profiler.instructions.md": "---
 applyTo: "**"
 ---
@@ -1003,10 +1469,21 @@ applyTo: "**"
 # android-profiler
 
 
-# Android Profiler Orchestrator
+Your primary role is to figure out what the user wants to do (disambiguation),
+find the right instructions for it (workflow discovery), and follow them
+step",
+  "anr-audit-and-fix.instructions.md": "---
+applyTo: "**"
+---
 
-Your primary role is **Intent Disambiguation and Routing**; route the user to
-the correct workflow or prepare an execution ",
+# anr-audit-and-fix
+
+
+Select the execution path matching the user's request:
+
+## 1. Path A: Static codebase ANR risk audit
+
+When auditing source files or scanning for thread-blo",
   "appfunctions.instructions.md": "---
 applyTo: "**"
 ---
@@ -1038,7 +1515,7 @@ applyTo: "**"
 
 | Term | Definition |
 |---|---|
-| **Intelligent Eyewear** | All-day wear, hands-free devices that provide access to",
+| **Intelligent eyewear** | Hands-free eyewear with speakers, camera, and microphon",
   "edge-to-edge.instructions.md": "---
 applyTo: "**"
 ---
@@ -1059,6 +1536,31 @@ applyTo: "**"
 
 This skill guides you through integrating the Play Engage SDK into an Android
 app. It ensures that the code follows the mandatory structure and uses t",
+  "glance-canonical-layouts.instructions.md": "---
+applyTo: "**"
+---
+
+# glance-canonical-layouts
+
+
+To implement a widget Canonical Layout that follows the recommended design
+patterns:
+
+1. The project **MUST** use Jetpack Glance.
+2. You **MUST** lo",
+  "jetpack-compose-performance.instructions.md": "---
+applyTo: "**"
+---
+
+# jetpack-compose-performance
+
+
+## Foundational prerequisites
+
+Before micro-optimizing composables, ensure standard production flags are in
+place:
+
+1. **Release Build**: Never p",
   "leanback-to-compose-tv-migration.instructions.md": "---
 applyTo: "**"
 ---
@@ -1070,6 +1572,25 @@ applyTo: "**"
 
 A "10-foot UI" is a design paradigm for televisions that tailors an interface
 for viewing from approximately 3 meters (10",
+  "litert-lm.instructions.md": "---
+applyTo: "**"
+---
+
+# litert-lm
+
+
+This skill provides step-by-step guidance for building an Android app that runs
+an open text LLM through the LiteRT-LM Kotlin API
+(\`com.google.ai.edge.litertlm\`) o",
+  "litert-runtime.instructions.md": "---
+applyTo: "**"
+---
+
+# litert-runtime
+
+
+This skill provides step-by-step guidance for building an Android app that runs
+a \`.tflite\` model with the [LiteRT CompiledModel API](https://ai.google.dev/ed",
   "media3-cast-integration.instructions.md": "---
 applyTo: "**"
 ---
@@ -1149,6 +1670,20 @@ applyTo: "**"
 # Play Policy Insights: data safety, login credentials, and restricted permissions
 
 You must audit Android apps for three specific policy domains. You m",
+  "projected-hardware.instructions.md": "---
+applyTo: "**"
+---
+
+# projected-hardware
+
+
+## Prerequisites
+
+- You must use a \`compileSdk\` of 36 or higher.
+
+## Connection and lifecycle management
+
+Intelligent eyewear hardware is only accessible ",
   "r8-analyzer.instructions.md": "---
 applyTo: "**"
 ---
@@ -1213,22 +1748,39 @@ applyTo: "**"
 ## Prerequisites and compatibility
 
 1. **Current Wear OS Compose version in-use:** To find the installed library version, read \`gradle/libs.versions.toml\` or",
+  "wear-widgets.instructions.md": "---
+applyTo: "**"
+---
+
+# wear-widgets
+
+
+Wear OS widgets use \`androidx.glance.wear\` (\`GlanceWearWidget\` and
+\`GlanceWearWidgetService\`) with \`androidx.compose.remote\` (Remote Compose).
+They serialize de",
 }
 `;
 
 exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.instructions.md	12736B",
+  "adaptive.instructions.md	20466B",
   "agp-9-upgrade.instructions.md	3417B",
-  "android-cli.instructions.md	14191B",
-  "android-intent-security.instructions.md	22620B",
-  "android-profiler.instructions.md	1329B",
+  "android-cli.instructions.md	36620B",
+  "android-for-cars-parked-apps.instructions.md	16919B",
+  "android-intent-security.instructions.md	23823B",
+  "android-permissions-security.instructions.md	28505B",
+  "android-profiler.instructions.md	1313B",
+  "anr-audit-and-fix.instructions.md	1415B",
   "appfunctions.instructions.md	4252B",
   "camerax.instructions.md	6236B",
-  "display-glasses-with-jetpack-compose-glimmer.instructions.md	23338B",
+  "display-glasses-with-jetpack-compose-glimmer.instructions.md	27129B",
   "edge-to-edge.instructions.md	13922B",
   "engage-sdk-integration.instructions.md	10433B",
+  "glance-canonical-layouts.instructions.md	28514B",
+  "jetpack-compose-performance.instructions.md	20751B",
   "leanback-to-compose-tv-migration.instructions.md	33774B",
+  "litert-lm.instructions.md	17451B",
+  "litert-runtime.instructions.md	20398B",
   "media3-cast-integration.instructions.md	10373B",
   "migrate-xml-views-to-jetpack-compose.instructions.md	5270B",
   "ml-kit-genai-prompt-api.instructions.md	3718B",
@@ -1236,12 +1788,14 @@ exports[`target 'copilot' > output paths and sizes match snapshot 1`] = `
   "navigation-event.instructions.md	12820B",
   "play-billing-library-version-upgrade.instructions.md	5427B",
   "play-policy-insights.instructions.md	7386B",
+  "projected-hardware.instructions.md	1735B",
   "r8-analyzer.instructions.md	4494B",
-  "restore-credentials.instructions.md	24140B",
+  "restore-credentials.instructions.md	24905B",
   "styles.instructions.md	8736B",
-  "testing-setup.instructions.md	9040B",
-  "verified-email.instructions.md	20136B",
-  "wear-compose-m3.instructions.md	42422B",
+  "testing-setup.instructions.md	10178B",
+  "verified-email.instructions.md	20231B",
+  "wear-compose-m3.instructions.md	41263B",
+  "wear-widgets.instructions.md	12108B",
 ]
 `;
 
@@ -1249,7 +1803,7 @@ exports[`target 'cursor' > first 200 chars of every file match snapshot 1`] = `
 {
   "adaptive.mdc": "---
 description: |-
-  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. It includes how",
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto, and XR. It includes ho",
   "agp-9-upgrade.mdc": "---
 description: |-
   Upgrades, or migrates, an Android project to use Android Gradle Plugin (AGP) version 9. Do not use this skill for migrating Kotlin Multiplatform (KMP) projects.
@@ -1257,12 +1811,21 @@ alwaysApply: fals",
   "android-cli.mdc": "---
 description: |-
   Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you create new Android proj",
+  "android-for-cars-parked-apps.mdc": "---
+description: |-
+  Adapt existing Android video streaming apps, games, and web browsers to run as parked apps on Android Auto and Android Automotive OS. Covers manifest configuration, Google Play h",
   "android-intent-security.mdc": "---
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, receivers) or source code handling ",
+  "android-permissions-security.mdc": "---
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, defining custom permissions, securing",
   "android-profiler.mdc": "---
 description: |-
-  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap dumps, method recordin",
+  Records and analyzes Android performance data and diagnoses performance bottlenecks across user apps, system apps, and system services, even if the user does not explicitly menti",
+  "anr-audit-and-fix.mdc": "---
+description: |-
+  Audits Android codebases for ANR risks and diagnoses ANR stack dumps. Use this skill when scanning Android code for ANR risks or triaging ANR stack dumps. Don't use for non-ANR c",
   "appfunctions.mdc": "---
 description: |-
   Analyzes Android apps to identify key user workflows for AppFunctions such as creating a note, playing media, or sending an automated or AI agent triggered message, voice command",
@@ -1271,16 +1834,28 @@ description: |-
   Provide technical guidance for Android camera development with CameraX. Use when implementing camera features, handling asynchronous recording lifecycles, wiring low-level hardwa",
   "display-glasses-with-jetpack-compose-glimmer.mdc": "---
 description: |-
-  Provides guidelines for developing projected Android XR apps for display glasses using the Jetpack Compose Glimmer UI toolkit. This skill covers foundational Glimmer design princ",
+  Provides guidelines for developing projected Android XR apps for display glasses using the Jetpack Compose Glimmer UI toolkit. Covers Glimmer design principles, workflows, and in",
   "edge-to-edge.mdc": "---
 description: |-
   Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge support and troubleshoot common issues. Use this skill to fix UI components (like buttons or lists",
   "engage-sdk-integration.mdc": "---
 description: |-
   Helps developers integrate, debug, and resolve Play Engage SDK implementation issues. Use when adding Engage SDK support, generating publishing code, mapping data classes to enti",
+  "glance-canonical-layouts.mdc": "---
+description: |-
+  Use this skill to create home screen widgets using Jetpack Glance Canonical Layouts from the Android Platform Samples project, or when asked to implement standard widget layout p",
+  "jetpack-compose-performance.mdc": "---
+description: |-
+  Diagnose and optimize Android Jetpack Compose UI code. Use this skill when analyzing performance bottlenecks of existing code to minimize recomposition overhead and prevent dropp",
   "leanback-to-compose-tv-migration.mdc": "---
 description: |-
   Provides instructions and architectural patterns for migrating Android TV applications from legacy Leanback UI Toolkit, Android Views, or Support Fragments to Jetpack Compose for",
+  "litert-lm.mdc": "---
+description: |-
+  Builds an Android app that runs an open text LLM on the device, on the CPU or the GPU, with the LiteRT-LM Kotlin API (com.google.ai.edge.litertlm:litertlm-android). Use this skil",
+  "litert-runtime.mdc": "---
+description: |-
+  Configures and implements LiteRT (.tflite) on-device inference on Android in Kotlin using the CompiledModel API on CPU and GPU. Use this skill for any Android LiteRT or .tflite t",
   "media3-cast-integration.mdc": "---
 description: |-
   Implements Google Cast support in Android apps using Jetpack Media3. Handles adding build dependencies, updating manifest, configuring OptionsProvider, and managing CastPlayer or",
@@ -1304,6 +1879,9 @@ alwaysApply: false
   "play-policy-insights.mdc": "---
 description: |-
   Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store declarations to generate de",
+  "projected-hardware.mdc": "---
+description: |-
+  Provides instructions and workflows for accessing and managing hardware on Android XR projected devices, such as audio glasses and display glasses. Use this skill when building e",
   "r8-analyzer.mdc": "---
 description: |-
   Analyzes Android build files and R8 keep rules to identify redundancies, broad package-wide rules, and rules that subsume library consumer keep rules. Use when developers want to",
@@ -1315,29 +1893,39 @@ description: |-
   Use this skill to integrate the Jetpack Compose Styles API into an Android project. This skill guides you through upgrading dependencies, setting up component themes, making cust",
   "testing-setup.mdc": "---
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, screenshot tests",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, screenshot tests, and e",
   "verified-email.mdc": "---
 description: |-
   Provides a complete workflow for implementing verified email retrieval on Android Credential Manager API. Use this skill to integrate a secure, OTP-less email verification flow i",
   "wear-compose-m3.mdc": "---
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the androidx.wear.compose.materia",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating projects (Material 2.5",
+  "wear-widgets.mdc": "---
+description: |-
+  Create, migrate, update, and verify Wear OS widgets using Glance Wear and Remote Compose in an Android project. Use this skill when implementing GlanceWearWidget, GlanceWearWidge",
 }
 `;
 
 exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive.mdc	13313B",
+  "adaptive.mdc	21312B",
   "agp-9-upgrade.mdc	3584B",
-  "android-cli.mdc	14625B",
-  "android-intent-security.mdc	22898B",
-  "android-profiler.mdc	1756B",
+  "android-cli.mdc	37098B",
+  "android-for-cars-parked-apps.mdc	17720B",
+  "android-intent-security.mdc	24101B",
+  "android-permissions-security.mdc	28803B",
+  "android-profiler.mdc	2064B",
+  "anr-audit-and-fix.mdc	1669B",
   "appfunctions.mdc	4733B",
   "camerax.mdc	6493B",
-  "display-glasses-with-jetpack-compose-glimmer.mdc	23767B",
+  "display-glasses-with-jetpack-compose-glimmer.mdc	27604B",
   "edge-to-edge.mdc	14231B",
   "engage-sdk-integration.mdc	10644B",
+  "glance-canonical-layouts.mdc	28769B",
+  "jetpack-compose-performance.mdc	20943B",
   "leanback-to-compose-tv-migration.mdc	34557B",
+  "litert-lm.mdc	18206B",
+  "litert-runtime.mdc	21084B",
   "media3-cast-integration.mdc	10699B",
   "migrate-xml-views-to-jetpack-compose.mdc	5718B",
   "ml-kit-genai-prompt-api.mdc	3974B",
@@ -1345,12 +1933,14 @@ exports[`target 'cursor' > output paths and sizes match snapshot 1`] = `
   "navigation-event.mdc	13129B",
   "play-billing-library-version-upgrade.mdc	5567B",
   "play-policy-insights.mdc	7781B",
+  "projected-hardware.mdc	2140B",
   "r8-analyzer.mdc	4794B",
-  "restore-credentials.mdc	24561B",
+  "restore-credentials.mdc	25326B",
   "styles.mdc	9161B",
-  "testing-setup.mdc	9248B",
-  "verified-email.mdc	20493B",
-  "wear-compose-m3.mdc	42905B",
+  "testing-setup.mdc	10379B",
+  "verified-email.mdc	20588B",
+  "wear-compose-m3.mdc	41675B",
+  "wear-widgets.mdc	12836B",
 ]
 `;
 
@@ -1370,7 +1960,7 @@ _Instructions to make or upd",
 
 exports[`target 'gemini' > output paths and sizes match snapshot 1`] = `
 [
-  "styleguide.md	316937B",
+  "styleguide.md	505577B",
 ]
 `;
 
@@ -1379,7 +1969,7 @@ exports[`target 'junie' > first 200 chars of every file match snapshot 1`] = `
   "adaptive/SKILL.md": "---
 name: adaptive
 description: |-
-  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto and XR. ",
+  Instructions to make or update an app's UI so that it adapts to different Android devices including phones, tablets, foldables, laptops, desktop, TV, Auto, and XR.",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md": "
 ",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md": "
@@ -1398,9 +1988,17 @@ description: |-
 ",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md": "
 ",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md": "
-",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md": "
+",
+  "adaptive/references/android/guide/navigation/navigation-3/save-state.md": "
+",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
+",
+  "adaptive/references/custom_cursors.md": "
+",
+  "adaptive/references/keyboard_shortcuts.md": "
+",
+  "adaptive/references/tooltips.md": "
 ",
   "agp-9-upgrade/SKILL.md": "---
 name: agp-9-upgrade
@@ -1422,19 +2020,43 @@ description: |-
 name: android-cli
 description: |-
   Provides instructions for installing and using the \`android\` CLI. The \`android\` command-line tool is a critical tool for Android development and helps you creat",
-  "android-cli/references/interact.md": "
-",
-  "android-cli/references/journeys.md": "
+  "android-for-cars-parked-apps/SKILL.md": "---
+name: android-for-cars-parked-apps
+description: |-
+  Adapt existing Android video streaming apps, games, and web browsers to run as parked apps on Android Auto and Android Automotive OS. Covers ma",
+  "android-for-cars-parked-apps/references/android/docs/quality-guidelines/car-app-quality/index.md": "
 ",
   "android-intent-security/SKILL.md": "---
 name: android-intent-security
 description: |-
   Best practices for Android Intent security. Use this skill when auditing component configurations in AndroidManifest.xml activities, services, recei",
+  "android-permissions-security/SKILL.md": "---
+name: android-permissions-security
+description: |-
+  Audits, detects gaps, and remediates Android permissions and IPC component security vulnerabilities. Use when reviewing AndroidManifest.xml, de",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md": "
+",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md": "
+",
+  "android-permissions-security/references/android/privacy-and-security/risks/sender-of-pending-intents.md": "
+",
+  "android-permissions-security/references/android/training/permissions/requesting.md": "
+",
   "android-profiler/SKILL.md": "---
 name: android-profiler
 description: |-
-  Manages Android performance profiling and debugging. Triggers when the user asks to record or analyze Android performance data, such as system traces, heap",
+  Records and analyzes Android performance data and diagnoses performance bottlenecks across user apps, system apps, and system services, even if the user do",
   "android-profiler/references/env_setup.md": "
+",
+  "anr-audit-and-fix/SKILL.md": "---
+name: anr-audit-and-fix
+description: |-
+  Audits Android codebases for ANR risks and diagnoses ANR stack dumps. Use this skill when scanning Android code for ANR risks or triaging ANR stack dumps.",
+  "anr-audit-and-fix/references/anr_trace_report_template.md": "
+",
+  "anr-audit-and-fix/references/risk_analysis_guide.md": "
+",
+  "anr-audit-and-fix/references/trace_analysis_guide.md": "
 ",
   "appfunctions/SKILL.md": "---
 name: appfunctions
@@ -1610,6 +2232,206 @@ description: |-
 ",
   "engage-sdk-integration/references/troubleshooting.md": "
 ",
+  "glance-canonical-layouts/SKILL.md": "---
+name: glance-canonical-layouts
+description: |-
+  Use this skill to create home screen widgets using Jetpack Glance Canonical Layouts from the Android Platform Samples project, or when asked to imp",
+  "glance-canonical-layouts/references/ActionDemonstrationActivity.kt": "
+",
+  "glance-canonical-layouts/references/CanonicalLayoutActivity.kt": "
+",
+  "glance-canonical-layouts/references/CollectionsKtx.kt": "
+",
+  "glance-canonical-layouts/references/collections/ActionListAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/CheckListAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/ImageGridAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/ImageTextListAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeActionListDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeCheckListDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeImageGridDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/data/FakeImageTextListDataRepository.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ActionListLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/CheckListLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/EmptyListContent.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ImageGridLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ImageTextListLayout.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/ListItem.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/NoDataContent.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyColumn.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyVerticalGrid.kt": "
+",
+  "glance-canonical-layouts/references/collections/layout/VerticalListItem.kt": "
+",
+  "glance-canonical-layouts/references/res/drawable/four_side_cookie_background.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_ac_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_add_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_app_logo.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_arrow_right_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_bulb_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_camera_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_checked_circle_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_circle_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_delete_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_door_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_edit_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_file_upload_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_grid_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_heart_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_home_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_image_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_info_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_mic_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_no_data_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_pin_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_power_settings_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_refresh_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_scrim_gradient.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_search_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_share_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_snooze_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_text_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_thermostat_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/drawable/sample_videocam_icon.xml": "
+",
+  "glance-canonical-layouts/references/res/values/dimens.xml": "
+",
+  "glance-canonical-layouts/references/res/values/strings.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_action_list_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_check_list_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_expressive_toolbar_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_full_bleed_image_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_image_grid_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_image_text_list_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_long_text_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_search_toolbar_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_text_with_image_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/res/xml/sample_toolbar_widget_info.xml": "
+",
+  "glance-canonical-layouts/references/text/FullBleedImageAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/text/LongTextAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/text/TextWithImageAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/text/data/FakeLongTextRespository.kt": "
+",
+  "glance-canonical-layouts/references/text/data/FakeTextWithImageRepository.kt": "
+",
+  "glance-canonical-layouts/references/text/layout/FullBleedImageLayout.kt": "
+",
+  "glance-canonical-layouts/references/text/layout/LongTextLayout.kt": "
+",
+  "glance-canonical-layouts/references/text/layout/TextWithImageLayout.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/ExpressiveToolbarAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/SearchToolBarAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/ToolBarAppWidget.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/Buttons.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/ExpressiveToolbarLayout.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/LayoutComponents.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/SearchToolBarLayout.kt": "
+",
+  "glance-canonical-layouts/references/toolbars/layout/ToolBarLayout.kt": "
+",
+  "glance-canonical-layouts/references/ui/theme/Color.kt": "
+",
+  "glance-canonical-layouts/references/ui/theme/Theme.kt": "
+",
+  "glance-canonical-layouts/references/ui/theme/Type.kt": "
+",
+  "glance-canonical-layouts/references/utils/ActionUtils.kt": "
+",
+  "glance-canonical-layouts/references/utils/FontUtils.kt": "
+",
+  "glance-canonical-layouts/references/utils/ImageAspectRatio.kt": "
+",
+  "glance-canonical-layouts/references/utils/ImageUtils.kt": "
+",
+  "glance-canonical-layouts/references/utils/PreviewAnnotations.kt": "
+",
+  "jetpack-compose-performance/SKILL.md": "---
+name: jetpack-compose-performance
+description: |-
+  Diagnose and optimize Android Jetpack Compose UI code. Use this skill when analyzing performance bottlenecks of existing code to minimize recomp",
+  "jetpack-compose-performance/references/android/develop/ui/compose/custom-modifiers.md": "
+",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/backwards-write.md": "
+",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/stability/strongskipping.md": "
+",
+  "jetpack-compose-performance/references/animation.md": "
+",
+  "jetpack-compose-performance/references/effects-and-threading.md": "
+",
+  "jetpack-compose-performance/references/graphics-performance.md": "
+",
+  "jetpack-compose-performance/references/layouts.md": "
+",
+  "jetpack-compose-performance/references/lazy-layouts.md": "
+",
+  "jetpack-compose-performance/references/state-and-stability.md": "
+",
   "leanback-to-compose-tv-migration/SKILL.md": "---
 name: leanback-to-compose-tv-migration
 description: |-
@@ -1619,6 +2441,24 @@ description: |-
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md": "
 ",
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md": "
+",
+  "litert-lm/SKILL.md": "---
+name: litert-lm
+description: |-
+  Builds an Android app that runs an open text LLM on the device, on the CPU or the GPU, with the LiteRT-LM Kotlin API (com.google.ai.edge.litertlm:litertlm-android",
+  "litert-lm/references/android/google/play/on-device-ai.md": "
+",
+  "litert-lm/references/get-a-model.md": "
+",
+  "litert-runtime/SKILL.md": "---
+name: litert-runtime
+description: |-
+  Configures and implements LiteRT (.tflite) on-device inference on Android in Kotlin using the CompiledModel API on CPU and GPU. Use this skill for any Androi",
+  "litert-runtime/references/android/google/play/on-device-ai.md": "
+",
+  "litert-runtime/references/migration.md": "
+",
+  "litert-runtime/references/verify.md": "
 ",
   "media3-cast-integration/SKILL.md": "---
 name: media3-cast-integration
@@ -1736,6 +2576,18 @@ description: |-
 name: play-policy-insights
 description: |-
   Automated auditor designed to verify Android applications against Google Play Policy domains. It cross-references static code analysis with Play Store ",
+  "projected-hardware/SKILL.md": "---
+name: projected-hardware
+description: |-
+  Provides instructions and workflows for accessing and managing hardware on Android XR projected devices, such as audio glasses and display glasses. Use t",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md": "
+",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/check-availability.md": "
+",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/support-different-types.md": "
+",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md": "
+",
   "r8-analyzer/SKILL.md": "---
 name: r8-analyzer
 description: |-
@@ -1783,8 +2635,10 @@ description: |-
   "testing-setup/SKILL.md": "---
 name: testing-setup
 description: |-
-  Analyze and create a testing strategy for native Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tes",
+  Analyze and create a testing strategy for Android apps - install testing libraries, set up test infrastructure, create harnesses for unit tests, UI tests, scr",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md": "
+",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md": "
 ",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md": "
 ",
@@ -1811,119 +2665,129 @@ description: |-
   "wear-compose-m3/SKILL.md": "---
 name: wear-compose-m3
 description: |-
-  Expert guidance for working with Wear OS Compose Material3. Use this skill when creating, updating, or migrating Wear OS projects. This includes the android",
+  Guidance for Wear OS Compose Material3 (Wear Compose Material 3 / Wear Compose Material3) watch and wearable apps. Covers creating, updating, and migrating ",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md": "
 ",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt": "
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CardSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt": "
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SliderSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/StepperSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt": "
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt": "
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md": "
 ",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt": "
+  "wear-widgets/SKILL.md": "---
+name: wear-widgets
+description: |-
+  Create, migrate, update, and verify Wear OS widgets using Glance Wear and Remote Compose in an Android project. Use this skill when implementing GlanceWearWidg",
+  "wear-widgets/references/previews-and-testing.md": "
+",
+  "wear-widgets/references/remote-compose-layouts.md": "
+",
+  "wear-widgets/references/state-and-actions.md": "
+",
+  "wear-widgets/references/widget-service-and-manifest.md": "
 ",
 }
 `;
 
 exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
 [
-  "adaptive/SKILL.md	12422B",
+  "adaptive/SKILL.md	20224B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/container-behavior.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/get-started.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/flexbox/index.md	1B",
@@ -1933,8 +2797,12 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/index.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/grid/item-properties.md	1B",
   "adaptive/references/android/develop/ui/compose/layouts/adaptive/mediaquery/index.md	1B",
-  "adaptive/references/android/develop/ui/compose/tooling/debug.md	1B",
   "adaptive/references/android/guide/navigation/navigation-3/recipes/material-listdetail.md	1B",
+  "adaptive/references/android/guide/navigation/navigation-3/save-state.md	1B",
+  "adaptive/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
+  "adaptive/references/custom_cursors.md	1B",
+  "adaptive/references/keyboard_shortcuts.md	1B",
+  "adaptive/references/tooltips.md	1B",
   "agp-9-upgrade/SKILL.md	3340B",
   "agp-9-upgrade/references/android/build/migrate-to-built-in-kotlin.md	1B",
   "agp-9-upgrade/references/android/build/releases/agp-9-0-0-release-notes.md	1B",
@@ -1942,12 +2810,21 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "agp-9-upgrade/references/ksp-kapt.md	1B",
   "agp-9-upgrade/references/paparazzi-gradle-9.md	1B",
   "agp-9-upgrade/references/recipes.md	1B",
-  "android-cli/SKILL.md	14577B",
-  "android-cli/references/interact.md	1B",
-  "android-cli/references/journeys.md	1B",
-  "android-intent-security/SKILL.md	22948B",
-  "android-profiler/SKILL.md	1744B",
+  "android-cli/SKILL.md	37136B",
+  "android-for-cars-parked-apps/SKILL.md	17673B",
+  "android-for-cars-parked-apps/references/android/docs/quality-guidelines/car-app-quality/index.md	1B",
+  "android-intent-security/SKILL.md	24151B",
+  "android-permissions-security/SKILL.md	28558B",
+  "android-permissions-security/references/android/guide/topics/manifest/permission-element.md	1B",
+  "android-permissions-security/references/android/guide/topics/permissions/overview.md	1B",
+  "android-permissions-security/references/android/privacy-and-security/risks/sender-of-pending-intents.md	1B",
+  "android-permissions-security/references/android/training/permissions/requesting.md	1B",
+  "android-profiler/SKILL.md	2049B",
   "android-profiler/references/env_setup.md	1B",
+  "anr-audit-and-fix/SKILL.md	1558B",
+  "anr-audit-and-fix/references/anr_trace_report_template.md	1B",
+  "anr-audit-and-fix/references/risk_analysis_guide.md	1B",
+  "anr-audit-and-fix/references/trace_analysis_guide.md	1B",
   "appfunctions/SKILL.md	4476B",
   "appfunctions/references/adb-interaction-testing.md	1B",
   "appfunctions/references/context.md	1B",
@@ -1968,7 +2845,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "camerax/references/thermals.md	1B",
   "camerax/references/wear-os.md	1B",
   "camerax/references/xr.md	1B",
-  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	22202B",
+  "display-glasses-with-jetpack-compose-glimmer/SKILL.md	26039B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
   "display-glasses-with-jetpack-compose-glimmer/references/android/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer/buttons.md	1B",
@@ -2030,10 +2907,115 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "engage-sdk-integration/references/schemas/tv.md	1B",
   "engage-sdk-integration/references/schemas/watch.md	1B",
   "engage-sdk-integration/references/troubleshooting.md	1B",
+  "glance-canonical-layouts/SKILL.md	24194B",
+  "glance-canonical-layouts/references/ActionDemonstrationActivity.kt	1B",
+  "glance-canonical-layouts/references/CanonicalLayoutActivity.kt	1B",
+  "glance-canonical-layouts/references/CollectionsKtx.kt	1B",
+  "glance-canonical-layouts/references/collections/ActionListAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/CheckListAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/ImageGridAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/ImageTextListAppWidget.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeActionListDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeCheckListDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeImageGridDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/data/FakeImageTextListDataRepository.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ActionListLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/CheckListLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/EmptyListContent.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ImageGridLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ImageTextListLayout.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/ListItem.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/NoDataContent.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyColumn.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/RoundedScrollingLazyVerticalGrid.kt	1B",
+  "glance-canonical-layouts/references/collections/layout/VerticalListItem.kt	1B",
+  "glance-canonical-layouts/references/res/drawable/four_side_cookie_background.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_ac_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_add_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_app_logo.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_arrow_right_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_bulb_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_camera_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_checked_circle_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_circle_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_delete_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_door_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_edit_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_file_upload_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_grid_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_heart_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_home_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_image_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_info_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_mic_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_no_data_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_pin_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_power_settings_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_refresh_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_scrim_gradient.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_search_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_share_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_snooze_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_text_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_thermostat_icon.xml	1B",
+  "glance-canonical-layouts/references/res/drawable/sample_videocam_icon.xml	1B",
+  "glance-canonical-layouts/references/res/values/dimens.xml	1B",
+  "glance-canonical-layouts/references/res/values/strings.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_action_list_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_check_list_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_expressive_toolbar_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_full_bleed_image_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_image_grid_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_image_text_list_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_long_text_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_search_toolbar_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_text_with_image_widget_info.xml	1B",
+  "glance-canonical-layouts/references/res/xml/sample_toolbar_widget_info.xml	1B",
+  "glance-canonical-layouts/references/text/FullBleedImageAppWidget.kt	1B",
+  "glance-canonical-layouts/references/text/LongTextAppWidget.kt	1B",
+  "glance-canonical-layouts/references/text/TextWithImageAppWidget.kt	1B",
+  "glance-canonical-layouts/references/text/data/FakeLongTextRespository.kt	1B",
+  "glance-canonical-layouts/references/text/data/FakeTextWithImageRepository.kt	1B",
+  "glance-canonical-layouts/references/text/layout/FullBleedImageLayout.kt	1B",
+  "glance-canonical-layouts/references/text/layout/LongTextLayout.kt	1B",
+  "glance-canonical-layouts/references/text/layout/TextWithImageLayout.kt	1B",
+  "glance-canonical-layouts/references/toolbars/ExpressiveToolbarAppWidget.kt	1B",
+  "glance-canonical-layouts/references/toolbars/SearchToolBarAppWidget.kt	1B",
+  "glance-canonical-layouts/references/toolbars/ToolBarAppWidget.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/Buttons.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/ExpressiveToolbarLayout.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/LayoutComponents.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/SearchToolBarLayout.kt	1B",
+  "glance-canonical-layouts/references/toolbars/layout/ToolBarLayout.kt	1B",
+  "glance-canonical-layouts/references/ui/theme/Color.kt	1B",
+  "glance-canonical-layouts/references/ui/theme/Theme.kt	1B",
+  "glance-canonical-layouts/references/ui/theme/Type.kt	1B",
+  "glance-canonical-layouts/references/utils/ActionUtils.kt	1B",
+  "glance-canonical-layouts/references/utils/FontUtils.kt	1B",
+  "glance-canonical-layouts/references/utils/ImageAspectRatio.kt	1B",
+  "glance-canonical-layouts/references/utils/ImageUtils.kt	1B",
+  "glance-canonical-layouts/references/utils/PreviewAnnotations.kt	1B",
+  "jetpack-compose-performance/SKILL.md	20532B",
+  "jetpack-compose-performance/references/android/develop/ui/compose/custom-modifiers.md	1B",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/backwards-write.md	1B",
+  "jetpack-compose-performance/references/android/develop/ui/compose/performance/stability/strongskipping.md	1B",
+  "jetpack-compose-performance/references/animation.md	1B",
+  "jetpack-compose-performance/references/effects-and-threading.md	1B",
+  "jetpack-compose-performance/references/graphics-performance.md	1B",
+  "jetpack-compose-performance/references/layouts.md	1B",
+  "jetpack-compose-performance/references/lazy-layouts.md	1B",
+  "jetpack-compose-performance/references/state-and-stability.md	1B",
   "leanback-to-compose-tv-migration/SKILL.md	34398B",
   "leanback-to-compose-tv-migration/references/android/training/tv/get-started/navigation.md	1B",
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md	1B",
   "leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md	1B",
+  "litert-lm/SKILL.md	18129B",
+  "litert-lm/references/android/google/play/on-device-ai.md	1B",
+  "litert-lm/references/get-a-model.md	1B",
+  "litert-runtime/SKILL.md	20987B",
+  "litert-runtime/references/android/google/play/on-device-ai.md	1B",
+  "litert-runtime/references/migration.md	1B",
+  "litert-runtime/references/verify.md	1B",
   "media3-cast-integration/SKILL.md	10537B",
   "media3-cast-integration/references/android/media/media3/cast/create-castplayer.md	1B",
   "media3-cast-integration/references/android/media/media3/cast/customize-castoptions.md	1B",
@@ -2085,6 +3067,11 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "play-billing-library-version-upgrade/references/migration-logic.md	1B",
   "play-billing-library-version-upgrade/references/version-checklist.md	1B",
   "play-policy-insights/SKILL.md	7828B",
+  "projected-hardware/SKILL.md	1819B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md	1B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/check-availability.md	1B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/support-different-types.md	1B",
+  "projected-hardware/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md	1B",
   "r8-analyzer/SKILL.md	4410B",
   "r8-analyzer/references/CONFIGURATION-ANALYZER.md	1B",
   "r8-analyzer/references/CONFIGURATION.md	1B",
@@ -2094,7 +3081,7 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "r8-analyzer/references/REPORT_FORMAT.md	1B",
   "r8-analyzer/references/android/topic/performance/app-optimization/enable-app-optimization.md	1B",
   "r8-analyzer/references/android/training/testing/other-components/ui-automator.md	1B",
-  "restore-credentials/SKILL.md	24379B",
+  "restore-credentials/SKILL.md	25144B",
   "restore-credentials/references/android/guide/topics/manifest/application-element.md	1B",
   "restore-credentials/references/android/identity/passkeys/create-passkeys.md	1B",
   "restore-credentials/references/android/identity/passkeys/sign-in-with-passkeys.md	1B",
@@ -2104,11 +3091,12 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "styles/references/android/develop/ui/compose/styles/state-animations.md	1B",
   "styles/references/android/develop/ui/compose/styles/styles-vs-modifiers.md	1B",
   "styles/references/android/develop/ui/compose/styles/theming.md	1B",
-  "testing-setup/SKILL.md	9048B",
+  "testing-setup/SKILL.md	10093B",
   "testing-setup/references/android/develop/ui/compose/testing/common-patterns.md	1B",
+  "testing-setup/references/android/studio/preview/compose-screenshot-testing-with-testsuites.md	1B",
   "testing-setup/references/android/studio/preview/compose-screenshot-testing.md	1B",
   "testing-setup/references/android/training/dependency-injection/hilt-testing.md	1B",
-  "verified-email/SKILL.md	20003B",
+  "verified-email/SKILL.md	20098B",
   "verified-email/references/android/identity/credential-manager/index.md	1B",
   "verified-email/references/android/identity/digital-credentials/credential-verifier.md	1B",
   "verified-email/references/android/identity/digital-credentials/email-verification-implementation.md	1B",
@@ -2116,59 +3104,63 @@ exports[`target 'junie' > output paths and sizes match snapshot 1`] = `
   "verified-email/references/android/identity/digital-credentials/index.md	1B",
   "verified-email/references/android/identity/passkeys/create-passkeys.md	1B",
   "verified-email/references/android/identity/sign-in/credential-manager-webview.md	1B",
-  "wear-compose-m3/SKILL.md	39852B",
+  "wear-compose-m3/SKILL.md	38871B",
   "wear-compose-m3/references/android/training/wearables/compose/migrate-to-material3.md	1B",
-  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ExpandableSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/PagerSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/RotarySamples.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/ScalingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AlertDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CardSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DatePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ListHeaderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerGroupSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/PlaceholderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/RadioButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScaffoldSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SliderSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/StepperSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimePickerSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TimeTextSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md.txt	1B",
-  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md.txt	1B",
+  "wear-compose-m3/references/foundation/AmbientModeSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/CurvedWorldSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/ExpandableSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/HierarchicalFocusSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/PagerSamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/RotarySamples.kt.md	1B",
+  "wear-compose-m3/references/foundation/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/foundation/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AlertDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/AnimatedTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CardSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CheckboxButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ConfirmationDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/CurvedTextSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/DatePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/DynamicColorSchemeSample.kt.md	1B",
+  "wear-compose-m3/references/material3/EdgeButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/FadingExpandingLabelSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/IconToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LevelIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/LinearProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ListHeaderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/OneHandedGestureSamples.kt.md	1B",
+  "wear-compose-m3/references/material3/OpenOnPhoneDialogSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PageIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PagerScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerGroupSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/PlaceholderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ProgressIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/RadioButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScaffoldSample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollAwaySample.kt.md	1B",
+  "wear-compose-m3/references/material3/ScrollIndicatorSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SliderSample.kt.md	1B",
+  "wear-compose-m3/references/material3/StepperSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SurfaceTransformationSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToDismissBoxSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwipeToRevealSample.kt.md	1B",
+  "wear-compose-m3/references/material3/SwitchButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TextToggleButtonSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimePickerSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TimeTextSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformationSpecSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnNotificationsSample.kt.md	1B",
+  "wear-compose-m3/references/material3/TransformingLazyColumnSample.kt.md	1B",
+  "wear-compose-m3/references/navigation3/SwipeDismissableSceneStrategySample.kt.md	1B",
+  "wear-widgets/SKILL.md	12677B",
+  "wear-widgets/references/previews-and-testing.md	1B",
+  "wear-widgets/references/remote-compose-layouts.md	1B",
+  "wear-widgets/references/state-and-actions.md	1B",
+  "wear-widgets/references/widget-service-and-manifest.md	1B",
 ]
 `;
